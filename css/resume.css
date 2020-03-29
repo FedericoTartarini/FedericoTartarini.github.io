@@ -46,7 +46,6 @@ h2 {
 h3 {
   font-size: 2rem;
   color: #c62828;
-  opacity: 0.8;
 }
 
 p.lead {
@@ -87,7 +86,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #9b0000;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
