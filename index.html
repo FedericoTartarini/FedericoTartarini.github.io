@@ -27,10 +27,17 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Federico Tartarini</span>
+        <img id="myImg" class="d-inline d-lg-none mr-2" src="img/profile.jpg" width="45" height="45" alt="Federico Tartarini">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01" alt="" src="">
+            <div id="caption"></div>
+        </div>
+        <span class="d-inline d-lg-none">Federico Tartarini</span>
         <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
+        </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,9 +71,9 @@
     </div>
 </nav>
 
-<div class="container-fluid p-0 bg-tertiary">
+<div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center bg-secondary" id="about">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
         <div class="w-100">
             <h1 class="mb-0">Federico Tartarini</h1>
             <div class="subheading mb-5">Postdoctoral Scholar at Berkeley Education Alliance for Research in Singapore (<a
@@ -99,7 +106,7 @@
                 <a href="https://www.researchgate.net/profile/Federico_Tartarini">
                     <i class="fab fa-researchgate"></i>
                 </a>
-                <a href="google scholar">
+                <a href="https://scholar.google.com/citations?user=QcamSPwAAAAJ&hl=en">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                          width="35" height="35"
                          viewBox="0 0 172 172"
@@ -133,7 +140,7 @@
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
-                    <span class="text-primary float-right">Jun 2019 - Present</span>
+                    <span class="float-right">Jun 2019 - Present</span>
                     <h3 class="mb-0">Postdoctoral Scholar</h3>
                     <div class="subheading mb-3">Berkeley Education Alliance for Research in Singapore (BEARS)</div>
                     <ul class="icon">
@@ -152,18 +159,20 @@
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
-                    <span class="text-primary float-right">Jun 2019 - Present</span>
+                    <span class="float-right">Jun 2019 - Present</span>
                     <h3 class="mb-0">Honorary Fellow</h3>
                     <div class="subheading mb-3">University of Wollongong</div>
                     <ul class="icon">
-                        <li>Honorary fellow at the Sustainable Buildings Research Centre (SBRC), faculty of Engineering and Information Sciences.</li>
+                        <li>Honorary fellow at the Sustainable Buildings Research Centre (SBRC), faculty of Engineering
+                            and Information Sciences.
+                        </li>
                     </ul>
                 </div>
             </div>
 
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
-                    <span class="text-primary float-right">Jul 2010 - Dec 2011</span>
+                    <span class="float-right">Jul 2010 - Dec 2011</span>
                     <h3 class="mb-0">Associate Research Fellow</h3>
                     <div class="subheading mb-3">University of Wollongong</div>
 
@@ -202,24 +211,24 @@
 
     <hr class="m-0">
 
-<!--    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">-->
-<!--        <div class="w-100">-->
-<!--            <h2 class="mb-5">Education</h2>-->
+    <!--    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">-->
+    <!--        <div class="w-100">-->
+    <!--            <h2 class="mb-5">Education</h2>-->
 
-<!--            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">-->
-<!--                <div class="resume-content">-->
-<!--                    <h3 class="mb-0">University of Colorado Boulder</h3>-->
-<!--                    <div class="subheading mb-3">Bachelor of Science</div>-->
-<!--                    <div>Computer Science - Web Development Track</div>-->
-<!--                    <p>GPA: 3.23</p>-->
-<!--                </div>-->
-<!--                <div class="resume-date text-md-right">-->
-<!--                    <span class="text-primary">August 2006 - May 2010</span>-->
-<!--                </div>-->
-<!--            </div>-->
+    <!--            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">-->
+    <!--                <div class="resume-content">-->
+    <!--                    <h3 class="mb-0">University of Colorado Boulder</h3>-->
+    <!--                    <div class="subheading mb-3">Bachelor of Science</div>-->
+    <!--                    <div>Computer Science - Web Development Track</div>-->
+    <!--                    <p>GPA: 3.23</p>-->
+    <!--                </div>-->
+    <!--                <div class="resume-date text-md-right">-->
+    <!--                    <span class="text-primary">August 2006 - May 2010</span>-->
+    <!--                </div>-->
+    <!--            </div>-->
 
-<!--        </div>-->
-<!--    </section>-->
+    <!--        </div>-->
+    <!--    </section>-->
 
     <hr class="m-0">
 
@@ -267,17 +276,17 @@
 
     <hr class="m-0">
 
-<!--    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">-->
-<!--        <div class="w-100">-->
-<!--            <h2 class="mb-5">Interests</h2>-->
-<!--            <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid-->
-<!--                skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free-->
-<!--                climbing, and kayaking.</p>-->
-<!--            <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television-->
-<!--                shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology-->
-<!--                advancements in the front-end web development world.</p>-->
-<!--        </div>-->
-<!--    </section>-->
+    <!--    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">-->
+    <!--        <div class="w-100">-->
+    <!--            <h2 class="mb-5">Interests</h2>-->
+    <!--            <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid-->
+    <!--                skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free-->
+    <!--                climbing, and kayaking.</p>-->
+    <!--            <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television-->
+    <!--                shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology-->
+    <!--                advancements in the front-end web development world.</p>-->
+    <!--        </div>-->
+    <!--    </section>-->
 
     <hr class="m-0">
 
@@ -323,6 +332,29 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/resume.min.js"></script>
+
+<script>
+    // Get the modal
+    let modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    let img = document.getElementById("myImg");
+    let modalImg = document.getElementById("img01");
+    let captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    };
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+</script>
 
 </body>
 

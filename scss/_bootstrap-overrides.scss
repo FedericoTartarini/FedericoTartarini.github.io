@@ -7,10 +7,10 @@
 }
 
 a {
-  color: $primary;
+  color: $accent;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    color: darken($accent, 15%);
   }
 }
