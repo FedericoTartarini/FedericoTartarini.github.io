@@ -14,7 +14,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 20rem;
   }
 }
 
@@ -31,7 +31,7 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 5.5rem;
 }
 
@@ -43,6 +43,10 @@ h2 {
 h3 {
   font-size: 2rem;
   color: #c62828;
+}
+
+hr {
+  background-color: #495057;
 }
 
 p.lead {
@@ -208,7 +212,7 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 20rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -241,7 +245,7 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 1rem !important;
+  padding-top: 3rem !important;
   padding-bottom: 3rem !important;
   max-width: 75rem;
 }
