@@ -17,7 +17,11 @@ section.resume-section {
 
     .card {
       flex: 0 0 15rem;
-      margin: 1rem;
+      margin-right: 1rem;
+      //border-bottom: lighten($accent, 5) 5px solid;
+      border: 0;
+      border-bottom: 5px solid;
+      border-image: linear-gradient(to right, #FF0059, #FF0003, #FF5000) 1 stretch;
     }
   }
 }
@@ -31,6 +35,8 @@ section.resume-section {
     }
   }
 }
+
+// to create flexbox and allow user to scroll left to right about project
 @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
@@ -44,8 +50,13 @@ section.resume-section {
 
       .card {
         flex: 0 0 18rem;
-        margin: 1rem;
       }
     }
   }
+}
+
+// scss of the main footer
+#main-footer {
+  width: 100%;
+  text-align: center;
 }
