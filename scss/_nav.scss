@@ -4,14 +4,51 @@
     letter-spacing: 0.05rem;
     text-transform: uppercase;
   }
+
   .navbar-toggler {
+    border-color: transparent;
+
     &:focus {
-      outline-color: lighten($primary, 15%);
+      //outline-color: lighten($primary, 15%);
+      outline-color: transparent;
+    }
+
+    .btn-line {
+      display:block;
+      width: 28px;
+      height: 3px;
+      margin: 0 0 5px 5px;
+      background: $accent;
+    }
+
+    &:not(.collapsed) {
+      .btn-line {
+        // Line 1 - Rotate
+        &:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        // Line 2 - Hide
+        &:nth-child(2) {
+          opacity: 0;
+        }
+
+        // Line 3 - Rotate
+        &:nth-child(3) {
+          transform: rotate(-45deg) translate(7px, -6px);
+        }
+      }
     }
   }
 }
 
+#myImg{
+  width:45px;
+  height: 45px;
+}
+
 @media (min-width: 992px) {
+
   #sideNav {
     text-align: center;
     position: fixed;

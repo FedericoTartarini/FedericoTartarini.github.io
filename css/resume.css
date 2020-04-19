@@ -201,8 +201,37 @@ p.lead {
   text-transform: uppercase;
 }
 
+#sideNav .navbar-toggler {
+  border-color: transparent;
+}
+
 #sideNav .navbar-toggler:focus {
-  outline-color: #262626;
+  outline-color: transparent;
+}
+
+#sideNav .navbar-toggler .btn-line {
+  display: block;
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 5px;
+  background: #c62828;
+}
+
+#sideNav .navbar-toggler:not(.collapsed) .btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#sideNav .navbar-toggler:not(.collapsed) .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+#sideNav .navbar-toggler:not(.collapsed) .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+#myImg {
+  width: 45px;
+  height: 45px;
 }
 
 @media (min-width: 992px) {
