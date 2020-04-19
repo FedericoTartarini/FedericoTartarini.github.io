@@ -25,3 +25,15 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  .card {
+    flex: 0 0 18rem;
+    margin: 1rem;
+  }
+}
