@@ -22,6 +22,12 @@ section.resume-section {
       border: 0;
       border-bottom: 5px solid;
       border-image: linear-gradient(to right, #FF0059, #FF0003, #FF5000) 1 stretch;
+
+      &:hover {
+        opacity: 0.9;
+        border: $accent 2px solid;
+        border-image: linear-gradient(to right, #FF0059, #FF0003, #FF5000) 1 stretch;
+      }
     }
   }
 }

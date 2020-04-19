@@ -307,6 +307,13 @@ section.resume-section .scrolling-wrapper-flexbox .card {
   border-image: linear-gradient(to right, #FF0059, #FF0003, #FF5000) 1 stretch;
 }
 
+section.resume-section .scrolling-wrapper-flexbox .card:hover {
+  opacity: 0.9;
+  border: #c62828 2px solid;
+  -o-border-image: linear-gradient(to right, #FF0059, #FF0003, #FF5000) 1 stretch;
+  border-image: linear-gradient(to right, #FF0059, #FF0003, #FF5000) 1 stretch;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
