@@ -42,7 +42,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  color: #c62828;
+  color: #FF0003;
 }
 
 hr {
@@ -79,7 +79,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #c62828;
+  background-color: #FF0003;
   transition: all 0.25s ease-in-out;
 }
 
@@ -99,7 +99,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #c62828;
+  color: #FF0003;
 }
 
 #myImg {
@@ -225,7 +225,7 @@ p.lead {
   width: 28px;
   height: 3px;
   margin: 0 0 5px 5px;
-  background: #c62828;
+  background: #FF0003;
 }
 
 #sideNav .navbar-toggler:not(.collapsed) .btn-line:nth-child(1) {
@@ -264,7 +264,10 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 12.5rem;
     max-height: 12.5rem;
-    border: 0.25rem solid rgba(255, 255, 255, 0.2);
+    border: double 2px transparent;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #FF0059, #FF0003, #ff5000);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -309,7 +312,7 @@ section.resume-section .scrolling-wrapper-flexbox .card {
 
 section.resume-section .scrolling-wrapper-flexbox .card:hover {
   opacity: 0.9;
-  border: #c62828 2px solid;
+  border: #FF0003 2px solid;
   -o-border-image: linear-gradient(to right, #FF0059, #FF0003, #FF5000) 1 stretch;
   border-image: linear-gradient(to right, #FF0059, #FF0003, #FF5000) 1 stretch;
 }
@@ -353,9 +356,9 @@ section.resume-section .scrolling-wrapper-flexbox .card:hover {
 }
 
 a {
-  color: #c62828;
+  color: #FF0003;
 }
 
 a:hover, a:focus, a:active {
-  color: #861b1b;
+  color: #b30002;
 }
