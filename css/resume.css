@@ -80,6 +80,7 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #c62828;
+  transition: all 0.25s ease-in-out;
 }
 
 .dev-icons {
@@ -200,8 +201,23 @@ p.lead {
   text-transform: uppercase;
 }
 
+#sideNav .navbar-toggler {
+  border-color: transparent;
+}
+
 #sideNav .navbar-toggler:focus {
-  outline-color: #262626;
+  outline-color: transparent;
+}
+
+#sideNav .navbar-toggler .btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 5px;
+  background: #c62828;
+}
+
+#sideNav .navbar-toggler:not(.collapsed) .btn-line {
+  transform: rotate(45deg);
 }
 
 @media (min-width: 992px) {

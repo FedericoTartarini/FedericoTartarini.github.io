@@ -1,5 +1,9 @@
 // Global styling for this template
 
+@mixin easeInOut{
+  transition: all 0.25s ease-in-out;
+};
+
 body {
   @include body-font;
   padding-top: 54px;
@@ -73,6 +77,7 @@ p.lead {
     }
     &:hover {
       background-color: $accent;
+      @include easeInOut();
     }
   }
 }
