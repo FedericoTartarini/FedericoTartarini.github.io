@@ -201,23 +201,8 @@ p.lead {
   text-transform: uppercase;
 }
 
-#sideNav .navbar-toggler {
-  border-color: transparent;
-}
-
 #sideNav .navbar-toggler:focus {
-  outline-color: transparent;
-}
-
-#sideNav .navbar-toggler .btn-line {
-  width: 28px;
-  height: 3px;
-  margin: 0 0 5px 5px;
-  background: #c62828;
-}
-
-#sideNav .navbar-toggler:not(.collapsed) .btn-line {
-  transform: rotate(45deg);
+  outline-color: #262626;
 }
 
 @media (min-width: 992px) {

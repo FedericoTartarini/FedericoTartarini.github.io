@@ -4,33 +4,12 @@
     letter-spacing: 0.05rem;
     text-transform: uppercase;
   }
-
   .navbar-toggler {
-    border-color: transparent;
-
     &:focus {
-      //outline-color: lighten($primary, 15%);
-      outline-color: transparent;
-    }
-
-    .btn-line {
-      width: 28px;
-      height: 3px;
-      margin: 0 0 5px 5px;
-      background: $accent;
-    }
-
-    &:not(.collapsed) {
-      .btn-line {
-        transform: rotate(45deg);
-      }
+      outline-color: lighten($primary, 15%);
     }
   }
 }
-
-//#sideNav > button {
-//
-//}
 
 @media (min-width: 992px) {
   #sideNav {
