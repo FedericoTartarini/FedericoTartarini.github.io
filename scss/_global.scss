@@ -82,6 +82,19 @@ p.lead {
   }
 }
 
+/* responsive, form small screens, use 13px font size */
+@media (max-width: 500px) {
+  .social-icons {
+    a {
+      height: 2.5rem;
+      width: 2.5rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
 .dev-icons {
   font-size: 3rem;
   .list-inline-item i {

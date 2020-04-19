@@ -8,6 +8,18 @@ section.resume-section {
     //  min-width: 10rem;
     //}
   }
+
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    .card {
+      flex: 0 0 15rem;
+      margin: 1rem;
+    }
+  }
 }
 @media (min-width: 768px) {
   section.resume-section {
@@ -23,17 +35,17 @@ section.resume-section {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-  }
-}
 
-.scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+    .scrolling-wrapper-flexbox {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
 
-  .card {
-    flex: 0 0 18rem;
-    margin: 1rem;
+      .card {
+        flex: 0 0 18rem;
+        margin: 1rem;
+      }
+    }
   }
 }

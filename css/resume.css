@@ -83,6 +83,17 @@ p.lead {
   transition: all 0.25s ease-in-out;
 }
 
+/* responsive, form small screens, use 13px font size */
+@media (max-width: 500px) {
+  .social-icons a {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
 .dev-icons {
   font-size: 3rem;
 }
@@ -280,6 +291,18 @@ section.resume-section {
   max-width: 75rem;
 }
 
+section.resume-section .scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section.resume-section .scrolling-wrapper-flexbox .card {
+  flex: 0 0 15rem;
+  margin: 1rem;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -294,18 +317,16 @@ section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
-}
-
-.scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.scrolling-wrapper-flexbox .card {
-  flex: 0 0 18rem;
-  margin: 1rem;
+  section.resume-section .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  section.resume-section .scrolling-wrapper-flexbox .card {
+    flex: 0 0 18rem;
+    margin: 1rem;
+  }
 }
 
 .bg-primary {
