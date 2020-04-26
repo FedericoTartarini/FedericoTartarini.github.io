@@ -47,6 +47,7 @@
         gtag('config', 'UA-151445384-2');
     </script>
 
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css"/>
 
 </head>
 
@@ -177,7 +178,7 @@
                         href="https://cozie.app">Cozie </a>Fitbit clock face</p>
 
             <div class="scrolling-wrapper-flexbox">
-                <div class="card">
+                <div class="card" data-aos="fade-in">
                     <a href="https://pypi.org/project/pythermalcomfort/"><img class="card-img-top"
                                                                               src="img/portfolio/pythermalcomfort.png"
                                                                               alt=""></a>
@@ -189,7 +190,7 @@
                             (e.g. PMV, PPD, SET, Adaptive model).</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-in" data-aos-delay="400">
                     <a href="https://comfort.cbe.berkeley.edu"><img class="card-img-top"
                                                                     src="img/portfolio/comforttool.png" alt=""></a>
                     <div class="card-body">
@@ -200,7 +201,7 @@
                             calculations.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-in" data-aos-delay="600">
                     <a href="https://cozie.app"><img class="card-img-top" src="img/portfolio/cozie.png" alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
@@ -216,7 +217,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience" data-aos="fade-in">
         <div class="w-100">
             <h2 class="mb-5">Experience</h2>
 
@@ -306,7 +307,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education" data-aos="fade-in">
         <div class="w-100">
             <h2 class="mb-5">Education</h2>
 
@@ -361,7 +362,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills" data-aos="fade-in">
         <div class="w-100">
             <h2 class="mb-5">Skills</h2>
 
@@ -417,7 +418,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards" data-aos="fade-in">
         <div class="w-100">
             <h2 class="mb-5">Awards &amp; Certifications</h2>
             <ul class="fa-ul mb-0">
@@ -450,7 +451,7 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests" data-aos="fade-in">
         <div class="w-100">
             <h2 class="mb-5">Interests</h2>
             <p>Apart from being a researcher, I enjoy most of my time being outdoors. I enjoy biking, swimming, hiking
@@ -472,6 +473,14 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/resume.min.js"></script>
+
+<script src="node_modules/aos/dist/aos.js"></script>
+<script>
+    // https://github.com/michalsnik/aos
+    AOS.init({
+        delay: 200,
+        duration: 700});
+</script>
 
 <script>
 
