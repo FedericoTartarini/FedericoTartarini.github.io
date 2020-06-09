@@ -302,7 +302,7 @@ section.resume-section .scrolling-wrapper-flexbox {
 }
 
 section.resume-section .scrolling-wrapper-flexbox .card {
-  flex: 0 0 15rem;
+  flex: 0 0 13rem;
   margin-right: 1rem;
   border: 0;
   border-bottom: 5px solid;
