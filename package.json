@@ -29,15 +29,15 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.13.1",
+        "@fortawesome/fontawesome-free": "5.15.0",
         "aos": "^3.0.0-beta.6",
-        "bootstrap": "^4.5.0",
+        "bootstrap": "^4.5.2",
         "jquery": "^3.5.1",
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
+        "browser-sync": "2.26.12",
+        "del": "6.0.0",
         "gulp": "4.0.2",
         "gulp-autoprefixer": "7.0.1",
         "gulp-clean-css": "4.3.0",
@@ -47,6 +47,6 @@
         "gulp-sass": "4.1.0",
         "gulp-uglify": "3.0.2",
         "merge-stream": "2.0.0",
-        "npm-check-updates": "^7.0.1"
+        "npm-check-updates": "^9.0.3"
     }
 }
