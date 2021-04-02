@@ -363,3 +363,19 @@ a {
 a:hover, a:focus, a:active {
   color: #b30002;
 }
+
+.row-videos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column
+}
+
+@media (min-width: 992px) {
+  .row-videos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row
+  }
+}
