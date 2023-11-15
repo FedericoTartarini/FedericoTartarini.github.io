@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_personal_website=self.webpackChunkmy_personal_website||[]).push([[9704],{571:e=>{e.exports=JSON.parse('{"label":"heat","permalink":"/blog/tags/heat","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

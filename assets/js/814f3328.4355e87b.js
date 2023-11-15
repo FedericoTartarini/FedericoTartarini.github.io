@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_personal_website=self.webpackChunkmy_personal_website||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Channel 9 News","permalink":"/blog/channel-9","unlisted":false},{"title":"HeatWatch","permalink":"/blog/2023/10/20/heatwatch","unlisted":false}]}')}}]);
