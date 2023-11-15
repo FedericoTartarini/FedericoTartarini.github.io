@@ -1,0 +1,8 @@
+{
+  "label": "My Research",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "This page contains a brief summary of all the paper I published"
+  }
+}

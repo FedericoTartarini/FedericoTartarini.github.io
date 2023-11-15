@@ -1,0 +1,8 @@
+{
+  "label": "My Projects",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "This page contains a brief summary of all the projects I worked on and the tools I developed"
+  }
+}
