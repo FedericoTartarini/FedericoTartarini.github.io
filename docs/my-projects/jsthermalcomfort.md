@@ -1,5 +1,11 @@
 ---
-sidebar_position: 10
+tags:
+  - tool
+keywords: 
+  - thermal comfort
+  - thermal stress
+  - thermal strain
+  - thermal physiology
 ---
 
 # jsthermalcomfort

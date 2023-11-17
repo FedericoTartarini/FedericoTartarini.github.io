@@ -1,3 +1,15 @@
+---
+sidebar_position: 3
+tags:
+  - tool
+keywords: 
+  - thermal stress
+  - thermal strain
+  - heat health risk
+  - prevention
+  - heatwave
+---
+
 # HeatWatch
 
 Heatwaves pose a significant threat to human health in New South Wales (NSW) and across Australia, claiming more lives than any other natural disaster. Numerous barriers hinder the reduction of health risks associated with extreme heat exposure. In response, the [Heat and Health Research Incubator](https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html) at The University of Sydney, in collaboration with community partners, developed the [HeatWatch application](https://heatwatch.sydney.edu.au/). The HeatWatch application allows users to estimate a personalised heat health risk. It also provides science-backed cooling strategies that are easily implementable. Its design and features are shaped by direct consultations with community members via focus groups, ensuring a user-friendly and practical tool for heatwave health risk management.

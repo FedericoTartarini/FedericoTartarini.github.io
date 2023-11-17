@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_website_builder_re_ii6e.svg').default,
     description: (
       <>
-        I am the main author of pythermalcomfort, the CBE Thermal Comfort Tool, the CBE Clima Tool, Cozie for Apple and Fitbit.
+        I am the main author of pythermalcomfort, the CBE Thermal Comfort Tool, the CBE Clima Tool, Cozie for Apple and Fitbit, the HeatWatch, and SMA Extreme heat tool
       </>
     ),
   },

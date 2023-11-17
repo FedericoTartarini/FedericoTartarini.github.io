@@ -65,7 +65,6 @@ _Jun 2017 - Jun 2019_
 - Teaching Assistant - HVAC systems: Delivered a number of tutorials and developed course material for the UOW Engineering subject ENG 442/918 "Sustainable Energy in Buildings".
 - Guest Lecturer - University of Sydney: Delivered a guest lecture on the Solar Decathlon Competition.
 
-
 ## Consultant
 **NIER ING, ITALY**  
 _Bologna, IT_  

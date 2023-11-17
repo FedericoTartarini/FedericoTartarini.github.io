@@ -1,5 +1,10 @@
 ---
 sidebar_position: 2
+tags:
+  - tool
+keywords: 
+  - climate analysis
+  - passive design
 ---
 
 # CBE Clima Tool

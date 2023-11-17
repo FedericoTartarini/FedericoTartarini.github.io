@@ -11,10 +11,12 @@ My research outcomes are mainly based on original research conducted both in the
 The aim of my research is to develop occupant-centric solutions and tools to improve the performance of existing and new buildings.
 
 I am the main author of several free and open-source tools: 
-* pythermalcomfort — a Python package to calculate several thermal comfort indices, 
-* the CBE Thermal Comfort Tool — an online tool for thermal comfort calculations and visualization, 
-* CBE Clima Tool — an online tool for climate data analysis and visualization
-* Cozie for Apple and Fitbit — smartwatch application for environmental quality satisfaction and physiological data collection.
+* [pythermalcomfort](https://pythermalcomfort.readthedocs.io/en/latest/) — a Python package to calculate several thermal comfort indices, 
+* the [CBE Thermal Comfort Tool](https://comfort.cbe.berkeley.edu/) — an online tool for thermal comfort calculations and visualization, 
+* [CBE Clima Tool](https://clima.cbe.berkeley.edu/) — an online tool for climate data analysis and visualization
+* Cozie for [Apple](https://cozie-apple.app/) and Fitbit — smartwatch application for environmental quality satisfaction and physiological data collection.
+* [HeatWatch](https://heatwatch.sydney.edu.au/)
+* [Sports and Medicine Australia Extreme Heat tool](https://sma-heat-policy.sydney.edu.au/)
 
 I am a voting member of the ASHRAE 55 Standard committee.
 
