@@ -45,6 +45,11 @@ const config = {
           trackingID: 'G-KGVK27VGQ7',
           anonymizeIP: true,
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          filename: 'sitemap.xml',
+        },
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
