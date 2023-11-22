@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Education
 
-<div class="img-center" style={{width: 200}} > ![UOW](./img/wollongong.png)</div>
+<div class="img-small" > ![UOW](./img/wollongong.png)</div>
 
 ## PhD in Engineering and Information Sciences
 **University of Wollongong - Faculty of Engineering**  
@@ -13,7 +13,7 @@ _Mar 2014 - Dec 2017_
 
 - Thesis title: "Impact of temperature and indoor environmental quality in nursing homes on thermal comfort of occupants and agitation of residents with dementia".
 
-<div class="img-center" style={{width: 200}} > ![Unibo](./img/unibo.png)</div>
+<div class="img-small" > ![Unibo](./img/unibo.png)</div>
 
 ## Master of Science Degree in Energy Engineering
 **University of Bologna - Faculty of Engineering**  
@@ -22,21 +22,21 @@ _Sep 2010 - Mar 2013_
 
 - Grade: 110/110 with honours
 
-<div class="img-center" style={{width: 200}} > ![UOW](./img/wollongong.png)</div>
+<div class="img-small" > ![UOW](./img/wollongong.png)</div>
 
 ## Exchange Program
 **University of Wollongong - Faculty of Engineering**  
 _Wollongong, AU_  
 _Sep 2012 - Feb 2013_
 
-<div class="img-center" style={{width: 200}} > ![DTU](./img/dtu.png)</div>
+<div class="img-small" > ![DTU](./img/dtu.png)</div>
 
 ## Exchange Program
 **Technical University of Copenhagen - Faculty of Engineering**  
 _Copenhagen, DK_  
 _Jan 2011 - Jun 2011_
 
-<div class="img-center" style={{width: 200}} > ![Unibo](./img/unibo.png)</div>
+<div class="img-small" > ![Unibo](./img/unibo.png)</div>
 
 ## Bachelor Degree in Energy Engineering
 **University of Bologna - Faculty of Engineering**  

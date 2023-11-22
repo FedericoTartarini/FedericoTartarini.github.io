@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Teaching Experience
 
-<div class="img-center" style={{width: 200}} > ![The University of Sydney](./img/usyd.png)</div>
+<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
 
 ## Guest Lecturer
 **University of Sydney**  
@@ -22,7 +22,7 @@ Courses:
 - BPS5229 - Data Science for the Built Environment
 - BPS5223 - Building Energy Performance - Passive Systems
 
-<div class="img-center" style={{width: 200}} > ![The University of Sydney](./img/usyd.png)</div>
+<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
 
 ## Guest Lecturer
 **University of Sydney**  
@@ -31,7 +31,7 @@ _Oct 2018_
 
 - Delivered a guest lecture on the Solar Decathlon Competition for the course BAEN2002 - Design Integration Lab: Energy
 
-<div class="img-center" style={{width: 200}} > ![UOW](./img/wollongong.png)</div>
+<div class="img-small" > ![UOW](./img/wollongong.png)</div>
 
 ## Teaching Assistant
 **University of Wollongong**  

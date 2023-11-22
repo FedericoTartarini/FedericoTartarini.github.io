@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Work Experience
 
-<div class="img-center" style={{width: 200}} > ![The University of Sydney](./img/usyd.png)</div>
+<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
 
 ## Senior Research Associate
 **Heat & Health Research Incubator at the University of Sydney**  
@@ -15,7 +15,7 @@ _Oct 2022 - Jun 2023_
 - Maintainer and developer of the [SMA Extreme Heat Policy Tool](https://sma-heat-policy.sydney.edu.au/).
 - Main author of [jsthermalcomfort](https://www.npmjs.com/package/jsthermalcomfort) a package crafted to facilitate seamless and precise thermophysiological calculations in JavaScript.
 
-<div class="img-center" style={{width: 200}} > ![SinBerBEST](./img/sinberbestDark.png)</div>
+<div class="img-small" > ![SinBerBEST](./img/sinberbestDark.png)</div>
 
 ## Postdoctoral Scholar
 **Berkeley Education Alliance for Research in Singapore (BEARS)**  
@@ -30,7 +30,7 @@ _Jun 2019 - Oct 2022_
 - Conducted research relating to SinBerBEST Theme A: Human-Building Nexus - Enhancing Health and Productivity in the Built Environment. Worked on issues related to thermal comfort, indoor air quality, human performance, and HVAC systems.
 - Conducted research relating to SinBerBEST Theme A: Human-Building Nexus - Enhancing Health and Productivity in the Built Environment. Worked on issues related to thermal comfort, indoor air quality, human performance, and HVAC systems.
 
-<div style={{width: 200}}> ![ASHRAE](./img/ASHRAE_Logo.svg)</div>
+<div class="img-small" > ![ASHRAE](./img/ASHRAE_Logo.svg)</div>
 
 ## ASHRAE 55 Committee Voting Member
 **ASHRAE**  
@@ -41,7 +41,7 @@ _Nov 2020 - June 2022_
 - Contributed to the development of the 2020 edition of the Standard.
 - Wrote 7 addenda, which have all been approved.
 
-<div class="img-center" style={{width: 200}} > ![UOW](./img/wollongong.png)</div>
+<div class="img-small" > ![UOW](./img/wollongong.png)</div>
 
 ## Honorary Fellow
 **University of Wollongong**  
@@ -50,7 +50,7 @@ _Jun 2019 - Present_
 
 - Honorary fellow at the Sustainable Buildings Research Centre (SBRC), faculty of Engineering and Information Sciences.
 
-<div class="img-center" style={{width: 200}} > ![SBRC](./img/sbrc.png)</div>
+<div class="img-small" > ![SBRC](./img/sbrc.png)</div>
 
 ## Associate Research Fellow
 **SBRC, University of Wollongong**  
