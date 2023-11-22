@@ -4,10 +4,45 @@
         <title>Dr Federico Tartarini Blog</title>
         <link>https://FedericoTartarini.github.io/blog</link>
         <description>Dr Federico Tartarini Blog</description>
-        <lastBuildDate>Wed, 08 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[First Prize - Buildings & Cities Video Challenge]]></title>
+            <link>https://FedericoTartarini.github.io/blog/2023/11/22/video-challenge</link>
+            <guid>https://FedericoTartarini.github.io/blog/2023/11/22/video-challenge</guid>
+            <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am extremely proud to announce that I was awarded the "outstanding video" (first prize) in the 2023 Video Challenge from the journal Buildings & Cities.]]></description>
+            <content:encoded><![CDATA[<p>I am extremely proud to announce that I was awarded the "outstanding video" (first prize) in the <a href="https://www.buildingsandcities.org/video-challenge/gallery-2023.html" target="_blank" rel="noopener noreferrer">2023 Video Challenge from the journal Buildings &amp; Cities</a>.</p>
+<p>The video describes the "HeatWatch" application that I am co-developing at <a href="https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html" target="_blank" rel="noopener noreferrer">Heat and Health Research Incubator</a> with <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a>.
+My video addresses one of the grand challenges the world is currently facing: "Building Resilience to heatwaves and extreme heat".</p>
+<p>You can watch my 2-min video on the <a href="https://www.buildingsandcities.org/video-challenge/gallery-2023.html" target="_blank" rel="noopener noreferrer">Buildings &amp; Cities</a> website.</p>
+<p><img loading="lazy" alt="certificate of the award" src="https://federicotartarini.github.io/assets/images/certificate-09d81698e679462aa16bbb87db10ad20.png" width="8727" height="12373" class="img_ev3q"></p>
+<p>The videos were selected by a diverse group of 5 judges.
+Thank you all for watching my video and for giving an extremely positive rating to my video.</p>
+<p>The HeatWatch is a web application that people in the community can use to calculate their personalised heat health risk.
+The application is free to use, you can access it via this <a href="https://heatwatch.sydney.edu.au/" target="_blank" rel="noopener noreferrer">link</a>.
+You can read more about the HeatWatch in <a href="https://federicotartarini.github.io/blog/2023/10/20/heatwatch">this blog post</a>.</p>
+<p><img loading="lazy" alt="heatwatch" src="https://federicotartarini.github.io/assets/images/heatwatch-d92e5122dbd501d04c851a9c8a7267c0.png" width="1920" height="1080" class="img_ev3q"></p>]]></content:encoded>
+            <category>video</category>
+            <category>research</category>
+        </item>
+        <item>
+            <title><![CDATA[JsThermalComfort]]></title>
+            <link>https://FedericoTartarini.github.io/blog/2023/11/20/jsthermalcomfort</link>
+            <guid>https://FedericoTartarini.github.io/blog/2023/11/20/jsthermalcomfort</guid>
+            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Excited to unveil jsthermalcomfort! 🚀 Built upon pythermalcomfort, jsthermalcomfort is crafted to facilitate seamless and precise thermophysiological modelling in JavaScript.]]></description>
+            <content:encoded><![CDATA[<p>Excited to unveil jsthermalcomfort! 🚀 Built upon pythermalcomfort, jsthermalcomfort is crafted to facilitate seamless and precise thermophysiological modelling in JavaScript.
+With jsthermalcomfort, complex calculations in JavaScript become possible without the need for redundant programming efforts.</p>
+<p><img loading="lazy" alt="jsthermalcomfort" src="https://federicotartarini.github.io/assets/images/jsthermalcomfort-1d0714ccb6e5ad679e8d676a4f81d5ba.png" width="752" height="422" class="img_ev3q"></p>
+<p>Thanks to: <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a>, <a href="https://www.linkedin.com/in/stefanoschiavon/" target="_blank" rel="noopener noreferrer">Stefano Schiavon</a>, Omar Acuache, Ruoshui Chen, Lucas Lu, Yuchen MU, Jordan Ocokoljic, Santiago Zaldivar De Alba, Akihisa Nomoto</p>]]></content:encoded>
+            <category>heat</category>
+            <category>research</category>
+            <category>thermophysiology</category>
+            <category>thermal comfort</category>
+        </item>
         <item>
             <title><![CDATA[Channel 9 News]]></title>
             <link>https://FedericoTartarini.github.io/blog/channel-9</link>
@@ -17,7 +52,7 @@
             <content:encoded><![CDATA[<p>My work at the Heat and Health Research Incubator in the Medicine and Health - University of Sydney on “fan-first” cooling was featured on Nine News.</p>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Turning on our air conditioners can break the bank during summer – but scientists at the University of Sydney have developed a simple way to save on electricity bills. <a href="https://twitter.com/lizziepearl?ref_src=twsrc%5Etfw">@lizziepearl</a> <a href="https://twitter.com/hashtag/9News?src=hash&amp;ref_src=twsrc%5Etfw">#9News</a> <a href="https://t.co/FQJv1v1QsW">pic.twitter.com/FQJv1v1QsW</a></p>— 9News Sydney (@9NewsSyd) <a href="https://twitter.com/9NewsSyd/status/1721435856815173842?ref_src=twsrc%5Etfw">November 6, 2023</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content:encoded>
-            <category>comfort</category>
+            <category>thermal comfort</category>
             <category>media</category>
             <category>research</category>
         </item>
@@ -26,11 +61,15 @@
             <link>https://FedericoTartarini.github.io/blog/2023/10/20/heatwatch</link>
             <guid>https://FedericoTartarini.github.io/blog/2023/10/20/heatwatch</guid>
             <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[At the Health and Health Research Incubator, together with our community partners, we are currently developing the HeatWatch, a web application that people in the community can use to calculate their personalised heat health risk. The application is free to use, you can access it via this link. Here is a 2-minute video about our project which summarises our aim and objectives, while this is a 45-second version of the same video. Please feel free to share these links.]]></description>
-            <content:encoded><![CDATA[<p>At the Health and Health Research Incubator, together with our community partners, we are currently developing the&nbsp;HeatWatch, a web application that people in the community can use to calculate their personalised heat health risk. The application is free to use, you can access it via this <a href="https://heatwatch.sydney.edu.au/" target="_blank" rel="noopener noreferrer">link</a>. <a href="https://youtu.be/DjcMW1slwCw" target="_blank" rel="noopener noreferrer">Here is a 2-minute video</a> about our project which summarises our aim and objectives, while <a href="https://youtu.be/liyCFwcNpGY" target="_blank" rel="noopener noreferrer">this is a 45-second version</a> of the same video. Please feel free to share these links.</p>
+            <description><![CDATA[At the Heat and Health Research Incubator with Ollie Jay and our community partners, we are currently developing the HeatWatch, a web application that people in the community can use to calculate their personalised heat health risk.]]></description>
+            <content:encoded><![CDATA[<p>At the <a href="https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html" target="_blank" rel="noopener noreferrer">Heat and Health Research Incubator</a> with <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a> and our community partners, we are currently developing the HeatWatch, a web application that people in the community can use to calculate their personalised heat health risk.
+The application is free to use, you can access it via this <a href="https://heatwatch.sydney.edu.au/" target="_blank" rel="noopener noreferrer">link</a>.</p>
 <p><img loading="lazy" alt="heatwatch" src="https://federicotartarini.github.io/assets/images/heatwatch-d92e5122dbd501d04c851a9c8a7267c0.png" width="1920" height="1080" class="img_ev3q"></p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>A video I created about this project was awarded the "outstanding video" (first prize) in the <a href="https://www.buildingsandcities.org/video-challenge/gallery-2023.html" target="_blank" rel="noopener noreferrer">2023 Video Challenge from the journal Buildings &amp; Cities</a>.</p><p>You can read more about the award on this <a href="https://federicotartarini.github.io/blog/2023/11/22/video-challenge">blog post</a>.</p></div></div>
 <p>Over the 2023-2024 summer, we are planning to reach as many people as possible in the community by advertising the app on social media channels, news, and via our community partners’ networks and connections. The app not only allows people to calculate a personalised heat health risk but also provides detailed recommendations on how to implement low-cost and simple science-based effective cooling strategies.</p>
-<p>While our application is free to use, some of the most vulnerable groups may not be able to access our application using a smartphone, hence, we are also planning to display the&nbsp;HeatWatch&nbsp;on public displays in community centres, libraries, police stations, etc. This will enable us to reach some of the most vulnerable groups. The public display version of the application can be accessed using this&nbsp;<a href="https://heatwatch.sydney.edu.au/display" target="_blank" rel="noopener noreferrer">link</a>.</p>]]></content:encoded>
+<p>While our application is free to use, some of the most vulnerable groups may not be able to access our application using a smartphone, hence, we are also planning to display the HeatWatch on public displays in community centres, libraries, police stations, etc. This will enable us to reach some of the most vulnerable groups. The public display version of the application can be accessed using this <a href="https://heatwatch.sydney.edu.au/display" target="_blank" rel="noopener noreferrer">link</a>.</p>
+<p><a href="https://youtu.be/liyCFwcNpGY" target="_blank" rel="noopener noreferrer">Here is a 45-second video</a> about our project which summarises our aim and objectives.</p>
+<p>Special thanks to <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a> the director of the <a href="https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html" target="_blank" rel="noopener noreferrer">Heat and Health Research Incubator</a> at the University of Sydney.</p>]]></content:encoded>
             <category>heat</category>
             <category>research</category>
         </item>
