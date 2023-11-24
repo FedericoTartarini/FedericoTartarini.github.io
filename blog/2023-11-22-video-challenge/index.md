@@ -11,9 +11,9 @@ My video addresses one of the grand challenges the world is currently facing: "B
 
 You can watch my 2-min video on the [Buildings & Cities](https://www.buildingsandcities.org/video-challenge/gallery-2023.html) website.
 
-![certificate of the award](./certificate.png)
-
 <!--truncate-->
+
+![certificate of the award](./certificate.png)
 
 The videos were selected by a diverse group of 5 judges. 
 Thank you all for watching my video and for giving an extremely positive rating to my video.
