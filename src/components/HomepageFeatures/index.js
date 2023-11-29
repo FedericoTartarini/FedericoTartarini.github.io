@@ -1,10 +1,12 @@
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
 import Grid from "@mui/material/Grid";
+import Link from "@docusaurus/Link";
 
 const FeatureList = [
   {
     title: "My Research",
+    link: "docs/category/my-research",
     Svg: require("@site/static/img/undraw_science_re_mnnr.svg").default,
     description: (
       <>
@@ -16,6 +18,7 @@ const FeatureList = [
   },
   {
     title: "Tools",
+    link: "docs/category/my-projects",
     Svg: require("@site/static/img/undraw_website_builder_re_ii6e.svg").default,
     description: (
       <>
@@ -27,6 +30,7 @@ const FeatureList = [
   },
   {
     title: "YouTube",
+    link: "https://www.youtube.com/c/FedericoTartarini",
     Svg: require("@site/static/img/undraw_augmented_reality_re_f0qd.svg")
       .default,
     description: (
@@ -38,14 +42,16 @@ const FeatureList = [
   },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({ Svg, title, description, link }) {
   return (
     <>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Link to={link}>
+          <Heading as="h3">{title}</Heading>
+        </Link>
         <p>{description}</p>
       </div>
     </>

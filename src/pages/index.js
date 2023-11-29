@@ -26,7 +26,7 @@ export default function Home() {
           spacing={2}
           direction="row"
           justifyContent="center"
-          alignItems="center"
+          alignItems="top"
         >
           <HomepageFeatures />
         </Grid>
