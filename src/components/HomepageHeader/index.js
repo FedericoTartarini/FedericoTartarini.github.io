@@ -27,15 +27,17 @@ export default function HomepageHeader() {
           justifyContent="center"
           alignItems="center"
           style={{ paddingBottom: 20 }}
-          spacing={6}
+          spacing={4}
         >
-          <Grid item xs={8} md={4}>
-            <div className="text--center">
-              <img
-                src={useBaseUrl("/img/federico.png")}
-                style={{ borderRadius: "50%" }}
-              />
-            </div>
+          <Grid item xs={12} md={4}>
+            <img
+              src={useBaseUrl("/img/federico.png")}
+              style={{
+                borderRadius: "50%",
+                maxWidth: "225px",
+                textAlign: "center",
+              }}
+            />
           </Grid>
           <Grid item xs={12} md={8}>
             <h1 className="hero__title">{siteConfig.title}</h1>

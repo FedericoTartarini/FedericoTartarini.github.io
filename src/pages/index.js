@@ -10,8 +10,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title} personal website`}
+      description="This is the personal website of Dr Federico Tartarini, in the landing page I describe my role and skills"
     >
       <HomepageHeader />
       <Container
