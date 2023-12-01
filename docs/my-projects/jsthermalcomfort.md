@@ -27,7 +27,7 @@ We have validated all jsthermalcomfort functions against the reference tables in
 
 Our commitment to fostering a seamless user experience is reflected in the comprehensive [documentation](https://federicotartarini.github.io/jsthermalcomfort/) and [examples](https://github.com/FedericoTartarini/jsthermalcomfort/tree/main/docs/examples) provided.
 
-## Acknowledgment: 
+## Acknowledgment
 
 * We would like to acknowledge the work of Omar Jesus Acuache Briceno, Ruoshui Chen, Jingyu Lu, Yuchen MU, Jordan Ocokoljic, Santiago Zaldivar del Alba who contributed to the development of the NPM package. 
 * Stefano Schiavon and Federico Tartarini who developed pythermalcomfort. 

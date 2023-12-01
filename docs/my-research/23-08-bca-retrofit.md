@@ -36,10 +36,9 @@ Results? A whopping 32% reduction in energy consumption without compromising com
 
 And the best part? Our insights are now at your fingertips in our comprehensive guidebook, open for all visionary builders and designers. 📚🌱
 
-Join us in the movement toward greener, smarter cooling solutions. Let's rewrite the rulebook, one fan at a time. 🌬️🌏 hashtag#SustainableCooling hashtag#EnergyEfficiency hashtag#InnovativeDesign
+Join us in the movement toward greener, smarter cooling solutions. Let's rewrite the rulebook, one fan at a time. 🌬️🌏
 
 Freely downloadable [paper](https://lnkd.in/gK9PhmeB)
-
 
 Thanks to: Michael Kent, Ken Huynh Khoa, Asit Kumar Mishra, Federico Tartarini, Aleksandra Lipczynska, Jiayu Li, Zuraimi Mohamed Sultan,
 Edwin Goh, Giridharan Karunagaran, Arulmani Natarajan, Asiri Indrajith, Ivanna Hendri, I Komang Narendra, Vicky Wu, Noel Chin, Chun-Ping Gao, Majid Sapar, Alvin Seoh, Nur Shuhadah, Selvam Valliappan, Tim Jukes, Costas Spanos, Stefano Schiavon, Building and Construction Authority and Dyson
