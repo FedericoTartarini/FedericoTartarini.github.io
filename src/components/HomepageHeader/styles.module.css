@@ -10,6 +10,19 @@
   overflow: hidden;
 }
 
+.svgAnimated {
+    position: absolute;
+    z-index: 1;
+    transform: translateY(30%) translateX(25%);
+  }
+
+@media screen and (max-width: 900px) {
+  .svgAnimated {
+    transform: translateY(33%) translateX(8%);
+  }
+
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;

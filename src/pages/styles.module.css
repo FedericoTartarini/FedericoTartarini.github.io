@@ -1,0 +1,33 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+
+.shapeFill {
+    fill: var(--ifm-color-primary);
+}
+
+
+.shapeFillBlack {
+    fill: #2E3032FF;
+}
+
+.topShape{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.bottomShape{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.svg{
+    width: calc(143% + 1px);
+    height: 50px;
+    transform: rotateY(180deg);
+}

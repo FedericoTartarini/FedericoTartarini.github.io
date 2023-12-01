@@ -24,6 +24,7 @@
     "@mdx-js/react": "^3.0.0",
     "@mui/icons-material": "^5.14.16",
     "@mui/material": "^5.14.17",
+    "@react-spring/web": "^9.7.3",
     "clsx": "^1.2.1",
     "prism-react-renderer": "^2.1.0",
     "react": "^18.0.0",
