@@ -1,3 +1,7 @@
+---
+image: ./img/bca-results.png
+---
+
 # BCA Retrofit
 
 🌀✨ Shaping a Sustainable Future: Redefining Cooling Solutions in Hot Climates 🏢🌞
