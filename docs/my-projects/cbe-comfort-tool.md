@@ -9,6 +9,9 @@ keywords:
   - predicted mean vote
   - adaptive thermal comfort
 description: the CBE thermal comfort tool is a web tool for thermal comfort calculations and visualizations
+image: ./img/comfort_tool.png
+last_update:
+  author: Federico Tartarini
 ---
 
 # CBE Thermal Comfort Tool

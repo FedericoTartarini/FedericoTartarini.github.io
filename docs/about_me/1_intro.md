@@ -1,5 +1,16 @@
 ---
 sidebar_position: 1
+keywords: 
+  - thermal comfort
+  - human thermal physiology
+  - heat stress
+  - heat strain
+  - HVAC
+  - web tool development
+image: ./img/website_screenshot.png
+description: This page summarises Federico Tartarini's core skills
+last_update:
+  author: Federico Tartarini
 ---
 
 # Intro

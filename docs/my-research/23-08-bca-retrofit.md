@@ -1,5 +1,16 @@
 ---
+tags:
+  - research
+keywords: 
+  - thermal comfort
+  - productivity
+  - air movement
+  - energy consumption
+  - retrofit
 image: ./img/bca-results.png
+description: This article describes the research we did in Singapore about reducing the energy consumption of a commercial building by increasing the cooling set-point and moving the air using fans
+last_update:
+  author: Federico Tartarini
 ---
 
 # BCA Retrofit

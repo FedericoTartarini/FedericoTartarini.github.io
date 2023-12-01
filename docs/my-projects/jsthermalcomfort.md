@@ -1,4 +1,5 @@
 ---
+title: jsthermalcomfort
 tags:
   - tool
 keywords: 
@@ -6,6 +7,10 @@ keywords:
   - thermal stress
   - thermal strain
   - thermal physiology
+description: The HeatWatch application allows users to estimate a personalised heat health risk
+image: ./img/jsthermalcomfort.png
+last_update:
+  author: Federico Tartarini
 ---
 
 # jsthermalcomfort

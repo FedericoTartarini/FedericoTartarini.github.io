@@ -5,6 +5,10 @@ tags:
 keywords: 
   - climate analysis
   - passive design
+image: ./img/clima.png
+description: This article describes the CBE Clima Tool (Clima) a free and open-source web application that provides a series of interactive visualization
+last_update:
+  author: Federico Tartarini
 ---
 
 # CBE Clima Tool

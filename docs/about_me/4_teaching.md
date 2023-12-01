@@ -1,5 +1,14 @@
 ---
 sidebar_position: 4
+tags:
+  - teaching
+keywords: 
+  - NUS
+  - USYD
+image: ./img/website_screenshot.png
+description: This page Federico Tartarini's teaching experience
+last_update:
+  author: Federico Tartarini
 ---
 
 # Teaching Experience

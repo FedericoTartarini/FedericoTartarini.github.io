@@ -1,5 +1,15 @@
 ---
 sidebar_position: 3
+tags:
+  - education
+keywords: 
+  - University of Wollongong
+  - University of Bologna
+  - Technical University of Copenhagen
+image: ./img/website_screenshot.png
+description: This page summarises Federico Tartarini's education
+last_update:
+  author: Federico Tartarini
 ---
 
 # Education
