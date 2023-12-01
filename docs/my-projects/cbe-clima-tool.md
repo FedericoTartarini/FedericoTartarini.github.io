@@ -19,7 +19,7 @@ design.
 It provides a series of interactive visualization of the variables therein contained and several
 derived ones. 
 
-<div class="img-center" style={{"margin-bottom": 20}}> ![CBE Clima Tool](./img/clima.png)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![CBE Clima Tool](./img/clima.png)</div>
 
 It is aimed at students, educators, and practitioners in the architecture and engineering
 fields. 

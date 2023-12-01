@@ -13,7 +13,7 @@ import styles from "./styles.module.css";
 
 const React = require("react");
 const { useState, useEffect } = React;
-const { useSpring, animated, config } = require("@react-spring/web");
+const { useSpring, animated } = require("@react-spring/web");
 
 export default function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -66,6 +66,7 @@ export default function HomepageHeader() {
             }}
           >
             <img
+              alt={"federico tartarini"}
               src={useBaseUrl("/img/federico.png")}
               style={{
                 borderRadius: "50%",
@@ -78,7 +79,6 @@ export default function HomepageHeader() {
             width="1000"
             height="1300"
             xmlns="http://www.w3.org/2000/svg"
-            xlink="http://www.w3.org/1999/xlink"
             version="1.1"
             className={styles.svgAnimated}
             // onClick={() => setActive(!active)}

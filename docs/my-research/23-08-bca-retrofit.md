@@ -20,7 +20,7 @@ last_update:
 What if I told you that fans, working hand in hand with AC systems, can significantly slash energy consumption? 🌬️❄️ 
 Our findings show that fans are the future of efficient cooling. By embracing them, we unlock energy reductions, sustainable practices, and enhanced comfort for all.
 
-<div class="img-center" style={{"margin-bottom": 20}}> ![BCA building](./img/bca.png)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![BCA building](./img/bca.png)</div>
 
 Cooling buildings in hot and humid climates like Singapore is no small feat, often demanding a hefty share of our energy resources. The challenge lies in finding smarter solutions that don't compromise on comfort while driving sustainability. Electric fans – an affordable and energy-efficient ally in our quest for a greener tomorrow.
 
@@ -32,7 +32,7 @@ Our study brought together 35 occupants who shared their experiences over 11 wee
 
 Results? A whopping 32% reduction in energy consumption without compromising comfort levels. Not to mention, a remarkable drop in overcooling incidents, illustrating the power of fans in maintaining optimal conditions without excess energy expenditure. 💡📊
 
-<div class="img-center" style={{"margin-bottom": 20}}> ![BCA results](./img/bca-results.png)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![BCA results](./img/bca-results.png)</div>
 
 And the best part? Our insights are now at your fingertips in our comprehensive guidebook, open for all visionary builders and designers. 📚🌱
 

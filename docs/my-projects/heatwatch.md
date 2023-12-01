@@ -27,4 +27,4 @@ Its design and features are shaped by direct consultations with community member
 
 In recent times, heatwaves have become more intense, frequent, and prolonged — a trend that will escalate in the foreseeable future. As NSW's population continues to grow and age, it is crucial to safeguard the most vulnerable to the detrimental health effects of extreme heat, reinforcing the importance of the HeatWatch application. You can use the HeatWatch app for free using this [link](https://heatwatch.sydney.edu.au/), and enhance your understanding of its features and benefits through this [short educational video](https://youtu.be/DjcMW1slwCw).
 
-<div class="img-center" style={{"margin-bottom": 20}}> ![heatwatch](./img/heatwatch.png)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![heatwatch](./img/heatwatch.png)</div>
