@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_personal_website=self.webpackChunkmy_personal_website||[]).push([[6797],{8795:s=>{s.exports=JSON.parse('{"label":"awards","permalink":"/blog/tags/awards","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

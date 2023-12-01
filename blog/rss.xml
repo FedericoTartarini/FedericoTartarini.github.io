@@ -4,16 +4,39 @@
         <title>Dr Federico Tartarini Blog</title>
         <link>https://FedericoTartarini.github.io/blog</link>
         <description>Dr Federico Tartarini Blog</description>
-        <lastBuildDate>Wed, 22 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[AIRAH Awards 2023]]></title>
+            <link>https://FedericoTartarini.github.io/blog/2023/11/30/airah-awards</link>
+            <guid>https://FedericoTartarini.github.io/blog/2023/11/30/airah-awards</guid>
+            <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was awarded the "outstanding video" (first prize) in the 2023 Video Challenge from the journal Buildings & Cities]]></description>
+            <content:encoded><![CDATA[<p>I feel very honoured to be the recipient of two prestigious awards from <a href="http://airah.informz.net/z/cjUucD9taT0yODk5NzczJnA9MSZ1PTUzNjk5NDEwNCZsaT0zMTU2NjQ2Mw/index.html" target="_blank" rel="noopener noreferrer">AIRAH</a>:</p>
+<ul>
+<li>the Future Leader Award and</li>
+<li>the Excellence in HVAC&amp;R Research.</li>
+</ul>
+<p>A heartfelt thank you to AIRAH for recognizing my contribution to this field.</p>
+<div class="img-center"><div style="width:500px"><p><img loading="lazy" alt="certificate of the award" src="https://federicotartarini.github.io/assets/images/airah_awards-36f4957cf86cc894ef48dcb85f0d5940.png" width="1378" height="630" class="img_ev3q"></p></div></div>
+<p>The Future Leader award recognises my research which aims to determine how the thermal environment impacts thermalcomfort, productivity, wellbeing, and health; and how to reduce the energy consumption of buildings.</p>
+<p>The Excellence in HVAC&amp;R Research reflects the impact that the tools I had the privilege to create and co-develop are having on the hvac field. This includes the <a href="https://federicotartarini.github.io/docs/my-projects/cbe-comfort-tool">CBE Thermal Comfort Tool</a>, <a href="https://federicotartarini.github.io/docs/my-projects/cbe-clima-tool">CBE Clima Tool</a>, pythermalcomfort, <a href="https://federicotartarini.github.io/docs/my-projects/jsthermalcomfort">jsthermalcomfort</a>, Cozie, <a href="https://federicotartarini.github.io/docs/my-projects/heatwatch">HeatWatch</a>, and SMA Extreme Heat Tool.</p>
+<div class="img-center"><div style="width:300px"><p><img loading="lazy" alt="certificate of the award&amp;quot;" src="https://federicotartarini.github.io/assets/images/IMG_3874-930036fcf3ad590bc5ba4963a6a9303e.jpg" width="2975" height="3002" class="img_ev3q"></p></div></div>
+<p>The guidance and mentorship of my supervisors have been instrumental in this achievement.
+Professors Gian Luca Morini, Paul Cooper, Richard Fleming, Stefano Schiavon, Clayton Miller, Kwok Wai Tham, and Ollie Jay - your support, guidance, and wisdom have been invaluable.</p>
+<p>In addition, I would like to thank all my present and past colleagues and friends at the University of Bologna (Alma Mater Studiorum – Università di Bologna), University of Wollongong, Center for the Built Environment (CBE), Berkeley Education Alliance for Research in Singapore (BEARS), National University of Singapore, and Heat and Health Research Incubator.</p>
+<div class="img-center"><div style="width:300px"><p><img loading="lazy" alt="certificate of the award&amp;quot;" src="https://federicotartarini.github.io/assets/images/IMG_3861-18744bcf430977b4af39e865956b11c1.jpg" width="4032" height="3024" class="img_ev3q"></p></div></div>]]></content:encoded>
+            <category>awards</category>
+            <category>research</category>
+        </item>
         <item>
             <title><![CDATA[First Prize - Buildings & Cities Video Challenge]]></title>
             <link>https://FedericoTartarini.github.io/blog/2023/11/22/video-challenge</link>
             <guid>https://FedericoTartarini.github.io/blog/2023/11/22/video-challenge</guid>
             <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[I am extremely proud to announce that I was awarded the "outstanding video" (first prize) in the 2023 Video Challenge from the journal Buildings & Cities.]]></description>
+            <description><![CDATA[I was awarded the "outstanding video" (first prize) in the 2023 Video Challenge from the journal Buildings & Cities]]></description>
             <content:encoded><![CDATA[<p>I am extremely proud to announce that I was awarded the "outstanding video" (first prize) in the <a href="https://www.buildingsandcities.org/video-challenge/gallery-2023.html" target="_blank" rel="noopener noreferrer">2023 Video Challenge from the journal Buildings &amp; Cities</a>.</p>
 <p>The video describes the "HeatWatch" application that I am co-developing at <a href="https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html" target="_blank" rel="noopener noreferrer">Heat and Health Research Incubator</a> with <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a>.
 My video addresses one of the grand challenges the world is currently facing: "Building Resilience to heatwaves and extreme heat".</p>
@@ -33,7 +56,7 @@ You can read more about the HeatWatch in <a href="https://federicotartarini.gith
             <link>https://FedericoTartarini.github.io/blog/2023/11/20/jsthermalcomfort</link>
             <guid>https://FedericoTartarini.github.io/blog/2023/11/20/jsthermalcomfort</guid>
             <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Excited to unveil jsthermalcomfort! 🚀 Built upon pythermalcomfort, jsthermalcomfort is crafted to facilitate seamless and precise thermophysiological modelling in JavaScript.]]></description>
+            <description><![CDATA[Blogpost about jsthermalcomfort]]></description>
             <content:encoded><![CDATA[<p>Excited to unveil jsthermalcomfort! 🚀 Built upon pythermalcomfort, jsthermalcomfort is crafted to facilitate seamless and precise thermophysiological modelling in JavaScript.
 With jsthermalcomfort, complex calculations in JavaScript become possible without the need for redundant programming efforts.</p>
 <p><img loading="lazy" alt="jsthermalcomfort" src="https://federicotartarini.github.io/assets/images/jsthermalcomfort-1d0714ccb6e5ad679e8d676a4f81d5ba.png" width="752" height="422" class="img_ev3q"></p>
@@ -48,9 +71,9 @@ With jsthermalcomfort, complex calculations in JavaScript become possible withou
             <link>https://FedericoTartarini.github.io/blog/channel-9</link>
             <guid>https://FedericoTartarini.github.io/blog/channel-9</guid>
             <pubDate>Wed, 08 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[My work at the Heat and Health Research Incubator in the Medicine and Health - University of Sydney on “fan-first” cooling was featured on Nine News.]]></description>
+            <description><![CDATA[Our research was featured on Nine News]]></description>
             <content:encoded><![CDATA[<p>My work at the Heat and Health Research Incubator in the Medicine and Health - University of Sydney on “fan-first” cooling was featured on Nine News.</p>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Turning on our air conditioners can break the bank during summer – but scientists at the University of Sydney have developed a simple way to save on electricity bills. <a href="https://twitter.com/lizziepearl?ref_src=twsrc%5Etfw">@lizziepearl</a> <a href="https://twitter.com/hashtag/9News?src=hash&amp;ref_src=twsrc%5Etfw">#9News</a> <a href="https://t.co/FQJv1v1QsW">pic.twitter.com/FQJv1v1QsW</a></p>— 9News Sydney (@9NewsSyd) <a href="https://twitter.com/9NewsSyd/status/1721435856815173842?ref_src=twsrc%5Etfw">November 6, 2023</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Turning on our air conditioners can break the bank during summer – but scientists at the University of Sydney have developed a simple way to save on electricity bills. <a href="https://twitter.com/lizziepearl?ref_src=twsrc%5Etfw">@lizziepearl</a> <a href="https://twitter.com/hashtag/9News?src=hash&amp;ref_src=twsrc%5Etfw">9News</a> <a href="https://t.co/FQJv1v1QsW">pic.twitter.com/FQJv1v1QsW</a></p>— 9News Sydney (@9NewsSyd) <a href="https://twitter.com/9NewsSyd/status/1721435856815173842?ref_src=twsrc%5Etfw">November 6, 2023</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content:encoded>
             <category>thermal comfort</category>
             <category>media</category>
@@ -61,7 +84,7 @@ With jsthermalcomfort, complex calculations in JavaScript become possible withou
             <link>https://FedericoTartarini.github.io/blog/2023/10/20/heatwatch</link>
             <guid>https://FedericoTartarini.github.io/blog/2023/10/20/heatwatch</guid>
             <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[At the Heat and Health Research Incubator with Ollie Jay and our community partners, we are currently developing the HeatWatch, a web application that people in the community can use to calculate their personalised heat health risk.]]></description>
+            <description><![CDATA[Blogpost about the HeatWatch application]]></description>
             <content:encoded><![CDATA[<p>At the <a href="https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html" target="_blank" rel="noopener noreferrer">Heat and Health Research Incubator</a> with <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a> and our community partners, we are currently developing the HeatWatch, a web application that people in the community can use to calculate their personalised heat health risk.
 The application is free to use, you can access it via this <a href="https://heatwatch.sydney.edu.au/" target="_blank" rel="noopener noreferrer">link</a>.</p>
 <p><img loading="lazy" alt="heatwatch" src="https://federicotartarini.github.io/assets/images/heatwatch-d92e5122dbd501d04c851a9c8a7267c0.png" width="1920" height="1080" class="img_ev3q"></p>
