@@ -5,7 +5,7 @@ tags:
 keywords: 
   - best paper award
   - achievements
-image: ./img/website_screenshot.png
+image: assets/img/website_screenshot.png
 description: This page summarises the awards Federico Tartarini received
 last_update:
   author: Federico Tartarini

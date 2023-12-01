@@ -7,7 +7,7 @@ keywords:
   - heat strain
   - HVAC
   - web tool development
-image: ./img/website_screenshot.png
+image: assets/img/website_screenshot.png
 description: This page summarises Federico Tartarini's core skills
 last_update:
   author: Federico Tartarini

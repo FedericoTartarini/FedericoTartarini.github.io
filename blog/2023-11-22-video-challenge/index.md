@@ -2,6 +2,13 @@
 title: First Prize - Buildings & Cities Video Challenge
 authors: fede
 tags: [video, research]
+keywords: 
+  - Buildings & Cities
+  - Video Challenge
+  - award
+  - prize
+image: ./certificate.png
+description: I was awarded the "outstanding video" (first prize) in the 2023 Video Challenge from the journal Buildings & Cities
 ---
 
 I am extremely proud to announce that I was awarded the "outstanding video" (first prize) in the [2023 Video Challenge from the journal Buildings & Cities](https://www.buildingsandcities.org/video-challenge/gallery-2023.html).

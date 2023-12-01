@@ -5,7 +5,7 @@ tags:
 keywords: 
   - NUS
   - USYD
-image: ./img/website_screenshot.png
+image: assets/img/website_screenshot.png
 description: This page Federico Tartarini's teaching experience
 last_update:
   author: Federico Tartarini

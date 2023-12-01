@@ -6,7 +6,7 @@ keywords:
   - University of Sydney
   - Berkeley Education Alliance for Research in Singapore
   - University of Wollongong
-image: ./img/website_screenshot.png
+image: assets/img/website_screenshot.png
 description: This page summarises Federico Tartarini's work experience
 last_update:
   author: Federico Tartarini

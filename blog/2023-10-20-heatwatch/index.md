@@ -2,6 +2,14 @@
 title: HeatWatch
 authors: fede
 tags: [heat, research]
+keywords: 
+  - web application
+  - thermal stress
+  - thermal strain
+  - Dash
+  - Python
+image: ./heatwatch.png
+description: Blogpost about the HeatWatch application
 ---
 
 At the [Heat and Health Research Incubator](https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html) with [Ollie Jay](https://www.linkedin.com/in/ollie-jay-793a1b11/) and our community partners, we are currently developing the HeatWatch, a web application that people in the community can use to calculate their personalised heat health risk. 

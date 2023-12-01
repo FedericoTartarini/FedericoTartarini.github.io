@@ -2,6 +2,13 @@
 title: JsThermalComfort
 authors: fede
 tags: [heat, research, thermophysiology, thermal comfort]
+keywords: 
+  - development
+  - thermal comfort
+  - JavaScript
+  - npm
+image: ./jsthermalcomfort.png
+description: Blogpost about jsthermalcomfort
 ---
 
 Excited to unveil jsthermalcomfort! 🚀 Built upon pythermalcomfort, jsthermalcomfort is crafted to facilitate seamless and precise thermophysiological modelling in JavaScript. 
