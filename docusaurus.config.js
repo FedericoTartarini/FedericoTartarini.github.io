@@ -98,7 +98,7 @@ const config = {
             "aria-label": "GitHub repository",
           },
           {
-            className: "navbar__youtube",
+            className: "navbar__youtube navbar__icon",
             "aria-label": "YouTube channel",
             position: "right",
             href: "https://www.youtube.com/c/FedericoTartarini",
