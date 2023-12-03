@@ -93,8 +93,15 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/FedericoTartarini",
-            label: "GitHub",
             position: "right",
+            className: "header--github-link",
+            "aria-label": "GitHub repository",
+          },
+          {
+            className: "navbar__youtube",
+            "aria-label": "YouTube channel",
+            position: "right",
+            href: "https://www.youtube.com/c/FedericoTartarini",
           },
         ],
       },
