@@ -11,7 +11,7 @@ image: ./jsthermalcomfort.png
 description: Blogpost about jsthermalcomfort
 ---
 
-Excited to unveil jsthermalcomfort! 🚀 Built upon [pythermalcomfort](pythermalcomfort.md), jsthermalcomfort is crafted to facilitate seamless and precise thermophysiological modelling in JavaScript. 
+Excited to unveil jsthermalcomfort! 🚀 Built upon [pythermalcomfort](/docs/tools/pythermalcomfort), jsthermalcomfort is crafted to facilitate seamless and precise thermophysiological modelling in JavaScript. 
 With jsthermalcomfort, complex calculations in JavaScript become possible without the need for redundant programming efforts.
 
 ![jsthermalcomfort](./jsthermalcomfort.png)
