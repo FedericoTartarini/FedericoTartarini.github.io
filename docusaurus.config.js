@@ -4,68 +4,69 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Dr Federico Tartarini',
-  tagline: 'Senior Research Associate - Heat & Health Research Incubator at the University of Sydney',
-  favicon: 'img/logo.png',
+  title: "Dr Federico Tartarini",
+  tagline:
+    "Senior Research Associate - Heat & Health Research Incubator at the University of Sydney",
+  favicon: "img/logo.png",
 
   // Set the production url of your site here
-  url: 'https://FedericoTartarini.github.io',
+  url: "https://FedericoTartarini.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'FedericoTartarini', // Usually your GitHub org/user name.
-  projectName: 'FedericoTartarini.github.io', // Usually your repo name.
+  organizationName: "FedericoTartarini", // Usually your GitHub org/user name.
+  projectName: "FedericoTartarini.github.io", // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: "gh-pages",
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         gtag: {
-          trackingID: 'G-KGVK27VGQ7',
+          trackingID: "G-KGVK27VGQ7",
           anonymizeIP: true,
         },
         sitemap: {
-          changefreq: 'weekly',
+          changefreq: "weekly",
           priority: 0.5,
-          filename: 'sitemap.xml',
+          filename: "sitemap.xml",
         },
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/FedericoTartarini/FedericoTartarini.github.io/tree/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/FedericoTartarini/FedericoTartarini.github.io/tree/master/",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -75,67 +76,67 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: 'My Site',
+        title: "My Site",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.png',
+          alt: "My Site Logo",
+          src: "img/logo.png",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'About Me',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "About Me",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: 'https://github.com/FedericoTartarini',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/FedericoTartarini",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'About Me',
+            title: "About Me",
             items: [
               {
-                label: 'My Work',
-                to: 'docs/about_me/intro',
+                label: "My Work",
+                to: "docs/about_me/intro",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/federico-tartarini/',
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/federico-tartarini/",
               },
               {
-                label: 'YouTube',
-                href: 'https://www.youtube.com/c/FedericoTartarini',
+                label: "YouTube",
+                href: "https://www.youtube.com/c/FedericoTartarini",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/FedericoTartar1',
+                label: "Twitter",
+                href: "https://twitter.com/FedericoTartar1",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/FedericoTartarini',
+                label: "GitHub",
+                href: "https://github.com/FedericoTartarini",
               },
             ],
           },
@@ -147,9 +148,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-stylesheets: [
-    "https://fonts.googleapis.com/icon?family=Material+Icons",
-  ],
+  stylesheets: ["https://fonts.googleapis.com/icon?family=Material+Icons"],
   themes: [
     // ... Your other themes.
     [
