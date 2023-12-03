@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 tags:
   - tool
 keywords: 
@@ -13,7 +12,7 @@ last_update:
 
 # CBE Clima Tool
 
-I developed, helped designing, and maintaining the CBE Clima Tool (Clima) a free and open-source web application that offers easy access to
+I developed, helped designing, and maintaining the [CBE Clima Tool](https://clima.cbe.berkeley.edu/) (Clima) a free and open-source web application that offers easy access to
 publicly available weather files (in EPW format) specifically created for building energy simulation and
 design. 
 It provides a series of interactive visualization of the variables therein contained and several

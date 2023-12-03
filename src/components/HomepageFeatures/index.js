@@ -18,13 +18,17 @@ const FeatureList = [
   },
   {
     title: "Tools",
-    link: "docs/category/my-projects",
+    link: "docs/category/tools",
     Svg: require("@site/static/img/undraw_website_builder_re_ii6e.svg").default,
     description: (
       <>
-        I am the main author of pythermalcomfort, the CBE Thermal Comfort Tool,
-        the CBE Clima Tool, Cozie for Apple and Fitbit, the HeatWatch, and SMA
-        Extreme heat tool
+        I am the main author of{" "}
+        <Link to={"docs/tools/pythermalcomfort"}>pythermalcomfort</Link>, the{" "}
+        <Link to={"docs/tools/cbe-comfort-tool"}>CBE Thermal Comfort Tool</Link>
+        , the <Link to={"docs/tools/cbe-clima-tool"}>CBE Clima Tool</Link>,
+        Cozie for Apple and Fitbit, the{" "}
+        <Link to={"docs/tools/heatwatch"}>HeatWatch</Link>, and SMA Extreme heat
+        tool
       </>
     ),
   },
@@ -35,8 +39,47 @@ const FeatureList = [
       .default,
     description: (
       <>
-        I am a YouTube educator and I publish video tutorials about: LaTeX,
-        Python, PyCharm, Beamer, Docusaurus, ReactJS.
+        I am a YouTube educator and I publish video tutorials about:{" "}
+        <Link
+          to={
+            "https://www.youtube.com/playlist?list=PLY91jl6VVD7wnyOlAgPRe-i9ov4_ZqHV8"
+          }
+        >
+          LaTeX
+        </Link>
+        ,{" "}
+        <Link
+          to={
+            "https://www.youtube.com/playlist?list=PLY91jl6VVD7wMft3vQWPhcO4K0ZSdW6uy"
+          }
+        >
+          Python
+        </Link>
+        ,{" "}
+        <Link
+          to={
+            "https://www.youtube.com/playlist?list=PLY91jl6VVD7w-5pYk7kVRDRrUikwPHasb"
+          }
+        >
+          Thermal Comfort
+        </Link>
+        ,{" "}
+        <Link
+          to={
+            "https://www.youtube.com/playlist?list=PLY91jl6VVD7z8c6XM5CR9wzU5aZ2702nD"
+          }
+        >
+          LateX Beamer
+        </Link>
+        ,{" "}
+        <Link
+          to={
+            "https://www.youtube.com/playlist?list=PLY91jl6VVD7wn8SHdWKRg3AAEKbHQYaNL"
+          }
+        >
+          Docusaurus
+        </Link>
+        , ReactJS.
       </>
     ),
   },
@@ -62,7 +105,7 @@ export default function HomepageFeatures() {
   return (
     <>
       {FeatureList.map((props, idx) => (
-        <Grid xs={12} sm={10} md={4}>
+        <Grid key={idx} xs={12} sm={10} md={4}>
           <Feature key={idx} {...props} />
         </Grid>
       ))}

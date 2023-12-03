@@ -32,8 +32,8 @@ _Oct 2022 - Jun 2023_
 _Singapore, SG_  
 _Jun 2019 - Oct 2022_
 
-- Maintainer and developer of the CBE thermal comfort tool and the CBE Clima Tool.
-- Main author of pythermalcomfort a Python package for thermal comfort research.
+- Maintainer and developer of the [CBE thermal comfort tool](../tools/cbe-comfort-tool.md) and the [CBE Clima Tool](../tools/cbe-clima-tool.md).
+- Main author of [pythermalcomfort](../tools/pythermalcomfort.md) a Python package for thermal comfort research.
 - Maintainer and developer of Cozie for iOS and Fitbit.
 - Conducted a longitudinal thermal comfort study which aimed to developed personalized thermal comfort models using wearable and IoT devices.
 - Collaborated in the construction and commissioning of the "Greenest building" in Singapore. A net a net zero energy building for the Singaporean Building and Construction Authority (BCA).

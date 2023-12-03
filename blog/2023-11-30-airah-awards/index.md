@@ -23,7 +23,7 @@ A heartfelt thank you to AIRAH for recognizing my contribution to this field.
 
 The Future Leader award recognises my research which aims to determine how the thermal environment impacts thermalcomfort, productivity, wellbeing, and health; and how to reduce the energy consumption of buildings.
 
-The Excellence in HVAC&R Research reflects the impact that the tools I had the privilege to create and co-develop are having on the hvac field. This includes the [CBE Thermal Comfort Tool](/docs/my-projects/cbe-comfort-tool), [CBE Clima Tool](/docs/my-projects/cbe-clima-tool), pythermalcomfort, [jsthermalcomfort](/docs/my-projects/jsthermalcomfort), Cozie, [HeatWatch](/docs/my-projects/heatwatch), and SMA Extreme Heat Tool.
+The Excellence in HVAC&R Research reflects the impact that the tools I had the privilege to create and co-develop are having on the hvac field. This includes the [CBE Thermal Comfort Tool](/docs/tools/cbe-comfort-tool), [CBE Clima Tool](/docs/tools/cbe-clima-tool), [pythermalcomfort](/docs/tools/pythermalcomfort), [jsthermalcomfort](/docs/tools/jsthermalcomfort), Cozie, [HeatWatch](/docs/tools/heatwatch), and SMA Extreme Heat Tool.
 
 <div class="img-center">
     <div style={{"width":"300px"}}>
