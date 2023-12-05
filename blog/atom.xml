@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://FedericoTartarini.github.io/blog</id>
     <title>Dr Federico Tartarini Blog</title>
-    <updated>2023-11-30T00:00:00.000Z</updated>
+    <updated>2023-12-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://FedericoTartarini.github.io/blog"/>
     <subtitle>Dr Federico Tartarini Blog</subtitle>
     <icon>https://FedericoTartarini.github.io/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[CBE Clima Tool]]></title>
+        <id>https://FedericoTartarini.github.io/blog/2023/12/6/clima</id>
+        <link href="https://FedericoTartarini.github.io/blog/2023/12/6/clima"/>
+        <updated>2023-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blogpost about the HeatWatch application]]></summary>
+        <content type="html"><![CDATA[<p>We published an article about the <a href="https://clima.cbe.berkeley.edu/" target="_blank" rel="noopener noreferrer">CBE Clima Tool</a>, a web-based tool that allows users to access, process, and display climate data from over 30,000 weather stations around the world.
+The tool provides interactive charts and graphs that show various aspects of the climate, such as temperature, humidity, solar radiation, wind, natural ventilation potential, outdoor comfort, and more.
+The tool also allows users to download the data and the graphics in various formats, such as CSV and SVG.</p>
+<iframe width="100%" height="350" class="youtube-video" src="https://www.youtube.com/embed/VJ_wOHadVdw?si=fO_gaJd37ytkN93e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<p>The CBE Clima Tool is a valuable resource for anyone interested in climate-responsive building design.
+It is easy to use, cross-platform compatible, transparent, and community-based.
+You can access the tool at <a href="https://clima.cbe.berkeley.edu/" target="_blank" rel="noopener noreferrer">this URL</a>.
+You can also read the full article at this <a href="https://link.springer.com/article/10.1007/s12273-023-1090-5" target="_blank" rel="noopener noreferrer">URL</a>.</p>]]></content>
+        <author>
+            <name>Federico Tartarini</name>
+            <uri>https://github.com/FedericoTartarini</uri>
+        </author>
+        <category label="tool" term="tool"/>
+        <category label="research" term="research"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AIRAH Awards 2023]]></title>
         <id>https://FedericoTartarini.github.io/blog/2023/11/30/airah-awards</id>
