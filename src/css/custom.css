@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 div.img-small img {
@@ -85,4 +86,21 @@ html[data-theme='dark'] .header--github-link:before {
   background: var(--ifm-color-emphasis-200);
   mask: url("/img/youtube.svg") no-repeat 50% 50%;
   mask-size: 80%;
+}
+
+/* resize youtube videos */
+.youtube-video {
+  height: 550px;
+}
+
+@media screen and (max-width: 1350px) {
+  .youtube-video {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .youtube-video {
+    height: 200px;
+  }
 }
