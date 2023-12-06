@@ -56,7 +56,7 @@ These data can be used to correlate and analyze the users’ perceptions, prefer
 Cozie also ensures data security and privacy by obtaining user consent, encrypting data transmission, and anonymizing data storage. 
 Cozie also has several applications beyond research settings, such as integration into building systems control, interventional messages for occupants, and space utilization studies.
 
-If you are interested in learning more about Cozie, you can visit the official website at cozie-apple.app, where you can find the documentation, video tutorials, and the open-source code. 
+If you are interested in learning more about Cozie, you can visit the [official website](https://cozie-apple.app/), where you can find the documentation, video tutorials, and the open-source code. 
 You can also contact the Cozie team at cozie.app@gmail.com for any inquiries or feedback. 
 Cozie is a powerful and innovative tool for collecting data and understanding people’s needs and preferences in their environment. 
 I hope you will give it a try and see how Cozie can help you achieve your goals.

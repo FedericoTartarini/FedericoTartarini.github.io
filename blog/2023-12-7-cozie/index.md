@@ -22,7 +22,7 @@ Cozie also enables researchers and practitioners to send push notifications and 
 
 <!--truncate-->
 
-If you are interested in learning more about Cozie, you can visit the [official website](cozie-apple.app), where you can find the documentation, video tutorials, and the open-source code. 
+If you are interested in learning more about Cozie, you can visit the [official website](https://cozie-apple.app/), where you can find the documentation, video tutorials, and the open-source code. 
 You can also contact the Cozie team at cozie.app@gmail.com for any inquiries or feedback. 
 
 ![cozie](./cozie.png)
