@@ -12,7 +12,7 @@ image: ./clima.png
 description: Blogpost about the HeatWatch application
 ---
 
-We published an article about the [CBE Clima Tool](https://clima.cbe.berkeley.edu), a web-based tool that allows users to access, process, and display climate data from over 30,000 weather stations around the world. 
+We published an article about the [CBE Clima Tool](/docs/tools/cbe-clima-tool), a web-based tool that allows users to access, process, and display climate data from over 30,000 weather stations around the world. 
 The tool provides interactive charts and graphs that show various aspects of the climate, such as temperature, humidity, solar radiation, wind, natural ventilation potential, outdoor comfort, and more. 
 The tool also allows users to download the data and the graphics in various formats, such as CSV and SVG.
 

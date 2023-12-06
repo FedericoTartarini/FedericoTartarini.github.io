@@ -26,7 +26,7 @@ const FeatureList = [
         <Link to={"docs/tools/pythermalcomfort"}>pythermalcomfort</Link>, the{" "}
         <Link to={"docs/tools/cbe-comfort-tool"}>CBE Thermal Comfort Tool</Link>
         , the <Link to={"docs/tools/cbe-clima-tool"}>CBE Clima Tool</Link>,
-        Cozie for Apple and Fitbit, the{" "}
+        Cozie for <Link to={"docs/tools/cozie"}>Apple</Link> and Fitbit, the{" "}
         <Link to={"docs/tools/heatwatch"}>HeatWatch</Link>, and SMA Extreme heat
         tool
       </>

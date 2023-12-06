@@ -25,7 +25,7 @@ I am the main author of several free and open-source tools:
 * [pythermalcomfort](../tools/pythermalcomfort.md) — a Python package to calculate several thermal comfort indices, 
 * the [CBE Thermal Comfort Tool](../tools/cbe-comfort-tool.md) — an online tool for thermal comfort calculations and visualization, 
 * [CBE Clima Tool](../tools/cbe-clima-tool.md) — an online tool for climate data analysis and visualization
-* Cozie for [Apple](https://cozie-apple.app/) and Fitbit — smartwatch application for environmental quality satisfaction and physiological data collection.
+* Cozie for [Apple](../tools/cozie) and Fitbit — smartwatch application for environmental quality satisfaction and physiological data collection.
 * [HeatWatch](../tools/heatwatch.md)
 * [Sports and Medicine Australia Extreme Heat tool](https://sma-heat-policy.sydney.edu.au/)
 

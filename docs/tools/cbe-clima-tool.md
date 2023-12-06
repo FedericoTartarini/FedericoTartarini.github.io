@@ -50,4 +50,4 @@ We invite you to join the large worldwide community that already uses the CBE Cl
 We hope that this tool will help you design more climate-adapted and sustainable buildings. 
 
 ## Reference:
-Betti, G., Tartarini, F., Nguyen, C. et al. CBE Clima Tool: A free and open-source web application for climate analysis tailored to sustainable building design. Build. Simul. (2023). https://doi.org/10.1007/s12273-023-1090-5
+Betti, G., Tartarini, F., Nguyen, C. et al. CBE Clima Tool: A free and open-source web application for climate analysis tailored to sustainable building design. Build. Simul. (2023). [https://doi.org/10.1007/s12273-023-1090-5](https://doi.org/10.1007/s12273-023-1090-5)
