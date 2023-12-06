@@ -38,7 +38,7 @@ LaTeX is a high-quality typesetting system; it includes features designed for th
 
 <iframe width="100%" class="youtube-video" src="https://www.youtube.com/embed/FzWIL3-yir8?si=PZpNfGZRmqFfi7Zx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Here are some reasons why using LaTeX can be more advantageous than Word or Google DOcs for scientific publications:
+Here are some reasons why using LaTeX can be more advantageous than Word or Google Docs for scientific publications:
 
 1. High-quality typesetting: LaTeX is known for its superior typesetting capabilities, especially when it comes to mathematical symbols and equations. This makes it an ideal choice for scientific documents that often contain complex mathematical expressions.
 2. Consistent formatting: LaTeX uses a markup language to define the structure and style of a document. This allows for consistent formatting across the entire document, regardless of its length or complexity.
