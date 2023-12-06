@@ -4,17 +4,36 @@
         <title>Dr Federico Tartarini Blog</title>
         <link>https://FedericoTartarini.github.io/blog</link>
         <description>Dr Federico Tartarini Blog</description>
-        <lastBuildDate>Wed, 06 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Cozie]]></title>
+            <link>https://FedericoTartarini.github.io/blog/2023/12/7/cozie</link>
+            <guid>https://FedericoTartarini.github.io/blog/2023/12/7/cozie</guid>
+            <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blogpost about the HeatWatch application]]></description>
+            <content:encoded><![CDATA[<p>We published an article about <a href="https://federicotartarini.github.io/docs/tools/cozie">Cozie</a> - An iOS application for watch surveys and physiological data collection.</p>
+<p>Cozie is a platform that allows people to complete a watch-based micro-survey and provide real-time feedback about environmental conditions via their Apple Watch in a non-intrusive way in real time.
+It leverages the built-in sensors of the smartwatch to collect physiological (e.g., heart rate, activity) and environmental (sound level) data.
+Cozie also enables researchers and practitioners to send push notifications and reminders to participants, and access data in real-time.</p>
+<iframe width="100%" class="youtube-video" src="https://www.youtube.com/embed/5e4FwVydYRE?si=Wsk6qayHUpCtKyvK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<p>If you are interested in learning more about Cozie, you can visit the <a href="https://cozie-apple.app/" target="_blank" rel="noopener noreferrer">official website</a>, where you can find the documentation, video tutorials, and the open-source code.
+You can also contact the Cozie team at <a href="mailto:cozie.app@gmail.com" target="_blank" rel="noopener noreferrer">cozie.app@gmail.com</a> for any inquiries or feedback.</p>
+<p><img loading="lazy" alt="cozie" src="https://federicotartarini.github.io/assets/images/cozie-65b8d30fffc96321f0919e5c40c72fd1.png" width="1072" height="461" class="img_ev3q"></p>
+<p>Reference
+<a href="https://iopscience.iop.org/article/10.1088/1742-6596/2600/14/142003" target="_blank" rel="noopener noreferrer">Federico Tartarini et al. Cozie Apple: An iOS mobile and smartwatch application for environmental quality satisfaction and physiological data collection 2023 J. Phys.: Conf. Ser. 2600 142003</a></p>]]></content:encoded>
+            <category>tool</category>
+            <category>research</category>
+        </item>
         <item>
             <title><![CDATA[CBE Clima Tool]]></title>
             <link>https://FedericoTartarini.github.io/blog/2023/12/6/clima</link>
             <guid>https://FedericoTartarini.github.io/blog/2023/12/6/clima</guid>
             <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Blogpost about the HeatWatch application]]></description>
-            <content:encoded><![CDATA[<p>We published an article about the <a href="https://clima.cbe.berkeley.edu/" target="_blank" rel="noopener noreferrer">CBE Clima Tool</a>, a web-based tool that allows users to access, process, and display climate data from over 30,000 weather stations around the world.
+            <content:encoded><![CDATA[<p>We published an article about the <a href="https://federicotartarini.github.io/docs/tools/cbe-clima-tool">CBE Clima Tool</a>, a web-based tool that allows users to access, process, and display climate data from over 30,000 weather stations around the world.
 The tool provides interactive charts and graphs that show various aspects of the climate, such as temperature, humidity, solar radiation, wind, natural ventilation potential, outdoor comfort, and more.
 The tool also allows users to download the data and the graphics in various formats, such as CSV and SVG.</p>
 <iframe width="100%" height="350" class="youtube-video" src="https://www.youtube.com/embed/VJ_wOHadVdw?si=fO_gaJd37ytkN93e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
@@ -104,7 +123,7 @@ With jsthermalcomfort, complex calculations in JavaScript become possible withou
             <description><![CDATA[Blogpost about the HeatWatch application]]></description>
             <content:encoded><![CDATA[<p>At the <a href="https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html" target="_blank" rel="noopener noreferrer">Heat and Health Research Incubator</a> with <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a> and our community partners, we are currently developing the HeatWatch, a web application that people in the community can use to calculate their personalised heat health risk.
 The application is free to use, you can access it via this <a href="https://heatwatch.sydney.edu.au/" target="_blank" rel="noopener noreferrer">link</a>.</p>
-<p><img loading="lazy" alt="heatwatch" src="https://federicotartarini.github.io/assets/images/heatwatch-d92e5122dbd501d04c851a9c8a7267c0.png" width="1920" height="1080" class="img_ev3q"></p>
+<iframe width="100%" class="youtube-video" src="https://www.youtube.com/embed/liyCFwcNpGY?si=CRSA64bU9x4SGbdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>A video I created about this project was awarded the "outstanding video" (first prize) in the <a href="https://www.buildingsandcities.org/video-challenge/gallery-2023.html" target="_blank" rel="noopener noreferrer">2023 Video Challenge from the journal Buildings &amp; Cities</a>.</p><p>You can read more about the award on this <a href="https://federicotartarini.github.io/blog/2023/11/22/video-challenge">blog post</a>.</p></div></div>
 <p>Over the 2023-2024 summer, we are planning to reach as many people as possible in the community by advertising the app on social media channels, news, and via our community partners’ networks and connections. The app not only allows people to calculate a personalised heat health risk but also provides detailed recommendations on how to implement low-cost and simple science-based effective cooling strategies.</p>
 <p>While our application is free to use, some of the most vulnerable groups may not be able to access our application using a smartphone, hence, we are also planning to display the HeatWatch on public displays in community centres, libraries, police stations, etc. This will enable us to reach some of the most vulnerable groups. The public display version of the application can be accessed using this <a href="https://heatwatch.sydney.edu.au/display" target="_blank" rel="noopener noreferrer">link</a>.</p>
