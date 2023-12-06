@@ -13,7 +13,7 @@ last_update:
   author: Federico Tartarini
 ---
 
-# BCA Retrofit
+# Redefining Cooling Solutions in Hot Climates
 
 🌀✨ Shaping a Sustainable Future: Redefining Cooling Solutions in Hot Climates 🏢🌞
 

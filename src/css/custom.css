@@ -90,7 +90,13 @@ html[data-theme='dark'] .header--github-link:before {
 
 /* resize youtube videos */
 .youtube-video {
-  height: 410px;
+  height: 550px;
+}
+
+@media screen and (max-width: 1350px) {
+  .youtube-video {
+    height: 450px;
+  }
 }
 
 @media screen and (max-width: 900px) {
