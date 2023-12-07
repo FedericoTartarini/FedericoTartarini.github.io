@@ -14,7 +14,7 @@ description: Blogpost about the HeatWatch application
 
 We published an article about [Cozie](/docs/tools/cozie) - An iOS application for watch surveys and physiological data collection.
 
-Cozie is a platform that allows people to complete a watch-based micro-survey and provide real-time feedback about environmental conditions via their Apple Watch in a non-intrusive way in real time. 
+Cozie is a platform that allows people to complete a watch-based micro-survey and provide real-time feedback about environmental conditions via their Apple Watch in a non-intrusive way. 
 It leverages the built-in sensors of the smartwatch to collect physiological (e.g., heart rate, activity) and environmental (sound level) data. 
 Cozie also enables researchers and practitioners to send push notifications and reminders to participants, and access data in real-time.
 
