@@ -15,13 +15,13 @@
             <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Blogpost about the HeatWatch application]]></description>
             <content:encoded><![CDATA[<p>We published an article about <a href="https://federicotartarini.github.io/docs/tools/cozie">Cozie</a> - An iOS application for watch surveys and physiological data collection.</p>
-<p>Cozie is a platform that allows people to complete a watch-based micro-survey and provide real-time feedback about environmental conditions via their Apple Watch in a non-intrusive way in real time.
+<p>Cozie is a platform that allows people to complete a watch-based micro-survey and provide real-time feedback about environmental conditions via their Apple Watch in a non-intrusive way.
 It leverages the built-in sensors of the smartwatch to collect physiological (e.g., heart rate, activity) and environmental (sound level) data.
 Cozie also enables researchers and practitioners to send push notifications and reminders to participants, and access data in real-time.</p>
 <iframe width="100%" class="youtube-video" src="https://www.youtube.com/embed/5e4FwVydYRE?si=Wsk6qayHUpCtKyvK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 <p>If you are interested in learning more about Cozie, you can visit the <a href="https://cozie-apple.app/" target="_blank" rel="noopener noreferrer">official website</a>, where you can find the documentation, video tutorials, and the open-source code.
 You can also contact the Cozie team at <a href="mailto:cozie.app@gmail.com" target="_blank" rel="noopener noreferrer">cozie.app@gmail.com</a> for any inquiries or feedback.</p>
-<p><img loading="lazy" alt="cozie" src="https://federicotartarini.github.io/assets/images/cozie-65b8d30fffc96321f0919e5c40c72fd1.png" width="1072" height="461" class="img_ev3q"></p>
+<p><img loading="lazy" alt="cozie" src="https://federicotartarini.github.io/assets/images/cozie-9d52b2c9de5bde63d8d87f0700576ef5.png" width="1032" height="588" class="img_ev3q"></p>
 <p>Reference
 <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2600/14/142003" target="_blank" rel="noopener noreferrer">Federico Tartarini et al. Cozie Apple: An iOS mobile and smartwatch application for environmental quality satisfaction and physiological data collection 2023 J. Phys.: Conf. Ser. 2600 142003</a></p>]]></content:encoded>
             <category>tool</category>
