@@ -4,10 +4,34 @@
         <title>Dr Federico Tartarini Blog</title>
         <link>https://FedericoTartarini.github.io/blog</link>
         <description>Dr Federico Tartarini Blog</description>
-        <lastBuildDate>Thu, 07 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Notion Time Tracking]]></title>
+            <link>https://FedericoTartarini.github.io/blog/2024/03/27/notion-time-tracking</link>
+            <guid>https://FedericoTartarini.github.io/blog/2024/03/27/notion-time-tracking</guid>
+            <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blogpost about the importance of tracking time in Notion]]></description>
+            <content:encoded><![CDATA[<p>This video explores a simple yet powerful system for tracking your work time directly within Notion.
+It leverages Notion's built-in database functionality to create a user-friendly system for:</p>
+<ul>
+<li>Streamlined Setup: Learn how to set up an in-line database specifically designed for time tracking.</li>
+<li>Seamless Organization: Connect your time entries to existing project and deliverable databases in Notion for ultimate organization.</li>
+<li>Effortless Tracking: Track your time with intuitive start and stop buttons.</li>
+<li>Flexibility: Make adjustments to time entries retroactively if needed.</li>
+</ul>
+<iframe width="100%" class="youtube-video" src="https://www.youtube.com/embed/KAUN3EzZOA8?si=1EuVv-RI5hbS3mYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<p>This system is perfect for freelancers, remote workers, project managers, or anyone who wants to gain valuable insights into their workflow and improve overall productivity.</p>
+<p>In the video, you'll also find:</p>
+<ul>
+<li>Tips for maximizing efficiency with your Notion time tracking system.</li>
+<li>Real-world examples of how this system can be used in various work scenarios.</li>
+</ul>
+<p>Ready to take back control of your time? Watch the full video tutorial!</p>]]></content:encoded>
+            <category>productivity</category>
+        </item>
         <item>
             <title><![CDATA[Cozie]]></title>
             <link>https://FedericoTartarini.github.io/blog/2023/12/7/cozie</link>
@@ -21,7 +45,7 @@ Cozie also enables researchers and practitioners to send push notifications and 
 <iframe width="100%" class="youtube-video" src="https://www.youtube.com/embed/5e4FwVydYRE?si=Wsk6qayHUpCtKyvK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 <p>If you are interested in learning more about Cozie, you can visit the <a href="https://cozie-apple.app/" target="_blank" rel="noopener noreferrer">official website</a>, where you can find the documentation, video tutorials, and the open-source code.
 You can also contact the Cozie team at <a href="mailto:cozie.app@gmail.com" target="_blank" rel="noopener noreferrer">cozie.app@gmail.com</a> for any inquiries or feedback.</p>
-<p><img loading="lazy" alt="cozie" src="https://federicotartarini.github.io/assets/images/cozie-9d52b2c9de5bde63d8d87f0700576ef5.png" width="1032" height="588" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="cozie" src="https://federicotartarini.github.io/assets/images/cozie-9d52b2c9de5bde63d8d87f0700576ef5.png" width="1032" height="588" class="img_ev3q"></p>
 <p>Reference
 <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2600/14/142003" target="_blank" rel="noopener noreferrer">Federico Tartarini et al. Cozie Apple: An iOS mobile and smartwatch application for environmental quality satisfaction and physiological data collection 2023 J. Phys.: Conf. Ser. 2600 142003</a></p>]]></content:encoded>
             <category>tool</category>
@@ -50,21 +74,21 @@ You can also read the full article at this <a href="https://link.springer.com/ar
             <guid>https://FedericoTartarini.github.io/blog/2023/11/30/airah-awards</guid>
             <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[I was awarded the "outstanding video" (first prize) in the 2023 Video Challenge from the journal Buildings & Cities]]></description>
-            <content:encoded><![CDATA[<p><img loading="lazy" alt="certificate of the award&amp;quot;" src="https://federicotartarini.github.io/assets/images/future-leader-76f33c7eeefac993e8a830477e6b24ba.png" width="2560" height="1705" class="img_ev3q"></p>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="certificate of the award&amp;quot;" src="https://federicotartarini.github.io/assets/images/future-leader-76f33c7eeefac993e8a830477e6b24ba.png" width="2560" height="1705" class="img_ev3q"></p>
 <p>I feel very honoured to be the recipient of two prestigious awards from <a href="https://www.airah.org.au/awards/winners/2023" target="_blank" rel="noopener noreferrer">AIRAH</a>:</p>
 <ul>
 <li>the Future Leader Award and</li>
 <li>the Excellence in HVAC&amp;R Research.</li>
 </ul>
 <p>A heartfelt thank you to AIRAH for recognizing my contribution to this field.</p>
-<div class="img-center"><div style="width:500px"><p><img loading="lazy" alt="certificate of the award" src="https://federicotartarini.github.io/assets/images/airah_awards-36f4957cf86cc894ef48dcb85f0d5940.png" width="1378" height="630" class="img_ev3q"></p></div></div>
+<div class="img-center"><div style="width:500px"><p><img decoding="async" loading="lazy" alt="certificate of the award" src="https://federicotartarini.github.io/assets/images/airah_awards-36f4957cf86cc894ef48dcb85f0d5940.png" width="1378" height="630" class="img_ev3q"></p></div></div>
 <p>The Future Leader award recognises my research which aims to determine how the thermal environment impacts thermalcomfort, productivity, wellbeing, and health; and how to reduce the energy consumption of buildings.</p>
 <p>The Excellence in HVAC&amp;R Research reflects the impact that the tools I had the privilege to create and co-develop are having on the hvac field. This includes the <a href="https://federicotartarini.github.io/docs/tools/cbe-comfort-tool">CBE Thermal Comfort Tool</a>, <a href="https://federicotartarini.github.io/docs/tools/cbe-clima-tool">CBE Clima Tool</a>, <a href="https://federicotartarini.github.io/docs/tools/pythermalcomfort">pythermalcomfort</a>, <a href="https://federicotartarini.github.io/docs/tools/jsthermalcomfort">jsthermalcomfort</a>, Cozie, <a href="https://federicotartarini.github.io/docs/tools/heatwatch">HeatWatch</a>, and SMA Extreme Heat Tool.</p>
-<div class="img-center"><div style="width:300px"><p><img loading="lazy" alt="certificate of the award&amp;quot;" src="https://federicotartarini.github.io/assets/images/IMG_3874-930036fcf3ad590bc5ba4963a6a9303e.jpg" width="2975" height="3002" class="img_ev3q"></p></div></div>
+<div class="img-center"><div style="width:300px"><p><img decoding="async" loading="lazy" alt="certificate of the award&amp;quot;" src="https://federicotartarini.github.io/assets/images/IMG_3874-930036fcf3ad590bc5ba4963a6a9303e.jpg" width="2975" height="3002" class="img_ev3q"></p></div></div>
 <p>The guidance and mentorship of my supervisors have been instrumental in this achievement.
 Professors Gian Luca Morini, Paul Cooper, Richard Fleming, Stefano Schiavon, Clayton Miller, Kwok Wai Tham, and Ollie Jay - your support, guidance, and wisdom have been invaluable.</p>
 <p>In addition, I would like to thank all my present and past colleagues and friends at the University of Bologna (Alma Mater Studiorum – Università di Bologna), University of Wollongong, Center for the Built Environment (CBE), Berkeley Education Alliance for Research in Singapore (BEARS), National University of Singapore, and Heat and Health Research Incubator.</p>
-<p><img loading="lazy" alt="certificate of the award&amp;quot;" src="https://federicotartarini.github.io/assets/images/excellence-award-19e8745b3ac227dc08d476f88f97d2e0.png" width="2560" height="1705" class="img_ev3q"></p>]]></content:encoded>
+<p><img decoding="async" loading="lazy" alt="certificate of the award&amp;quot;" src="https://federicotartarini.github.io/assets/images/excellence-award-19e8745b3ac227dc08d476f88f97d2e0.png" width="2560" height="1705" class="img_ev3q"></p>]]></content:encoded>
             <category>awards</category>
             <category>research</category>
         </item>
@@ -78,13 +102,13 @@ Professors Gian Luca Morini, Paul Cooper, Richard Fleming, Stefano Schiavon, Cla
 <p>The video describes the "HeatWatch" application that I am co-developing at <a href="https://www.sydney.edu.au/medicine-health/our-research/research-centres/heat-and-health-research-incubator.html" target="_blank" rel="noopener noreferrer">Heat and Health Research Incubator</a> with <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a>.
 My video addresses one of the grand challenges the world is currently facing: "Building Resilience to heatwaves and extreme heat".</p>
 <p>You can watch my 2-min video on the <a href="https://www.buildingsandcities.org/video-challenge/gallery-2023.html" target="_blank" rel="noopener noreferrer">Buildings &amp; Cities</a> website.</p>
-<p><img loading="lazy" alt="certificate of the award" src="https://federicotartarini.github.io/assets/images/certificate-09d81698e679462aa16bbb87db10ad20.png" width="8727" height="12373" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="certificate of the award" src="https://federicotartarini.github.io/assets/images/certificate-09d81698e679462aa16bbb87db10ad20.png" width="8727" height="12373" class="img_ev3q"></p>
 <p>The videos were selected by a diverse group of 5 judges.
 Thank you all for watching my video and for giving an extremely positive rating to my video.</p>
 <p>The HeatWatch is a web application that people in the community can use to calculate their personalised heat health risk.
 The application is free to use, you can access it via this <a href="https://heatwatch.sydney.edu.au/" target="_blank" rel="noopener noreferrer">link</a>.
 You can read more about the HeatWatch in <a href="https://federicotartarini.github.io/blog/2023/10/20/heatwatch">this blog post</a>.</p>
-<p><img loading="lazy" alt="heatwatch" src="https://federicotartarini.github.io/assets/images/heatwatch-d92e5122dbd501d04c851a9c8a7267c0.png" width="1920" height="1080" class="img_ev3q"></p>]]></content:encoded>
+<p><img decoding="async" loading="lazy" alt="heatwatch" src="https://federicotartarini.github.io/assets/images/heatwatch-d92e5122dbd501d04c851a9c8a7267c0.png" width="1920" height="1080" class="img_ev3q"></p>]]></content:encoded>
             <category>video</category>
             <category>research</category>
         </item>
@@ -96,7 +120,7 @@ You can read more about the HeatWatch in <a href="https://federicotartarini.gith
             <description><![CDATA[Blogpost about jsthermalcomfort]]></description>
             <content:encoded><![CDATA[<p>Excited to unveil jsthermalcomfort! 🚀 Built upon <a href="https://federicotartarini.github.io/docs/tools/pythermalcomfort">pythermalcomfort</a>, jsthermalcomfort is crafted to facilitate seamless and precise thermophysiological modelling in JavaScript.
 With jsthermalcomfort, complex calculations in JavaScript become possible without the need for redundant programming efforts.</p>
-<p><img loading="lazy" alt="jsthermalcomfort" src="https://federicotartarini.github.io/assets/images/jsthermalcomfort-1d0714ccb6e5ad679e8d676a4f81d5ba.png" width="752" height="422" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="jsthermalcomfort" src="https://federicotartarini.github.io/assets/images/jsthermalcomfort-1d0714ccb6e5ad679e8d676a4f81d5ba.png" width="752" height="422" class="img_ev3q"></p>
 <p>Thanks to: <a href="https://www.linkedin.com/in/ollie-jay-793a1b11/" target="_blank" rel="noopener noreferrer">Ollie Jay</a>, <a href="https://www.linkedin.com/in/stefanoschiavon/" target="_blank" rel="noopener noreferrer">Stefano Schiavon</a>, Omar Acuache, Ruoshui Chen, Lucas Lu, Yuchen MU, Jordan Ocokoljic, Santiago Zaldivar De Alba, Akihisa Nomoto</p>]]></content:encoded>
             <category>heat</category>
             <category>research</category>
