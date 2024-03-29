@@ -153,6 +153,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ["latex"],
       },
     }),
   stylesheets: ["https://fonts.googleapis.com/icon?family=Material+Icons"],
