@@ -83,6 +83,25 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: "LaTeX",
+    link: "docs/category/latex",
+    Svg: require("@site/static/img/undraw_add_document_re_mbjx.svg").default,
+    description: (
+      <>
+        I am passionate about LaTeX and I have created a series of{" "}
+        <Link to={"docs/category/latex"}>tutorials</Link> and{" "}
+        <Link
+          to={
+            "https://www.youtube.com/playlist?list=PLY91jl6VVD7wnyOlAgPRe-i9ov4_ZqHV8"
+          }
+        >
+          videos
+        </Link>{" "}
+        to help you get started with LaTeX.
+      </>
+    ),
+  },
 ];
 
 function Feature({ Svg, title, description, link }) {
@@ -105,7 +124,7 @@ export default function HomepageFeatures() {
   return (
     <>
       {FeatureList.map((props, idx) => (
-        <Grid key={idx} xs={12} sm={10} md={4}>
+        <Grid key={idx} xs={12} sm={10} md={6}>
           <Feature key={idx} {...props} />
         </Grid>
       ))}
