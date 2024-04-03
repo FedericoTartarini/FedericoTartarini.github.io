@@ -272,22 +272,29 @@ The `\includegraphics{}` command is used to include an image in the document.
 The `\caption{}` command is used to add a caption to the image.
 The `\label{}` command is used to add a label to the image, which can be referenced elsewhere in the document.
 
-You can also use the subfigure package to include multiple images in a single figure:
+You can also use include multiple images in a single figure using the following command
+
+```latex
+\usepackage{caption}
+\usepackage{subcaption}
+```
 
 ```latex
 \begin{figure}
-\begin{subfigure}{0.5\textwidth}
-\includegraphics{image1.png}
-\caption{Caption for image 1.}
-\label{fig:image1}
-\end{subfigure}
-\begin{subfigure}{0.5\textwidth}
-\includegraphics{image2.png}
-\caption{Caption for image 2.}
-\label{fig:image2}
-\end{subfigure}
-\caption{This is a caption for the figure.}
-\label{fig:figure}
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/mountain}
+        \caption{Caption for image 1.}
+        \label{fig:image1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/figure}
+        \caption{Caption for image 2.}
+        \label{fig:image2}
+    \end{subfigure}
+    \caption{This is a caption for the figure.}
+    \label{fig:sub-figure}
 \end{figure}
 ```
 
@@ -527,6 +534,28 @@ To reference the labeled item elsewhere in the document, you would use the follo
 
 This allows you to easily create cross-references within your document and ensure that they are automatically updated if the numbering or order of items changes.
 
+However, an even better solution is to use the `cleverref` package.
+
+```latex
+\usepackage{cleveref}
+```
+
+It works very similarly to the `\ref{}` command, but it is more powerful and flexible.
+It allows us for example to reference multiple items at once.
+
+```latex
+\cref{sec:introduction}  % Lowercase
+\Cref{sec:introduction}  % Capitalized
+\cref{eq:equation,fig:figure,tab:table}  % Multiple items
+```
+
+The command `\cref{}` will automatically detect the type of the item and add the appropriate prefix (e.g., "Section", "Equation", "Figure", "Table").
+If you want you can customize the prefix using the following command:
+
+```latex
+\usepackage[capitalise,noabbrev]{cleveref}
+```
+
 ## Dividing your document into multiple files
 
 LaTeX provides the `\input{}` and `\include{}` commands for dividing a document into multiple files.
@@ -643,10 +672,10 @@ To create a nomenclature in a LaTeX document, you would follow these steps:
 \section*{Nomenclature}
 
 \renewcommand{\baselinestretch}{0.75}\normalsize
-\begin{acronyn}[longest]
-\acro{HTML}{Hypertext Markup Language}
-\acro{t}[$t_{db}$]{dry-bulb temperature \acroextra{[°C]}
-\end{acronyn}
+    \begin{acronym}[longest]
+    \acro{HTML}{Hypertext Markup Language}
+    \acro{t}[$t_{db}$]{dry-bulb temperature \acroextra{[°C]}}
+    \end{acronym}
 \renewcommand{\baselinestretch}{1}\normalsize
 ```
 
@@ -680,7 +709,7 @@ To create a glossary in a LaTeX document, you would follow these steps:
 
 \newglossaryentry{latex}
 {
-  name=\latex,
+  name=latex,
   description={A document preparation system}
   plural=LaTeX
 }
@@ -816,7 +845,7 @@ To include source code in a LaTeX document, you would follow these steps:
 3. Include the source code in the document using the `lstlisting` environment:
 
 ```latex
-\begin{lstlisting}[language=Python, caption={Hello, world!}, label={lst:hello}, mathescape=true, breaklines=true, numbers=left, numberstyle=\tiny, numbersep=5p]
+\begin{lstlisting}[language=Python, caption={Hello, world!}, label={lst:hello}, mathescape=true, breaklines=true, numbers=left, numberstyle=\tiny, numbersep=5]
 def hello_world():
     print("Hello, world!")
 \end{lstlisting}
@@ -852,6 +881,12 @@ You can also import the source code from a file using the following command:
 
 ```latex
 \inputminted{python}{source_code.py}
+```
+
+or 
+
+```latex
+\lstinputlisting[label={lst:lstinputlisting2}, caption={My code to plot figures}]{../code/figure.py}
 ```
 
 If you want to learn more on how to include source code in LaTeX documents, I recommend watching my video on this topic.
@@ -934,20 +969,29 @@ To create a flowchart in a LaTeX document, you would follow these steps:
 
 ```latex
 \usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{startstop} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
 ```
 
 2. Define the nodes and edges of the flowchart using TikZ commands:
 
 ```latex
-\begin{tikzpicture}
-\node (start) [startstop] {Start};
-\node (process) [process, below of=start] {Process};
-\node (decision) [decision, below of=process] {Decision};
-\node (end) [startstop, below of=decision] {End};
-\draw [arrow] (start) -- (process);
-\draw [arrow] (process) -- (decision);
-\draw [arrow] (decision) -- node {Yes} (end);
-\end{tikzpicture}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}
+            \node (start) [startstop] {Start};
+            \node (process) [below of=start] {Process};
+            \node (decision) [process, below of=process] {Decision};
+            \node (end) [below of=decision] {End};
+            \draw [arrow] (start) -- (process);
+            \draw [arrow] (process) -- (decision);
+            \draw [arrow] (decision) -- (end);
+        \end{tikzpicture}
+        \caption{This is a flowchart.}
+        \label{fig:flowchart}
+    \end{figure}
 ```
 
 3. Customize the appearance and formatting of the flowchart using TikZ commands.
@@ -1007,8 +1051,8 @@ To collaborate on a LaTeX document and review changes, you would follow these st
 % \usepackage[colorinlistoftodos,prependcaption,textsize=tiny,disable]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
 \newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
-\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
-\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=green,backgroundcolor=green!25,bordercolor=green,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=gray,backgroundcolor=gray!25,bordercolor=gray,#1]{#2}}
 \newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
 
 \newcommand\mynotes[1]{\textcolor{red}{#1}}
