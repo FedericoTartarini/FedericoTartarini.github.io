@@ -1,5 +1,5 @@
 ---
-title: From Zero to Hero
+title: LaTeX Masterclass
 position: 3
 tags:
     - latex
