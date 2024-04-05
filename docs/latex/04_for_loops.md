@@ -67,8 +67,8 @@ This loop performs a certain number of repetitions based on a start, stop value,
 
 Explanation:
 
-\multido{\i=6+5}{3} defines the loop with:
-\i: loop variable starting at 6 and incrementing by 5.
+`\multido{\i=6+5}{3}` defines the loop with:
+`\i`: loop variable starting at 6 and incrementing by 5.
 3: number of repetitions.
 The loop body is similar to the foreach loop.
 
@@ -96,7 +96,7 @@ The loop body is similar to the foreach loop.
 Explanation:
 
 This loop iterates 10 times from 1 with an increment of 1.
-The `\ifthenelse` command checks a condition (\i < 5).
+The `\ifthenelse` command checks a condition (`\i` < 5).
 If true, "smaller" is printed.
 If false, "bigger" is printed.
 Note: This example requires the `forloop` package, which might not be standard.
@@ -207,7 +207,7 @@ You will need to include the TikZ package in your document preamble.
 
 You can then create the following grid:
 
-![TikZ Grid](./img/tikz-grid_color_arrows.png)
+![TikZ Grid](./img/tikz_grid_color_arrows.png)
 
 ```latex
 \begin{figure}
@@ -244,7 +244,7 @@ This example requires the TikZ package, which is commonly used for creating grap
 
 Alternatively you can use the following code to create a grid of nodes with different colors:
 
-![TikZ Grid](./img/tikz-grid_gray_numbers.png)
+![TikZ Grid](./img/tikz_grid_gray_numbers.png)
 
 ```latex
 \begin{figure}
@@ -265,7 +265,7 @@ Alternatively you can use the following code to create a grid of nodes with diff
 
 Finally, you can also use the `tikz grap` library to create a graph of nodes:
 
-![TikZ Graph](./img/tikz-graph.png)
+![TikZ Graph](./img/tikz_graph.png)
 
 ```latex
 \begin{figure}
