@@ -22,10 +22,12 @@ These commands are helpful for automating repetitive tasks and including conditi
 ### foreach Loop (package: pgffor)
 This loop iterates over a comma-separated list and executes a block of code for each item.
 
-#### Example 1: Printing Numbers 1 to 3
+#### Example 1: Printing Numbers 1 to 5
 
 ```latex
-\foreach \i in {1,...,3}{Print whatever you want here, \i.} \\
+\foreach \i in {1,...,5}{
+    $\i$ ,
+}
 ```
 
 #### Example 2: Listing Fruits
@@ -88,8 +90,8 @@ The loop body is similar to the foreach loop.
 `\ifthenelse{condition}{true}{false}` is a conditional statement that prints "true" if the condition is met and "false" otherwise.
 
 ```latex
-\multido{\i=1+1}{10}{%
-   \ifthenelse{\i < 5}{smaller}{bigger} \\
+\multido{\i=1+2}{10}{%
+   $\i$ is \ifthenelse{\i < 5}{smaller}{bigger} than 5\\
 }
 ```
 
@@ -180,7 +182,7 @@ This approach is useful when you have a list of figures that you want to include
 It also allows to easily provide a custom caption for each subfigure.
 
 ```latex
-\def\names{{figure1/caption1},{figure2/caption2},{figure3/caption3},{test/my caption}}
+\def\names{{figure1/my caption for figure 1},{figure2/caption2},{figure3/caption3},{test/my caption}}
 
 \begin{figure}
     \foreach \name/\subcap in \names {%
@@ -279,10 +281,58 @@ Finally, you can also use the `tikz grap` library to create a graph of nodes:
 \end{figure}
 
 \begin{tikzpicture}
-    \graph [simple necklace layout, nodes={draw, circle, fill=gray!40, minimum size=20}] {
+    \graph [nodes={draw, circle, fill=gray!40, minimum size=20}] {
         1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10;
     };
 \end{tikzpicture}
 \caption{Numbers in line}\label{fig:figure}
 ```
 
+## Python code
+
+The Python code I used in the video is below:
+
+```python
+import glob
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+t = np.arange(0., 5., 0.2)
+
+for i in range(1,4):
+    plt.figure()
+    plt.plot(t, t**i, 'r--', label=f"t^{i}")
+    plt.savefig(f"./figures/figure{i}.png")
+
+
+plt.figure()
+plt.plot([0,-10], [0, 10])
+plt.savefig(f"./figures/test.png")
+
+with open("./figures/sub_figures.tex", "w") as f:
+    figures = glob.glob("./figures/*.png")
+    f.write("\\begin{figure} \n")
+    for figure in sorted(figures):
+        f.write("\\begin{subfigure}[p]{0.47\\textwidth} \n")
+        f.write("\\includegraphics[width=\\linewidth]{" + figure +"} \n")
+        f.write("\\caption{} \n")
+        f.write("\\end{subfigure}\\quad \n")
+    f.write("\\caption{Main figure caption}\\label{fig:subfig_0} \n")
+    f.write("\\end{figure} \n")
+
+
+def add_figure(fig_name, size=1):
+    return f"""
+        \\begin{{figure}}[htb!]
+        \\centering
+        \\includegraphics[width={size}\\linewidth]{{{fig_name}}}
+        \\caption{{Your Caption Here}} 
+        \\end{{figure}}
+        """
+
+f = open("./figures/figures.tex", "w")
+for figure in glob.glob("./figures/*.png"):
+    f.write(add_figure(figure, 0.5))
+f.close()
+```
