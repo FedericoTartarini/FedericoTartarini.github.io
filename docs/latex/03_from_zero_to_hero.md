@@ -20,6 +20,8 @@ last_update:
 
 ## Introduction
 
+<iframe width="100%" class="youtube-video" src="https://www.youtube.com/embed/CjuYkcA35dw?si=VRVIjEF-pjF5g-0B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### What is LaTeX
 
 LaTeX is a typesetting system commonly used for scientific and mathematical documents due to its ability to render complex mathematical expressions. 
