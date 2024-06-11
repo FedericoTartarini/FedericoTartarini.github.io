@@ -58,8 +58,6 @@ This document explains my work style, values, strengths, weaknesses, and ambitio
 
 [//]: # (* Writing)
 
-[//]: # (* Building simulations)
-
 ### 📈 My ambitions
 
 I would like to become a world recognized expert in the field of thermal comfort and human thermal physiology.

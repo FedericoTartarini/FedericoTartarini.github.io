@@ -10,6 +10,7 @@ import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import styles from "./styles.module.css";
+import AnimatedSvg from "../animatedSvg";
 
 const React = require("react");
 const { useState, useEffect } = React;
@@ -67,13 +68,24 @@ export default function HomepageHeader() {
           >
             <img
               alt={"federico tartarini"}
-              src={useBaseUrl("/img/federico.png")}
+              src={useBaseUrl("/img/federico.jpg")}
               style={{
                 borderRadius: "50%",
                 maxWidth: "225px",
                 textAlign: "center",
               }}
             />
+
+            <div
+              style={{
+                position: "absolute",
+                zIndex: 200,
+                transform: `translate(220px, -75px)`,
+                width: "100px",
+              }}
+            >
+              <AnimatedSvg />
+            </div>
           </Grid>
           <svg
             width="1000"
