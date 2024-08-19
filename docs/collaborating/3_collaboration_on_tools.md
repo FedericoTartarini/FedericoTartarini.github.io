@@ -19,209 +19,106 @@ This page is an instruction manual for collaborating with me on GitHub.
 
 :::
 
-## 🏄 How I collaborate on GitHub
+## How to collaborate with me on GitHub
 
 I am a strong advocate for using GitHub as a collaboration platform for research projects.
 GitHub provides a range of tools and features that can help streamline the research process and enhance collaboration among team members.
 I believe that GitHub can be a powerful tool for version control, issue tracking, code review, and project management.
 I am not a computer scientist so if you have any suggestions on how to improve our workflow, please let me know.
 
-## How to contribute to a GitHub repository
+## How to get started with GitHub
 
-If you are new to GitHub or need a refresher on how to contribute to a repository, here are some basic steps to get you started:
+1. **Create a GitHub account**: If you don't already have a GitHub account.
+2. **Familiarise yourself with GitHub**: If you are new to GitHub, I recommend taking some time to explore the platform and learn about its key features.
+3. **Install Git**: Git is a version control system that is used to manage code repositories on GitHub. You can download Git from the [official website](https://git-scm.com/).
+4. **Fork and Clone the repository**: Once you have a GitHub account and Git installed, you can clone the repository for our research project to your local machine using the following command:
+   ```bash
+   git clone
+    ```
+5. **Create a new branch**: Before making any changes to the codebase, create a new branch to work on. This will help keep your changes separate from the main codebase and make it easier to track your progress.
 
-# First Contributions
+:::note
 
-This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
+Use a descriptive branch name that reflects the purpose of your changes.
+For example, if you are working on a new feature, you could name your branch `feature/new-feature`.
 
-_If you're not comfortable with command line you can use a GUI client like [GitHub Desktop](https://desktop.github.com/) or [GitKraken](https://www.gitkraken.com/)._
+:::
 
-#### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
+7. **Make your changes**: Once you have created a new branch, you can start making changes to the codebase. Be sure to follow the project's coding conventions and guidelines.
 
-## Fork this repository
+:::tip
 
-<img align="right" width="300" src="img/fork.png" alt="fork this repository" />
+For example, if you are write Python code use [Black](https://black.readthedocs.io/en/stable/) to format your code.
 
-Fork this repository by clicking on the fork button on the top of this page.
+:::
 
-This will create a copy of this repository in your account.
+7. **Commit your changes**: After making your changes, commit them to your branch using the following command:
+:::warning
 
+Use concise and descriptive commit messages to explain the purpose of your changes.
+Use Conventional Commits to make it easier to track changes and generate changelogs.
 
-## Clone the repository
+:::
+   ```bash
+   git commit -m "feat: Your commit message here"
+   ```
 
+8. **Push your changes**: Once you have committed your changes, push them to the remote repository using the following command:
+   ```bash
+    git push origin your-branch-name
+    ```
+9. **Create a pull request**: After pushing your changes, create a pull request on GitHub to merge your changes into the main codebase. Be sure to provide a detailed description of your changes and any relevant context.
 
-<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
+:::danger
 
+The pull request should include the following information:
 
-<img align="right" width="300" src="assets/img/fork.png" alt="fork this repository" />
+# Description
 
-[//]: # ()
-[//]: # (Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.)
+Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-[//]: # ()
-[//]: # (Open a terminal and run the following git command:)
+Fixes # (issue)
 
-[//]: # ()
-[//]: # (```bash)
+## Type of change
 
-[//]: # (git clone "url you just copied")
+Please delete options that are not relevant.
 
-[//]: # (```)
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
 
-[//]: # ()
-[//]: # (where "url you just copied" &#40;without the quotation marks&#41; is the url to this repository &#40;your fork of this project&#41;. See the previous steps to obtain the url.)
+# How Has This Been Tested?
 
-[//]: # ()
-[//]: # (<img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />)
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
 
-[//]: # ()
-[//]: # (For example:)
+- [ ] Test A
+- [ ] Test B
 
-[//]: # ()
-[//]: # (```bash)
+**Test Configuration**:
+* Firmware version:
+* Hardware:
+* Toolchain:
+* SDK:
 
-[//]: # (git clone git@github.com:this-is-you/first-contributions.git)
+# Checklist:
 
-[//]: # (```)
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] Any dependent changes have been merged and published in downstream modules
 
-[//]: # ()
-[//]: # (where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.)
+:::
+10. **Review and merge**: Once you have created a pull request, the code owners will review your changes and provide feedback. If everything looks good, they will merge your changes into the main codebase.
+:::danger
 
-[//]: # ()
-[//]: # (## Create a branch)
+Never merge your own pull request. Always wait for the code owners to review and approve your changes before merging.
 
-[//]: # ()
-[//]: # (Change to the repository directory on your computer &#40;if you are not already there&#41;:)
+:::
 
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (cd first-contributions)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (Now create a branch using the `git switch` command:)
-
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (git switch -c your-new-branch-name)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (For example:)
-
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (git switch -c add-alonzo-church)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (## Make necessary changes and commit those changes)
-
-[//]: # ()
-[//]: # (Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.)
-
-[//]: # ()
-[//]: # (<img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />)
-
-[//]: # ()
-[//]: # (If you go to the project directory and execute the command `git status`, you'll see there are changes.)
-
-[//]: # ()
-[//]: # (Add those changes to the branch you just created using the `git add` command:)
-
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (git add Contributors.md)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (Now commit those changes using the `git commit` command:)
-
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (git commit -m "Add your-name to Contributors list")
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (replacing `your-name` with your name.)
-
-[//]: # ()
-[//]: # (## Push changes to GitHub)
-
-[//]: # ()
-[//]: # (Push your changes using the command `git push`:)
-
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (git push -u origin your-branch-name)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (replacing `your-branch-name` with the name of the branch you created earlier.)
-
-[//]: # ()
-[//]: # (<details>)
-
-[//]: # (<summary> <strong>If you get any errors while pushing, click here:</strong> </summary>)
-
-[//]: # ()
-[//]: # (- ### Authentication Error)
-
-[//]: # (     <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.)
-
-[//]: # (  remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.)
-
-[//]: # (  fatal: Authentication failed for 'https://github.com/<your-username>/first-contributions.git/'</pre>)
-
-[//]: # (  Go to [GitHub's tutorial]&#40;https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account&#41; on generating and configuring an SSH key to your account.)
-
-[//]: # ()
-[//]: # (</details>)
-
-[//]: # ()
-[//]: # (## Submit your changes for review)
-
-[//]: # ()
-[//]: # (If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.)
-
-[//]: # ()
-[//]: # (<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" alt="create a pull request" />)
-
-[//]: # ()
-[//]: # (Now submit the pull request.)
-
-[//]: # ()
-[//]: # (<img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />)
-
-[//]: # ()
-[//]: # (Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.)
-
-[//]: # ()
-[//]: # (## Where to go from here?)
-
-[//]: # ()
-[//]: # (Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll often encounter as a contributor!)
-
-[//]: # ()
-[//]: # (Celebrate your contribution and share it with your friends and followers by going to [web app]&#40;https://firstcontributions.github.io/#social-share&#41;.)
-
-[//]: # ()
-[//]: # (You could join our slack team if you need any help or have any questions. [Join slack team]&#40;https://firstcontributors.slack.com/join/shared_invite/zt-29qhyr9lt-Bi7WLbgGIFqV7aCEG_grvg#/shared-invite/email&#41;.)
-
-[//]: # ()
-[//]: # (Now let's get you started with contributing to other projects. We've compiled a list of projects with easy issues you can get started on. Check out [the list of projects in the web app]&#40;https://firstcontributions.github.io/#project-list&#41;.)
-
-[//]: # ()
-[//]: # (### [Additional material]&#40;additional-material/git_workflow_scenarios/additional-material.md&#41;)
+11. **Stay up to date**: Be sure to pull the latest changes from the main codebase regularly to stay up to date with the project's progress.
+12. **Collaborate**: GitHub provides a range of collaboration tools, such as issues, projects, and wikis, that can help streamline the research process and enhance collaboration among team members. Be sure to take advantage of these tools to stay organised and communicate effectively with your team.
