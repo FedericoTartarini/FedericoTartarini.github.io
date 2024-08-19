@@ -1,8 +1,8 @@
 ---
-sidebar_position: 7
-title: How to Work with Me
+sidebar_position: 1
+title: My README
 tags:
-  - collaboration   
+  - collaboration
 keywords: 
   - Federico Tartarini collaboration
   - professional collaboration
@@ -15,7 +15,7 @@ last_update:
 
 [//]: # (source: https://almanac.io/docs/employee-user-guide-readme-template-wOCvnGFTG3sSWHFv4US6Z2tNl9QzWcCd)
 
-# Federico Tartarini (Readme)
+# About me - Federico Tartarini (Readme)
 
 :::info
 
@@ -50,13 +50,6 @@ This document explains my work style, values, strengths, weaknesses, and ambitio
 * Last-minute requests
 * People who don't respect deadlines or schedules
 * Waste time in tasks that can be automated
-
-[//]: # (### 🌱 My weaknesses)
-
-[//]: # ()
-[//]: # (* Statistics)
-
-[//]: # (* Writing)
 
 ### 📈 My ambitions
 
@@ -131,17 +124,12 @@ I do not know how to use these tools:
 
 ## ⬅️ From you to me
 
-### 🐇 Motivators
+Please let me know how you like to work and what I can do to help you be successful.
+Please share your preferred communication style, feedback preferences, and any other information that will help us work together effectively and try to answer the following questions:
 
-What feedback styles, content, and channels give you energy and make you the best version of yourself at work?
-
-### 🐢 Demotivators
-
-What feedback styles, content, and channels do you find the most challenging to see as constructive at work?
-
-### 📝 Areas of note
-
-What things are you looking for feedback?
+* 🐇 **Motivators**: What feedback styles, content, and channels give you energy and make you the best version of yourself at work? 
+* 🐢 **Demotivators**: What feedback styles, content, and channels do you find the most challenging to see as constructive at work?
+* 📝 **Areas of note**: What things are you looking for feedback?
 
 ## ➡️ From me to you
 
@@ -192,35 +180,3 @@ I love:
 * watch educational videos
 * listen to podcasts
 * publish YouTube videos
-
-[//]: # (How do you try to live your life?)
-
-[//]: # ()
-[//]: # ()
-[//]: # (What and who are important to you outside of work?)
-
-[//]: # ()
-[//]: # ()
-[//]: # (Favorite book you've read this year?)
-
-[//]: # ()
-[//]: # ()
-[//]: # (Favorite experience you've had this year?)
-
-[//]: # ()
-[//]: # ()
-[//]: # (What is one silly or idiosyncratic thing about you?)
-
-[//]: # (🌟 Reporting to me &#40;if applicable&#41;)
-
-[//]: # ()
-[//]: # (What should those on your team expect from you? What does it look like and feel like?)
-
-[//]: # ()
-[//]: # (What are your expectations of those on your team?)
-
-[//]: # ()
-[//]: # (If your management style were an animal, what animal would it be? Please add an image here.)
-
-[//]: # ()
-[//]: # (Feel free to add H3s as needed to keep this organized.)
