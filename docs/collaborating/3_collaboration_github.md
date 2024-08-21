@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: Collaboration on Tools
+sidebar_position: 3
+title: Collaboration on GitHub
 tags:
   - supervision
 keywords: 
