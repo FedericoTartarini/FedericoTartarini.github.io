@@ -52,22 +52,36 @@ For example, if you are write Python code use [Black](https://black.readthedocs.
 
 :::
 
-7. **Commit your changes**: After making your changes, commit them to your branch using the following command:
-:::warning
+8. **Commit your changes**: After making your changes, commit them to your branch using the following command:
 
-Use concise and descriptive commit messages to explain the purpose of your changes.
-Use Conventional Commits to make it easier to track changes and generate changelogs.
-
-:::
-   ```bash
-   git commit -m "feat: Your commit message here"
+   In Git, a commit is referring to the state of your code at one specific point in time. Commits with the metadata (author, timestamp, commit message etc). Commits are used for saving progression, stating changes and merging developed pieces with others work.
+   
+   * **A Good Commit should**:
+      * **A commit should be atomic** - it has to represent one and only one logical change. Do not mix several independent changes in one commit.
+      * **Descriptive** - the commit message should be descriptive and concise. It should explain what the commit does and why it is necessary. It should be written in the imperative mood.
+      * **Follow Conventional Commit Guidelines** - the commit message should follow the [Conventional Commit Guidelines](https://www.conventionalcommits.org/en/v1.0.0/). This will help to automate the release process and generate a changelog. Usually these guidelines interpret in the form of type (feat, fix, chore, refactor docs), and short summary plus occasionally a long explanation
+      * **Tested** - the commit should be tested and should not break the existing codebase. It should not introduce new bugs.
+      * **Properly scoped** - for example, if you are fixing a bug then the commit message should start with `fix:`, and it should fix the bug in a single commit. If you are adding a new feature, then the commit message should start with `feat:` and it should add the feature in a single commit.
+   
    ```
+   # Good commit
+   git commit -m "feat(login): Add user authentication"
+   # Bad commit - missing conventional commit standards, and includes two logic changes
+   git commit -m "Add user authentication and update UI styles"
+   ```
+   
+   * **A Bad Commit is**:
+      * **Too big** - it is too big and includes several independent changes.
+      * **Not descriptive** - the commit message is not descriptive and does not explain what the commit does.
+      * **Vague** - the commit message is vague and does not provide enough information about the changes.
+      * **Not tested** - the commit contains incomplete code and/or is not tested and introduces new bugs.
+      * **Combines unrelated changes** - the commit combines unrelated changes in a single commit.
 
-8. **Push your changes**: Once you have committed your changes, push them to the remote repository using the following command:
+9. **Push your changes**: Once you have committed your changes, push them to the remote repository using the following command:
    ```bash
     git push origin your-branch-name
     ```
-9. **Create a pull request**: After pushing your changes, create a pull request on GitHub to merge your changes into the main codebase. Be sure to provide a detailed description of your changes and any relevant context.
+10. **Create a pull request**: After pushing your changes, create a pull request on GitHub to merge your changes into the main codebase. Be sure to provide a detailed description of your changes and any relevant context.
 
 :::danger
 
@@ -113,12 +127,12 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Any dependent changes have been merged and published in downstream modules
 
 :::
-10. **Review and merge**: Once you have created a pull request, the code owners will review your changes and provide feedback. If everything looks good, they will merge your changes into the main codebase.
+11. **Review and merge**: Once you have created a pull request, the code owners will review your changes and provide feedback. If everything looks good, they will merge your changes into the main codebase.
 :::danger
 
 Never merge your own pull request. Always wait for the code owners to review and approve your changes before merging.
 
 :::
 
-11. **Stay up to date**: Be sure to pull the latest changes from the main codebase regularly to stay up to date with the project's progress.
-12. **Collaborate**: GitHub provides a range of collaboration tools, such as issues, projects, and wikis, that can help streamline the research process and enhance collaboration among team members. Be sure to take advantage of these tools to stay organised and communicate effectively with your team.
+12. **Stay up to date**: Be sure to pull the latest changes from the main codebase regularly to stay up to date with the project's progress.
+13. **Collaborate**: GitHub provides a range of collaboration tools, such as issues, projects, and wikis, that can help streamline the research process and enhance collaboration among team members. Be sure to take advantage of these tools to stay organised and communicate effectively with your team.
