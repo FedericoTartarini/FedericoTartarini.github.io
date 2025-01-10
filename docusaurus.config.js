@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Dr Federico Tartarini",
   tagline:
-    "Senior Research Associate - Heat & Health Research Incubator at the University of Sydney",
+    "Senior Lecturer | Horizon Fellow, The University of Sydney",
   favicon: "img/logo.png",
 
   // Set the production url of your site here

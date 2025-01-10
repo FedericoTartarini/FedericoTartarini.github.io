@@ -118,19 +118,25 @@ export default function HomepageHeader() {
           >
             <h1 className="hero__title">{siteConfig.title}</h1>
 
-            <h3>
-              Senior Research Associate - Heat & Health Research Incubator at
-              the University of Sydney
-            </h3>
+            <h2>
+              Senior Lecturer | Horizon Fellow | Engineer | YouTuber
+            </h2>
 
-            <p>
-              An Energy Engineer specializing in indoor environmental quality,
-              thermal comfort, and human thermophysiology. I aim to create
-              occupant-centric solutions for improving building performance,
-              occupants' comfort, health, well-being, and productivity.
-            </p>
+                <h3>School of Architecture Design and Planning <br/> The University of Sydney</h3>
 
-            <Grid
+              <p>
+                  I specialise in indoor environmental quality (IEQ), thermal comfort, human thermophysiology, and
+                  building performance research.
+                  My mission is to develop occupant-centric tools and solutions that improve thermal comfort, health,
+                  productivity, and overall well-being in built environments. <br/><br/>
+                  My research integrates experimental, computational, and field studies to examine how indoor
+                  environments influence human performance and health outcomes.
+                  I am passionate about bridging research
+                  and practice together, hence, I am the main author of several widely used <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"/docs/category/tools"}>open-source tools</Link>. <br/><br/>
+                  I am also a <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"https://www.youtube.com/c/FedericoTartarini"}>YouTuber</Link>, there I share my research and teaching experiences with a global audience.
+                </p>
+
+              <Grid
               container
               justifyContent="center"
               alignItems="center"
