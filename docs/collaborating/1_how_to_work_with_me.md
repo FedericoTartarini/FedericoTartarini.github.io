@@ -24,159 +24,134 @@ This document explains my work style, values, strengths, weaknesses, and ambitio
 
 :::
 
+## 🌟 My Vision
+
+I aim to make thermal comfort research more accessible by bridging the gap between academia and real-world applications.
+My mission is to develop occupant-centric tools and solutions that improve thermal comfort, health, productivity, and overall well-being in built environments.
+
 ## 🏄‍♂️ My work style
 
 ### 🙏 My values
 
-* Efficiency
-* Transparency
-* Collaboration
-* Growth
-* Time management
+* **Efficiency**: I aim to optimise my time and focus on impactful tasks.
+* **Transparency**: I value open and honest communication.
+* **Collaboration**: Teamwork drives innovation and success.
+* **Growth**: Continuous learning and improvement are key to my professional journey.
+* **Time management**: Respecting schedules and deadlines ensures productivity and balance.
 
 ### 💪 My strengths
 
-* Problem-solving
-* Critical thinking
-* Organised
-* Programming
-* Web development
-* Data analysis
+* Analytical problem-solving
+* Critical thinking and attention to detail
+* Organised and methodical work habits
+* Expertise in programming, data analysis, and web development
 
-### 🚫 What I don't like
+### 🚫 What I avoid
 
-* Spending time on unproductive meetings
-* Working on multiple projects at the same time
+* Prolonged unproductive meetings
+* Juggling too many projects simultaneously
 * Last-minute requests
-* People who don't respect deadlines or schedules
-* Waste time in tasks that can be automated
+* Disregard for deadlines or schedules
+* Manual tasks that could be automated
 
-### 📈 My ambitions
+### 📈 My aspirations
 
-I would like to become a world recognized expert in the field of thermal comfort and human thermal physiology.
-I would like to keep developing online tools and software to help researchers and practitioners in the field of thermal comfort.
+* Establish myself as a globally recognised expert in thermal comfort and human thermal physiology.
+* Develop innovative online tools and software that empower researchers and practitioners in my field.
+
+---
 
 ## ☎️ Communicating with me
 
-### 📺 Channels
+### 📺 Preferred Channels
 
-Please only communicate with me through the following channels:
-* 📨 Emails - I check my emails in the morning every day and I try to reply within 24 hours. 
-    - ⇉ Please do not reply to all in emails unless it's necessary.
-    - 📧 Please use a clear subject line.
-    - • Please use bullet points for multiple questions or requests.
-    - 🙏 No need to send "Thank you" emails. I trust you appreciate my work.
-    - 🩳 Short emails to the point email are better.
-* 📞 Phone calls - if it's urgent, please call me.
+* 📨 **Email**: I check emails every morning and typically reply within 24 hours.
+  - ⇉ Please do not reply to all in emails unless it's necessary.
+  - Use a clear subject line for clarity.
+  - Structure emails with bullet points or enumerated lists for multiple queries.
+  - Short, concise messages are appreciated.
+  - No need for "Thank you" emails.
+* **Phone**: For urgent matters, feel free to call.
 
-I may also have an account on the following channels, but I don't check them regularly, so please don't use them to communicate with me:
-* Slack - I rarely check Slack, so please only use it for non-urgent matters and if I don't reply within 24 hours, please email me.
-* WhatsApp - I only use WhatsApp for personal matters, so please don't contact me on this channel.
-* LinkedIn - I check LinkedIn once a week, so please only use it for professional matters.
-* Twitter - I never check Twitter, so please don't contact me on this channel.
-* Facebook - I never check Facebook, so please don't contact me on this channel.
+### ❌ Channels I rarely use
+Avoid contacting me via Slack, WhatsApp, LinkedIn, Twitter, or Facebook unless specified otherwise. 
+Emails remain the best channel for professional matters.
 
-### 🕖 Time
+### 🕖 Availability
 
-* I work from 9 am to 5 pm, Monday to Friday. 
-* I don't work on weekends.
-* You can contact me outside of working hours, but I will not reply until the next working day.
-* I respect other coworkers' time and I try to be punctual for meetings and deadlines.
-* I really appreciate it when others are punctual too.
+* **Work hours**: 9 am to 5 pm, Monday to Friday
+* **Non-working hours**: I will respond to messages the following working day.
+* Punctuality is important to me, both for meetings and deadlines.
 
 ### 📝 Meetings
 
-* I prefer to have meetings right before or after lunch.
-* I prefer to have short meetings (30 minutes) and I like to have an agenda.
-* I am happy to have one-on-one meetings in person or online.
+* Preferred timing: Before or right after lunch.
+* Duration: 30 minutes or less, with a clear agenda.
+* Formats: One-on-one, in-person, or online.
 
 ### 🍾 Style and 📈 Feedback
 
-* I love discussing ideas and brainstorming, so feel free to reach out to me if you have any ideas or suggestions.
-* I love giving and receiving feedback, so please don't hesitate to give me feedback on my work.
-* I prefer direct communication, so please be honest and straightforward with me.
+* Open to discussing ideas and brainstorming.
+* Appreciate direct and constructive feedback.
+* Prefer honest and straightforward communication.
 
-### 📚 Tools
+---
 
-I use the following tools for work:
-* Python
-* LaTeX
-* GitHub
-* JetBrain
-* PowerPoint
-* Overleaf
-* Inkscape
+## 📚 Tools and Skills
 
-Please let me know if you need help with any of these tools.
+### Tools I Use Regularly
+* **Primary**: Python, LaTeX, GitHub, JetBrains, PowerPoint, Overleaf, Inkscape.
+* **Secondary**: JavaScript, Word, Excel, Google Docs.
 
-I am okay to use these other tools if needed:
-* JavaScript
-* Word (but I prefer LaTeX)
-* Excel (but I prefer Python)
-* Google Docs (but I prefer Word)
+### Tools I Am Less Familiar With
+* R, Tableau, Power BI.
 
-I do not know how to use these tools:
-* R
-* Tableau
-* Power BI
+---
 
-[//]: # (### 🏁 Following up)
+## 🚀 Collaboration Opportunities
 
-## ⬅️ From you to me
+I am open to collaborating on:
 
-Please let me know how you like to work and what I can do to help you be successful.
-Please share your preferred communication style, feedback preferences, and any other information that will help us work together effectively and try to answer the following questions:
+* Software development and data analysis.
+* Co-authoring research papers.
+* Developing tools for thermal comfort applications.
 
-* 🐇 **Motivators**: What feedback styles, content, and channels give you energy and make you the best version of yourself at work? 
-* 🐢 **Demotivators**: What feedback styles, content, and channels do you find the most challenging to see as constructive at work?
-* 📝 **Areas of note**: What things are you looking for feedback?
+## 🎯 Expectations for Collaboration
 
-## ➡️ From me to you
+* Open communication and mutual respect.
+* Adherence to deadlines and schedules.
+* Active participation and contribution to shared goals.
 
-I like to give constructive feedback and I will give you feedback in the following ways:
 
-* Directly
-* In writing
-* In person
-* In a group setting
-* In private
-* In a structured way
+## ⬅️ From You to Me
 
-Please let me know if you have a preference for how you receive feedback.
+To foster effective collaboration, please share:
+* **Motivators**: Feedback styles and content that energise you.
+* **Demotivators**: Feedback methods that you find challenging.
+* **Feedback needs**: Specific areas where you'd like input.
 
-## 🏗️ Working Together
+## ➡️ From Me to You
 
-🤝 Working on a team
+* Feedback: I provide feedback directly, in writing, or in person, depending on the situation.
+* Delivery: Structured and constructive feedback is my default approach.
+* Preferences: Let me know how you'd like to receive feedback.
 
-I love working on a team and I like to:
-* Plan experiments
-* Design experiments
-* Write code
-* Analyze data
-* Present results
-* Talk with media
+## 🤝 Working Together
 
-What I like less is:
-* Writing
-* Formatting
+* **Enjoyable tasks**: Experiment planning, coding, data analysis, presenting results, and engaging with media.
+* **Less preferred**: Writing and formatting tasks.
 
-[//]: # (⛵ For my managers)
+## 🤝 How I Resolve Conflicts
 
-[//]: # ()
-[//]: # (What are your expectations of your managers?)
+I address conflicts promptly and respectfully, focusing on solutions rather than assigning blame. 
+I believe in maintaining open communication to resolve issues effectively.
 
-[//]: # ()
-[//]: # (What should your managers expect from you?)
+---
 
-[//]: # ()
-[//]: # (What did you appreciate most about your favorite manager?)
+## 💡 Life Outside Work
 
-## 💡 Life
-
-I love: 
-* spend time with my family and friends 
-* to travel
-* spend time in nature (hiking, camping, swimming, etc.)
-* watch educational videos
-* listen to podcasts
-* publish YouTube videos
+I enjoy:
+* Spending quality time with family and friends.
+* Travelling and exploring nature (hiking, camping, swimming, etc.).
+* Consuming educational content (videos, podcasts).
+* Creating and publishing YouTube videos.
