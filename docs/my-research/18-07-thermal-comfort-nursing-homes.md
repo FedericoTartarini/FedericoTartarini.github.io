@@ -25,7 +25,7 @@ A field study was conducted in five nursing homes in south-eastern NSW, Australi
 Participants included residents, staff, and visitors. 
 Researchers collected data on indoor environmental parameters, physical characteristics of the participants, and personal preferences using a questionnaire. 
 
-<div class="img-center" style={{"margin-bottom":"20px"}}> ![BCA building](./img/tc-nursing-homes.jpg)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![Device used to collect the data](./img/tc-nursing-homes.jpg)</div>
 
 Participants were asked to report how they felt about their thermal environment and whether they would prefer to be warmer or cooler. 
 The study also considered adaptive behaviors employed by participants, such as adjusting clothing or using fans.
@@ -37,11 +37,11 @@ Residents were more tolerant of temperature variations than staff or visitors, a
 The study also found that:
 *   Residents' clothing insulation increased with age and decreased with operative temperature.
 
-<div class="img-center" style={{"margin-bottom":"20px"}}> ![BCA building](./img/tc-nursing-homes-fig-4.jpg)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![Clothing value as a function of air temperature](./img/tc-nursing-homes-fig-4.jpg)</div>
 
 *   Air velocity increased with operative temperature, likely due to the use of personal cooling fans.
 
-<div class="img-center" style={{"margin-bottom":"20px"}}> ![BCA building](./img/tc-nursing-homes-fig-5.jpg)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![Results air speed](./img/tc-nursing-homes-fig-5.jpg)</div>
 
 *   The Predicted Mean Vote (PMV) model was not a precise predictor of the personal thermal state of participants.
 *   Residents were comfortable when the PMV index was negative, indicating they preferred a slightly cooler environment than predicted by the model.

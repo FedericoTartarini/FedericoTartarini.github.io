@@ -20,12 +20,12 @@ These models also struggle with real-world application because of the difficulty
 Additionally, these models do not adapt or learn from new feedback. 
 This study aimed to develop personal comfort models using machine learning algorithms and wearable devices to predict individual thermal preferences.
 
-<div class="img-center" style={{"margin-bottom":"20px"}}> ![BCA building](./img/dorn.png)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![Methodology](./img/dorn.png)</div>
 
 **Methodology:** A study was conducted using 20 participants who wore Fitbit smartwatches with attached iButtons to collect physiological data over a 6-month period. 
 Participants used the Cozie app on their smartwatches to complete "Right-Here-Right-Now" surveys about their thermal preferences. 
 
-<div class="img-center" style={{"margin-bottom":"20px"}}> ![BCA building](./img/dorn-survey.png)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![Cozie survey](./img/dorn-survey.png)</div>
 
 Environmental data was collected using sensors in their homes and workplaces. 
 Machine learning models were then trained for each participant using this data to predict their individual thermal preferences. 
@@ -35,7 +35,7 @@ The study also explored the use of micro-EMA, using smartwatches to reduce surve
 **Key Results:** The study found that personal comfort models, when trained using machine learning algorithms, had a significantly higher prediction accuracy than the traditional Predicted Mean Vote (PMV) model. 
 The models achieved a median prediction accuracy of 0.78 (F1-score). 
 
-<div class="img-center" style={{"margin-bottom":"20px"}}> ![BCA building](./img/dorn-fig-8.png)</div>
+<div class="img-center" style={{"margin-bottom":"20px"}}> ![Results machine learning](./img/dorn-fig-8.png)</div>
 
 Approximately 250-300 data points per participant were needed for accurate prediction. 
 Key variables for prediction included skin, indoor, and near-body temperatures, and heart rate. 

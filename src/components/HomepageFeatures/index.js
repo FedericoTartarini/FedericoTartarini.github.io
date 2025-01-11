@@ -28,7 +28,7 @@ const FeatureList = [
         , the <Link to={"docs/tools/cbe-clima-tool"}>CBE Clima Tool</Link>,
         Cozie for <Link to={"docs/tools/cozie"}>Apple</Link> and Fitbit, the{" "}
         <Link to={"docs/tools/heatwatch"}>HeatWatch</Link>, and SMA Extreme heat
-        tool
+        tool.
       </>
     ),
   },
