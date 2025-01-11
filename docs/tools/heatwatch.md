@@ -36,7 +36,7 @@ The HeatWatch application has been featured in the following media outlets:
 
 - [ABC News - The invisible ways your heat health risks can change based on your postcode this summer](https://www.abc.net.au/news/2025-01-05/heatwatch-heat-health-risks-australian-summer-based-on-postcode/104776316)
 - [HVAC&R News - University of Sydney launches HeatWatch app](https://www.hvacrnews.com.au/news/university-of-sydney-launches-heatwatch-app/)
-- {The University of Sydney - HeatWatch app to be trialled over summer as temperatures soar](https://www.sydney.edu.au/news-opinion/news/2023/12/14/heatwatch-app-to-be-trialled-over-summer-as-temperatures-soar.html)
+- [The University of Sydney - HeatWatch app to be trialled over summer as temperatures soar](https://www.sydney.edu.au/news-opinion/news/2023/12/14/heatwatch-app-to-be-trialled-over-summer-as-temperatures-soar.html)
 - [9 News - New tech to protect Aussies during forecast extreme summer conditions](https://www.9news.com.au/national/heat-watch-app-air-rater-app-summer-heatwave-protection-technology/d8857d76-db5a-48e4-af20-e32158a07613)
 
 ## Heat Health Management Plans that include the HeatWatch 
