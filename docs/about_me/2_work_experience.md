@@ -3,9 +3,18 @@ sidebar_position: 2
 tags:
   - work experience
 keywords: 
-  - University of Sydney
+  - The University of Sydney
   - Berkeley Education Alliance for Research in Singapore
   - University of Wollongong
+  - NIER ING
+  - ASHRAE
+  - SinBerBEST
+  - SBRC
+  - Daikin Australia
+  - Enviro Buildings Services
+  - IEA EBC
+  - Solar Decathlon Competition
+  - thermal comfort
 image: assets/img/website_screenshot.png
 description: This page summarises Federico Tartarini's work experience
 last_update:
@@ -16,10 +25,40 @@ last_update:
 
 <div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
 
+## Senior Lecturer | USYD Horizon Fellow
+**School of Architecture Design and Planning, the University of Sydney**  
+_Sydney, AU_  
+_Jun 2024 - Present_
+
+- Beat the Heath - Advancing Our Understanding of Heat Stress and Developing Effective Sustainable Interventions to Reduce Health Risks in a Warming World.
+- Teaching - Thermal Comfort, Building Science, and Building Physics.
+
+<div class="img-small" > ![ASHRAE](./img/ASHRAE_Logo.svg)</div>
+
+## ASHRAE 55 Committee Voting Member
+**ASHRAE**  
+_Atlanta, US_  
+_Nov 2020 - Present_
+
+- Member of the SSPC 55 "Thermal Environmental Conditions for Human Occupancy" committee
+- Contributed to the development of the 2020 edition of the Standard.
+- Wrote 7 addenda, which have all been approved.
+
+<div class="img-small" > ![UOW](./img/wollongong.png)</div>
+
+## Honorary Fellow
+**University of Wollongong**  
+_Wollongong, AU_  
+_Jun 2019 - Present_
+
+- Honorary fellow at the Sustainable Buildings Research Centre (SBRC), faculty of Engineering and Information Sciences.
+
+<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
+
 ## Senior Research Associate
 **Heat & Health Research Incubator at the University of Sydney**  
 _Sydney, AU_  
-_Oct 2022 - Jun 2023_
+_Oct 2022 - Jun 2024_
 
 - Maintainer and developer of the [HeatWatch](https://heatwatch.sydney.edu.au/).
 - Maintainer and developer of the [SMA Extreme Heat Policy Tool](https://sma-heat-policy.sydney.edu.au/).
@@ -39,26 +78,6 @@ _Jun 2019 - Oct 2022_
 - Collaborated in the construction and commissioning of the "Greenest building" in Singapore. A net a net zero energy building for the Singaporean Building and Construction Authority (BCA).
 - Conducted research relating to SinBerBEST Theme A: Human-Building Nexus - Enhancing Health and Productivity in the Built Environment. Worked on issues related to thermal comfort, indoor air quality, human performance, and HVAC systems.
 - Conducted research relating to SinBerBEST Theme A: Human-Building Nexus - Enhancing Health and Productivity in the Built Environment. Worked on issues related to thermal comfort, indoor air quality, human performance, and HVAC systems.
-
-<div class="img-small" > ![ASHRAE](./img/ASHRAE_Logo.svg)</div>
-
-## ASHRAE 55 Committee Voting Member
-**ASHRAE**  
-_Atlanta, US_  
-_Nov 2020 - June 2022_
-
-- Member of the SSPC 55 "Thermal Environmental Conditions for Human Occupancy" committee
-- Contributed to the development of the 2020 edition of the Standard.
-- Wrote 7 addenda, which have all been approved.
-
-<div class="img-small" > ![UOW](./img/wollongong.png)</div>
-
-## Honorary Fellow
-**University of Wollongong**  
-_Wollongong, AU_  
-_Jun 2019 - Present_
-
-- Honorary fellow at the Sustainable Buildings Research Centre (SBRC), faculty of Engineering and Information Sciences.
 
 <div class="img-small" > ![SBRC](./img/sbrc.png)</div>
 

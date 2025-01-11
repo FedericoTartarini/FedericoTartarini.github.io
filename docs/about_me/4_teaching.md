@@ -18,8 +18,9 @@ last_update:
 ## Guest Lecturer
 **University of Sydney**  
 _Sydney, AU_  
-_203_
+_2023 - Present_
 
+- DESC9200 Introduction to Architectural Science: Delivered lectures and tutorials on thermal comfort, building science, and building physics.
 - Delivered a guest lecture on the Solar Decathlon Competition for the course BAEN2002 - Design Integration Lab: Energy
 
 ## Teaching Assistant
