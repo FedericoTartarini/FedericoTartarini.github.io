@@ -22,6 +22,8 @@ However, calculating thermal comfort, heat, or cold stress indices can be comple
 That’s where **pythermalcomfort** comes in.
 This Python package simplifies the process by providing accurate, standards-compliant calculations for thermal comfort and heat/cold stress indices.
 
+<!-- truncate -->
+
 ---
 
 ## **What’s New in pythermalcomfort v3.0?**
