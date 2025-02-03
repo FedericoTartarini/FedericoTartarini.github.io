@@ -4,10 +4,83 @@
         <title>Dr Federico Tartarini Blog</title>
         <link>https://FedericoTartarini.github.io/blog</link>
         <description>Dr Federico Tartarini Blog</description>
-        <lastBuildDate>Wed, 27 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[pythermalcomfort v3.0 is Here! 🚀]]></title>
+            <link>https://FedericoTartarini.github.io/blog/2025/01/30/pythermalcomfort-3</link>
+            <guid>https://FedericoTartarini.github.io/blog/2025/01/30/pythermalcomfort-3</guid>
+            <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[pythermalcomfort v3.0 is here! Discover the new features, improvements, and benefits of this powerful Python package for thermal comfort calculations.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="pythermalcomfort" src="https://federicotartarini.github.io/assets/images/pythermalcomfort-3-67d5195f95c7dacb89cfd4da84c111de.png" width="1203" height="636" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-should-you-use-pythermalcomfort"><strong>Why Should You Use pythermalcomfort?</strong><a href="https://federicotartarini.github.io/blog/2025/01/30/pythermalcomfort-3#why-should-you-use-pythermalcomfort" class="hash-link" aria-label="Direct link to why-should-you-use-pythermalcomfort" title="Direct link to why-should-you-use-pythermalcomfort">​</a></h2>
+<p>The thermal environment significantly affects thermal comfort, occupant well-being, health, and productivity.
+However, calculating thermal comfort, heat, or cold stress indices can be complex and time-consuming.
+That’s where <strong>pythermalcomfort</strong> comes in.
+This Python package simplifies the process by providing accurate, standards-compliant calculations for thermal comfort and heat/cold stress indices.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new-in-pythermalcomfort-v30"><strong>What’s New in pythermalcomfort v3.0?</strong><a href="https://federicotartarini.github.io/blog/2025/01/30/pythermalcomfort-3#whats-new-in-pythermalcomfort-v30" class="hash-link" aria-label="Direct link to whats-new-in-pythermalcomfort-v30" title="Direct link to whats-new-in-pythermalcomfort-v30">​</a></h2>
+<p>Version 3.0 is a major leap forward, packed with new features and improvements:</p>
+<ol>
+<li>
+<p><strong>Multi-node models</strong>
+Pythermalcomfort now includes JOS3 a multi-node model to estimate physiological variables (e.g., skin temperature, core temperature, and skin wettedness)</p>
+</li>
+<li>
+<p><strong>Structured Results with Dataclasses</strong><br>
+<!-- -->Functions now return dataclass instances, making it easier to access and organize results. For example:</p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> pythermalcomfort</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">models </span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> pmv_ppd_iso</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">result </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> pmv_ppd_iso</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tdb</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">22</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">25</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> tr</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">25</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> vr</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">0.1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> rh</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">50</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> met</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">1.4</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> clo</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">0.5</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> model</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">'7730-2005'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">result</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">pmv</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">result</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">ppd</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>This change enhances readability and usability, especially when working with multiple outputs.</p>
+</li>
+<li>
+<p><strong>Updated Function Names and Organization</strong></p>
+<ul>
+<li>PMV functions are now named consistently (e.g., <code>pmv_ppd_ashrae</code>, <code>pmv_ppd_iso</code>).</li>
+<li>Psychrometric functions have been moved to <code>utilities.py</code> for better organization.</li>
+</ul>
+</li>
+<li>
+<p><strong>Array as inputs</strong><br>
+<!-- -->All functions now accept arrays as inputs, enabling faster batch processing of multiple inputs.</p>
+</li>
+<li>
+<p><strong>Multi-node models</strong>
+Pythermalcomfort now includes JOS3 a multi-node model to estimate physiological variables (e.g., skin temperature, core temperature, and skin wettedness)</p>
+</li>
+<li>
+<p><strong>Enhanced Documentation and Testing</strong></p>
+<ul>
+<li>More examples and detailed descriptions of models.</li>
+<li>Added input validation to ensure inputs are within model applicability limits.</li>
+</ul>
+</li>
+<li>
+<p><strong>New Features</strong></p>
+<ul>
+<li>Added surveys to assess thermal comfort in the documentation.</li>
+<li>Included a detailed section on clothing insulation.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-get-started"><strong>How to Get Started</strong><a href="https://federicotartarini.github.io/blog/2025/01/30/pythermalcomfort-3#how-to-get-started" class="hash-link" aria-label="Direct link to how-to-get-started" title="Direct link to how-to-get-started">​</a></h2>
+<p>Using pythermalcomfort v3.0 is easier than ever.
+Here’s a simple example to calculate PMV (Predicted Mean Vote) using the ISO 7730 standard:</p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> pythermalcomfort</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">models </span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> pmv_ppd_iso</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Input parameters</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">result </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> pmv_ppd_iso</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">tdb</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">[</span><span class="token number" style="color:#36acaa">22</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">25</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> tr</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">25</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> vr</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">0.1</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> rh</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">50</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> met</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">1.4</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> clo</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">0.5</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> model</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">'7730-2005'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Access results</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"PMV:"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> result</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">pmv</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"PPD:"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> result</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">ppd</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>This example demonstrates how straightforward it is to perform thermal comfort calculations with pythermalcomfort.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-cite-pythermalcomfort">How to Cite pythermalcomfort<a href="https://federicotartarini.github.io/blog/2025/01/30/pythermalcomfort-3#how-to-cite-pythermalcomfort" class="hash-link" aria-label="Direct link to How to Cite pythermalcomfort" title="Direct link to How to Cite pythermalcomfort">​</a></h2>
+<p>If you are using pythermalcomfort please cite the package as follows: Tartarini, F., Schiavon, S., 2020. pythermalcomfort: A Python package for thermal comfort research. SoftwareX 12, 100578. <a href="https://doi.org/10.1016/j.softx.2020.100578" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.softx.2020.100578</a></p>
+<p>Please also do not forget to cite the specific model you are using.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="upgrading-from-to-v20-to-v30"><strong>Upgrading from to v2.0 to v3.0?</strong><a href="https://federicotartarini.github.io/blog/2025/01/30/pythermalcomfort-3#upgrading-from-to-v20-to-v30" class="hash-link" aria-label="Direct link to upgrading-from-to-v20-to-v30" title="Direct link to upgrading-from-to-v20-to-v30">​</a></h2>
+<p>Please note that pythermalcomfort v3.0 introduces several breaking changes, including updated function names and structured results.
+Hence, this upgrade may require adjustments to your existing codebase.</p>
+<p>#ThermalComfort #BuildingScience #Python #HVAC #pythermalcomfort #heat #heatstress #coldstress</p>]]></content:encoded>
+            <category>productivity</category>
+        </item>
         <item>
             <title><![CDATA[Notion Time Tracking]]></title>
             <link>https://FedericoTartarini.github.io/blog/2024/03/27/notion-time-tracking</link>
