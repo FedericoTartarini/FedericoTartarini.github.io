@@ -48,14 +48,11 @@ Version 3.0 is a major leap forward, packed with new features and improvements:
 4. **Array as inputs**  
    All functions now accept arrays as inputs, enabling faster batch processing of multiple inputs.
 
-5. **Multi-node models**
-   Pythermalcomfort now includes JOS3 a multi-node model to estimate physiological variables (e.g., skin temperature, core temperature, and skin wettedness)
-
-6. **Enhanced Documentation and Testing**
+5. **Enhanced Documentation and Testing**
    - More examples and detailed descriptions of models.
    - Added input validation to ensure inputs are within model applicability limits.
 
-7. **New Features**
+6. **New Features**
    - Added surveys to assess thermal comfort in the documentation.
    - Included a detailed section on clothing insulation.
 
