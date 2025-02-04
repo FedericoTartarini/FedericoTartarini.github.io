@@ -46,10 +46,6 @@ Pythermalcomfort now includes JOS3 a multi-node model to estimate physiological 
 <!-- -->All functions now accept arrays as inputs, enabling faster batch processing of multiple inputs.</p>
 </li>
 <li>
-<p><strong>Multi-node models</strong>
-Pythermalcomfort now includes JOS3 a multi-node model to estimate physiological variables (e.g., skin temperature, core temperature, and skin wettedness)</p>
-</li>
-<li>
 <p><strong>Enhanced Documentation and Testing</strong></p>
 <ul>
 <li>More examples and detailed descriptions of models.</li>
