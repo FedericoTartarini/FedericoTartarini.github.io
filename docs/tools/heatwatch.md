@@ -21,6 +21,7 @@ In response, the [Heat and Health Research Incubator](https://www.sydney.edu.au/
 The HeatWatch application allows users to estimate a personalised heat health risk. 
 It also provides science-backed cooling strategies that are easily implementable. 
 Its design and features are shaped by direct consultations with community members via focus groups, ensuring a user-friendly and practical tool for heatwave health risk management.
+The HeatWatch application is endorsed by the Queensland Government which recommends it on [their website](https://www.qld.gov.au/health/staying-healthy/environmental/heatsafe/people-at-risk-of-heat-related-health-problems).
 
 <iframe width="100%" height="300" class="youtube-video" src="https://www.youtube.com/embed/liyCFwcNpGY?si=Jh6RxfSxmVp6Vo5W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
