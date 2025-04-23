@@ -38,7 +38,6 @@ And the best part? Our insights are now at your fingertips in our comprehensive 
 
 Join us in the movement toward greener, smarter cooling solutions. Let's rewrite the rulebook, one fan at a time. 🌬️🌏
 
-Freely downloadable [paper](https://lnkd.in/gK9PhmeB)
+## Read the full article: 
 
-Thanks to: Michael Kent, Ken Huynh Khoa, Asit Kumar Mishra, Federico Tartarini, Aleksandra Lipczynska, Jiayu Li, Zuraimi Mohamed Sultan,
-Edwin Goh, Giridharan Karunagaran, Arulmani Natarajan, Asiri Indrajith, Ivanna Hendri, I Komang Narendra, Vicky Wu, Noel Chin, Chun-Ping Gao, Majid Sapar, Alvin Seoh, Nur Shuhadah, Selvam Valliappan, Tim Jukes, Costas Spanos, Stefano Schiavon, Building and Construction Authority and Dyson
+[Kent, M. G. et al. Energy savings and thermal comfort in a zero energy office building with fans in Singapore. Building and Environment 243, 110674 (2023).](https://doi.org/10.1016/j.buildenv.2023.110674)

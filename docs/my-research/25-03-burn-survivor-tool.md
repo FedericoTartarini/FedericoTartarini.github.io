@@ -85,6 +85,6 @@ However, the researchers acknowledge several limitations:
 Despite these limitations, the **Burn Survivor Heat Risk Calculator** represents a significant step forward in providing burn survivors with a means to understand and mitigate their heat risk during physical activity. 
 The tool's strong negative predictive value suggests it is reliable in identifying low-risk scenarios, offering confidence to individuals seeking to engage in a more physically active lifestyle. 
 
-## Reference
+## Read the full article:
 
 [McKenna, Z.J., Foster, J., Atkins, W.C., Gideon, E.A., Jay, O., Tartarini, F. and Crandall, C.G., 2025. Development and Validation of a Heat Risk Mitigation Tool for Burn Survivors. Medicine and science in sports and exercise.](https://journals.lww.com/acsm-msse/abstract/9900/development_and_validation_of_a_heat_risk.749.aspx)

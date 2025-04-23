@@ -72,6 +72,7 @@ Overall, both the PMV and PMV-CE models have a median bias lower than half of a 
 * The TSV is ambiguous and does not allow determining if an action should be taken to increase the participant’s thermal comfort. Assuming that people who are ‘slightly warm’ or ‘slightly cool’ are thermally neutral leads to undercounting thermal discomfort in our dataset, which is not a valid assumption. We recommend the use of the thermal preference scale to determine how people perceive their thermal environment. This scale more clearly allows an HVAC system to decide whether to change or not the thermal environment.
 * Finally, we would like to highlight that the current definition of the PMV model which states that the model aims “…to predict the average thermal sensation of a large group of occupants” is ambiguous. Both the ASHRAE 55:2023 and ISO 7730:2005 standards should clarify the minimum number of occupants required to use the PMV model. For example, can it be used for a space with only one occupant?
 
-## Read the paper
+## Read the full article:
+
 Federico Tartarini, Stefano Schiavon, Comparative analysis of PMV Models accuracy implemented in the ISO 7730:2005 and ASHRAE 55:2023, Building and Environment,
 https://doi.org/10.1016/j.buildenv.2025.112766 (open access)
