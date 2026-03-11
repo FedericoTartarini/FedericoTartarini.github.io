@@ -22,7 +22,9 @@ We are excited to introduce jsthermalcomfort, an open-source JavaScript package 
 
 <div class="img-center" style={{"marginBottom":"20px"}}> ![jsthermalcomfort](./img/jsthermalcomfort.png)</div>
 
-Developed as an extension of [pythermalcomfort](pythermalcomfort.md), our open-source jsthermalcomfort package delivers an unparalleled advantage to the JavaScript and front-end developer community. With jsthermalcomfort, complex thermal comfort calculations in JavaScript become accessible without the need for redundant programming efforts.
+Developed as an extension of [pythermalcomfort](pythermalcomfort.md), our open-source jsthermalcomfort package delivers an unparalleled advantage to the JavaScript and front-end developer community. With jsthermalcomfort, complex thermal comfort calculations in JavaScript become accessible without the need for redundant programming efforts. 
+As a non-traditional research output, this tool has supported web-based research, classroom, and industry projects, expanding the reach of advanced thermal comfort analytics to front-end and interactive applications. 
+It is trusted by an international community for both scientific and educational use.
 
 We have validated all jsthermalcomfort functions against the reference tables in the corresponding standards and scientific publications. Furthermore, our team has diligently cross-verified the consistency of jsthermalcomfort results with its Python predecessor.
 

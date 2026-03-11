@@ -21,6 +21,10 @@ My main research areas include human thermal comfort, indoor environmental quali
 My research outcomes are mainly based on original research conducted both in the laboratory and in field studies. 
 The aim of my research is to develop occupant-centric solutions and tools to improve the performance of existing and new buildings.
 
+I am strongly committed to open science, striving to make research transparent, reproducible, and impactful beyond academia. 
+My work has contributed to international standards development and led to the creation of open-source tools now used by thousands of researchers, practitioners, and community partners globally. 
+I regularly engage in public and interdisciplinary projects, with a focus on positive real-world impact.
+
 I am the main author of several free and open-source tools: 
 * [pythermalcomfort](../tools/pythermalcomfort.md) — a Python package to calculate several thermal comfort indices, 
 * the [CBE Thermal Comfort Tool](../tools/cbe-comfort-tool.md) — an online tool for thermal comfort calculations and visualization, 

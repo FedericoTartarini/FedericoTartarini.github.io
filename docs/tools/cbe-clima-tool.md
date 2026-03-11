@@ -49,5 +49,10 @@ The CBE Clima Tool has several features that make it a valuable asset for profes
 We invite you to join the large worldwide community that already uses the CBE Clima Tool and share your feedback with us. 
 We hope that this tool will help you design more climate-adapted and sustainable buildings. 
 
+## Recognition & Non-traditional Impact
+
+The CBE Clima Tool is widely adopted by professionals, researchers, and students around the world, and has been featured in workshops and case studies for climate-adapted design. 
+It serves as a reference for sustainable building analysis and is frequently cited in industry resources and education material as a leading free/open platform for climate data visualisation.
+
 ## Reference:
 Betti, G., Tartarini, F., Nguyen, C. et al. CBE Clima Tool: A free and open-source web application for climate analysis tailored to sustainable building design. Build. Simul. (2023). [https://doi.org/10.1007/s12273-023-1090-5](https://doi.org/10.1007/s12273-023-1090-5)

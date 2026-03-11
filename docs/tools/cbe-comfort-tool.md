@@ -32,5 +32,11 @@ Thus, it serves as a vital instrument in advancing understanding and application
 
 We published the code open-source and describe the tool in a [scientific paper](https://www.scopus.com/record/display.uri?eid=2-s2.0-85087591886&origin=resultslist&sort=cp-f) 
 
+## Recognition & Impact
+
+The CBE Thermal Comfort Tool is recognised internationally and has been adopted by thousands of academics, practitioners, and industry users each year. 
+It is referenced in teaching, research, and policy documents, and is frequently used as a standard resource for thermal comfort calculations and visualisation in building and environmental engineering. 
+Its development and updates have contributed directly to the evolution of major thermal comfort standards.
+
 <div class="img-center"> ![CBE Thermal Comfort Tool](./img/comfort_tool_use.png) </div>
 

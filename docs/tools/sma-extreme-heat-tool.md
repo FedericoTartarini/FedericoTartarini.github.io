@@ -43,4 +43,16 @@ Moreover, we can provide users with strategies that can be employed to minimize 
 The use of our application is not limited to Australia. 
 It can be used in any country since weather forecast data are pooled as a function of the user's GPS coordinates.
 
-**Conclusion**: Our application offers simple-to-access, evidence-based advice for avoiding unnecessarily interruption of play while safeguarding the health of people engaging in sports and physical activity from the negative effects of extreme heat.
+**Conclusion**: Our application offers simple-to-access, evidence-based advice for avoiding unnecessary interruptions of play while safeguarding the health of people engaging in sports and physical activity from the negative effects of extreme heat.
+
+---
+
+## Recognition & Impact
+
+- **Endorsed by Sports Medicine Australia** – officially featured as part of their heat policy guidance.
+- **Media coverage:**
+  - [ABC News: "Can you exercise safely in a heatwave?"](https://www.abc.net.au/news/2026-01-08/can-you-exercise-safely-in-a-heatwave-australia/106206302?utm_source=abc_news_app&utm_medium=content_shared&utm_campaign=abc_news_app&utm_content=other)
+  - [Channel 7 Interview, Townsville/Mackay](https://app.mediaportal.com/isentia/#/playnow/v2?id=R00127113981&channel=Seven%20Mackay&location=Australia&date=2025-11-11T18:08:29&program=Seven%20News%20Mackay&item_id=1266581303&prospect_id=-50051930312&is_video=true&keywords=Sport&keywords=Heat%20tool&keywords=Sports&keywords=Sports%20Medicine%20Australia&keywords=Tool&expiry=1794420509&signature=4Ul7Iq4E9IaMBki7WUy~-PiUpv5CUaYz6JsPUBKw1DrudljrHZHnIBTTFABSeIfvJXVb2V7chnkWX1LtWBPye3JZrReeSPKZvVc~g5x-OyFlHGmFXhjTFuR6Pc21i5EA4YwZL~F0hFxvw4ujaV6kwqWhRi70EAjyN5xiLjZItWJVB6KSwIBJspSl0TUr9xilECuMPN91Ev1xZibCG4Akx8qQVPiwEOSQ7UxS4DBnFF79dMpuc27XBhBd-zzkP1G-FV1zGhSaLTLbd0wEoI-VnUxUHn5xRvRRFQZOkHjb5m5-Rs3UN8-JZX8~zJHdzLZnmMSNmG5N3P7rFEkq9aV-pg__&customStart=2025-11-11T08:08:29.000Z&customEnd=2025-11-11T08:09:08.000Z)
+- **Real-world impact:**
+  - Empowered athletes, event organizers, and the public to make safer decisions during extreme heat events for more than 40 sports.
+  - Tool has seen national adoption and is referenced in major sporting safety protocols in Australia.

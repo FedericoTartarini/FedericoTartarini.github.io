@@ -13,6 +13,13 @@ last_update:
 
 # Teaching Experience
 
+## Teaching Philosophy
+
+My teaching is guided by a commitment to integrity, inclusivity, and student-centered learning. 
+I strive to create an environment where all students feel respected, supported, and empowered to reach their full potential. 
+I value diversity, encourage curiosity and independent learning, and provide timely, constructive feedback. 
+My goal is to inspire students to become ethical, knowledgeable, and engaged professionals who contribute positively to their fields and society.
+
 <div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
 
 ## Guest Lecturer

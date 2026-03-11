@@ -35,6 +35,7 @@ This is a project funded by the NSW Reconstruction Authority (formally Resilienc
 
 The HeatWatch application has been featured in the following media outlets:
 
+- [The Guardian - Australia sweltered through one of the hottest summers on record, with little relief at night](https://www.theguardian.com/environment/datablog/2026/mar/04/australia-summer-heatwave-hottest-record) – Coverage of the HeatWatch tool in national context (2026)
 - [ABC News - The invisible ways your heat health risks can change based on your postcode this summer](https://www.abc.net.au/news/2025-01-05/heatwatch-heat-health-risks-australian-summer-based-on-postcode/104776316)
 - [HVAC&R News - University of Sydney launches HeatWatch app](https://www.hvacrnews.com.au/news/university-of-sydney-launches-heatwatch-app/)
 - [The University of Sydney - HeatWatch app to be trialled over summer as temperatures soar](https://www.sydney.edu.au/news-opinion/news/2023/12/14/heatwatch-app-to-be-trialled-over-summer-as-temperatures-soar.html)

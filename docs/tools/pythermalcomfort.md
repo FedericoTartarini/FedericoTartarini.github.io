@@ -23,7 +23,8 @@ These models are based on standards such as ASHRAE 55, EN 16798, or ISO 7730, wh
 However, these standards are not freely available and the code is written in JavaScript or BASIC, which may not be convenient for Python users.
 
 That’s why we developed [pythermalcomfort](https://pypi.org/project/pythermalcomfort/), a Python package that allows you to calculate the most common thermal comfort and thermal stress indices in compliance with the main thermal comfort standards. 
-pythermalcomfort is the only Python package available on PyPI that contains a comprehensive list of validated thermal comfort functions.
+pythermalcomfort is the only Python package available on PyPI that contains a comprehensive list of validated thermal comfort functions. 
+It is recognised as a leading open-science tool and has been widely adopted in both academia and industry, supporting reproducible research and advanced environmental quality analysis worldwide.
 
 <div class="img-center" style={{"marginBottom":"20px"}}> ![pythermalcomfort](./img/pythermalcomfort.png)</div>
 
