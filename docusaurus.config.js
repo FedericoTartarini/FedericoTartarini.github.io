@@ -134,8 +134,8 @@ const config = {
           },
           { to: "/docs/category/about-me", label: "About Me", position: "left", className: "mobile-only-nav" },
 
-          { to: "docs/category/my-research", label: "My Research", position: "left", className: "mobile-only-nav" },
-          { to: "docs/category/my-research", label: "My Research", position: "left", className: "desktop-only-nav" },
+          { to: "/docs/category/my-research", label: "My Research", position: "left", className: "mobile-only-nav" },
+          { to: "/docs/category/my-research", label: "My Research", position: "left", className: "desktop-only-nav" },
           { to: "/docs/category/tools", label: "Tools", position: "left", className: "mobile-only-nav" },
           { to: "/docs/category/tools", label: "Tools", position: "left", className: "desktop-only-nav" },
           { to: "/docs/category/latex", label: "LaTeX", position: "left", className: "mobile-only-nav" },
@@ -143,7 +143,7 @@ const config = {
           { to: "/blog", label: "Blog", position: "left", className: "mobile-only-nav" },
           { to: "/blog", label: "Blog", position: "left", className: "desktop-only-nav" },
           {
-            to: "docs/category/collaborating-with-me",
+            to: "/docs/category/collaborating-with-me",
             label: "Collaborating with Me",
             position: "left",
             className: "mobile-only-nav",
