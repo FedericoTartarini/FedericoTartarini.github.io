@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_personal_website=globalThis.webpackChunkmy_personal_website||[]).push([[8947],{6600(e){e.exports=JSON.parse('{"authors":[{"name":"Federico Tartarini","title":"Senior Lecturer","url":"https://github.com/FedericoTartarini","imageURL":"https://federicotartarini.github.io/img/federico.jpg","key":"fede","page":null,"count":9}]}')}}]);
