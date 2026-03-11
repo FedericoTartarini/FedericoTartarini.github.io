@@ -124,7 +124,7 @@ export default function HomepageFeatures() {
   return (
     <>
       {FeatureList.map((props, idx) => (
-        <Grid key={idx} xs={12} sm={10} md={6}>
+        <Grid key={idx} item xs={12} sm={10} md={6}>
           <Feature key={idx} {...props} />
         </Grid>
       ))}
