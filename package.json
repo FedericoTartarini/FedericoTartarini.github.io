@@ -41,6 +41,10 @@
     "@docusaurus/module-type-aliases": "^3.9.2",
     "@docusaurus/types": "^3.9.2"
   },
+  "resolutions": {
+    "cheerio": "1.0.0-rc.12",
+    "serialize-javascript": "^7.0.3"
+  },
   "browserslist": {
     "production": [
       ">0.5%",
