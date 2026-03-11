@@ -85,8 +85,8 @@ This page is an instruction manual for collaborating with me on Python-based res
 - Add error handling and logging for debugging.
 - Prefer using `Enum` classes for code sanitation and to store constants or string values that are reused in multiple places.
 
-::note
+:::note
 
 If you have suggestions to improve our Python workflow, please let me know.
 
-::
+:::
