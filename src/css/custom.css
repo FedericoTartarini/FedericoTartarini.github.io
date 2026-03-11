@@ -88,6 +88,18 @@ html[data-theme='dark'] .header--github-link:before {
   mask-size: 80%;
 }
 
+.navbar__items .mobile-only-nav {
+  display: none !important;
+}
+
+.navbar-sidebar .desktop-only-nav {
+  display: none !important;
+}
+
+.navbar-sidebar .mobile-only-nav {
+  display: list-item !important;
+}
+
 /* resize youtube videos */
 .youtube-video {
   height: 550px;
