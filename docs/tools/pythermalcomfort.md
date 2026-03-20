@@ -2,11 +2,14 @@
 title: pythermalcomfort
 tags:
   - tool
+  - python
 keywords: 
   - thermal comfort
   - thermal stress
   - thermal strain
   - thermal physiology
+  - python package
+  - open-source
 description: pythermalcomfort, a Python package that allows you to calculate the most common thermal comfort indices in compliance with the main thermal comfort standards
 image: ./img/pythermalcomfort.png
 last_update:

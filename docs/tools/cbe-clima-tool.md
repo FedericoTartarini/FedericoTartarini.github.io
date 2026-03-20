@@ -1,9 +1,13 @@
 ---
 tags:
   - tool
+  - web application
 keywords: 
   - climate analysis
   - passive design
+  - sustainable building design
+  - open-source
+  - free-to-use
 image: ./img/clima.png
 description: This article describes the CBE Clima Tool (Clima) a free and open-source web application that provides a series of interactive visualization
 last_update:

@@ -1,12 +1,15 @@
 ---
 tags:
   - tool
+  - web application
 keywords: 
   - thermal comfort
   - thermal stress
   - thermal strain
   - predicted mean vote
   - adaptive thermal comfort
+  - open-source
+  - free-to-use
 description: the CBE thermal comfort tool is a web tool for thermal comfort calculations and visualizations
 image: ./img/comfort_tool.png
 last_update:

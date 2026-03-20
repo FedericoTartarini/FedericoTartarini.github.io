@@ -2,11 +2,14 @@
 title: jsthermalcomfort
 tags:
   - tool
+  - javascript
 keywords: 
   - thermal comfort
   - thermal stress
   - thermal strain
   - thermal physiology
+  - javascript package
+  - open-source
 description: jsthermalcomfort, an open-source JavaScript package designed to streamline seamless and precise thermophysiological calculations
 image: ./img/jsthermalcomfort.png
 last_update:

@@ -7,6 +7,7 @@ keywords:
   - apple
   - wearable
   - longitudinal study
+  - open-source
 image: ./img/cozie.png
 description: This article describes Cozie an iOS application for watch surveys and physiological data collection
 last_update:
