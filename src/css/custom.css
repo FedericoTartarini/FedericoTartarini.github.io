@@ -116,3 +116,40 @@ html[data-theme='dark'] .header--github-link:before {
     height: 200px;
   }
 }
+
+/* Improve generated-index doc cards (e.g. My Research category page). */
+[class*='generatedIndexPage'] [class*='cardContainer'] {
+  height: 100%;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+[class*='generatedIndexPage'] [class*='cardContainer']:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Override Docusaurus single-line truncation on generated-index cards. */
+[class*='generatedIndexPage'] [class*='cardTitle'],
+[class*='generatedIndexPage'] [class*='cardDescription'] {
+  white-space: normal;
+  text-overflow: unset;
+}
+
+[class*='generatedIndexPage'] [class*='cardTitle'] {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.35;
+  min-height: 2.7em;
+}
+
+[class*='generatedIndexPage'] [class*='cardDescription'] {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  line-height: 1.45;
+  min-height: 5.8em;
+}

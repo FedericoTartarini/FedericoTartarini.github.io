@@ -4,6 +4,8 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
+import fs from "node:fs";
+import path from "node:path";
 import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
@@ -67,11 +69,54 @@ const config = {
             ...args
           }) {
             const items = await defaultSidebarItemsGenerator(args);
+            const docsById = new Map(args.docs.map((doc) => [doc.id, doc]));
 
             const getBaseKey = (item) => {
               const key =
                 item.type === "doc" ? item.id : (item.label ?? "");
               return key.split("/").pop() ?? key;
+            };
+
+            const getDocSourcePath = (source) => {
+              if (source.startsWith("@site/")) {
+                return path.join(process.cwd(), source.replace("@site/", ""));
+              }
+              return path.isAbsolute(source)
+                ? source
+                : path.join(process.cwd(), source);
+            };
+
+            const getCardImageFromFrontMatter = (doc) => {
+              const image = doc.frontMatter?.image;
+              if (typeof image !== "string" || image.length === 0) {
+                return undefined;
+              }
+
+              // Already web-ready (absolute URL or base-url rooted path).
+              if (/^https?:\/\//i.test(image) || image.startsWith("/")) {
+                return image;
+              }
+
+              const sourcePath = getDocSourcePath(doc.source);
+              const imagePath = path.resolve(path.dirname(sourcePath), image);
+              if (!fs.existsSync(imagePath)) {
+                return undefined;
+              }
+
+              // Copy doc-local images to static so cards can use stable URLs.
+              const extension = path.extname(imagePath);
+              const safeId = doc.id.replace(/[^a-zA-Z0-9_-]/g, "-");
+              const relativeStaticPath = `img/doc-cards/${safeId}${extension}`;
+              const absoluteStaticPath = path.join(
+                process.cwd(),
+                "static",
+                relativeStaticPath,
+              );
+
+              fs.mkdirSync(path.dirname(absoluteStaticPath), { recursive: true });
+              fs.copyFileSync(imagePath, absoluteStaticPath);
+
+              return `/${relativeStaticPath}`;
             };
 
             const processCategory = (cat) => {
@@ -90,9 +135,27 @@ const config = {
                 });
               }
 
-              // Recurse into subcategories
+              // Recurse into subcategories and attach doc card images.
               cat.items.forEach((child) => {
-                if (child.type === "category") processCategory(child);
+                if (child.type === "category") {
+                  processCategory(child);
+                  return;
+                }
+
+                if (child.type !== "doc" && child.type !== "ref") {
+                  return;
+                }
+
+                const doc = docsById.get(child.id);
+                const cardImage = doc && getCardImageFromFrontMatter(doc);
+                if (!cardImage) {
+                  return;
+                }
+
+                child.customProps = {
+                  ...(child.customProps ?? {}),
+                  cardImage,
+                };
               });
             };
 
