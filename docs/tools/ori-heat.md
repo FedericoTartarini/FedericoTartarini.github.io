@@ -10,6 +10,7 @@ keywords:
   - Outward Bound Australia
   - EMU Systems
 description: A free web-based heat-risk planning tool for the outdoor sector, built for NatCORR and Outward Bound Australia.
+image: ./img/ori-heat.png
 last_update:
   author: Federico Tartarini
 ---
