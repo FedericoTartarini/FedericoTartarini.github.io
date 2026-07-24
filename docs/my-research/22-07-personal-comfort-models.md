@@ -49,3 +49,5 @@ The open-source data and code from this study are available for other researcher
 This data can be used to test various assumptions and develop personal comfort models using different methodologies.
 
 Read the [paper](https://doi.org/10.1111/ina.13160) for more details on the study and its findings.
+
+**Data:** [github.com/FedericoTartarini/dorn-longitudinal-tc-study](https://github.com/FedericoTartarini/dorn-longitudinal-tc-study/tree/main/data)

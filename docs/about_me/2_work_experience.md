@@ -61,7 +61,7 @@ _Sydney, AU_
 _Oct 2022 - Jun 2024_
 
 - Maintainer and developer of the [HeatWatch](https://heatwatch.sydney.edu.au/).
-- Maintainer and developer of the [SMA Extreme Heat Policy Tool](https://sma-heat-policy.sydney.edu.au/).
+- Maintainer and developer of the [Sports Heat Tool](https://sma-heat-policy.sydney.edu.au/).
 - Main author of [jsthermalcomfort](https://www.npmjs.com/package/jsthermalcomfort) a package crafted to facilitate seamless and precise thermophysiological calculations in JavaScript.
 
 <div class="img-small" > ![SinBerBEST](./img/sinberbestDark.png)</div>
