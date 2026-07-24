@@ -32,6 +32,7 @@ I am the main author of several free and open-source tools:
 * Cozie for [Apple](../tools/cozie) and Fitbit — smartwatch application for environmental quality satisfaction and physiological data collection.
 * [HeatWatch](../tools/heatwatch.md)
 * [Sports Heat Tool](https://sma-heat-policy.sydney.edu.au/)
+* [ORI Heat](../tools/ori-heat.md) — a heat-risk planning tool for the outdoor education and adventure sector.
 
 I am a voting member of the ASHRAE 55 Standard committee.
 

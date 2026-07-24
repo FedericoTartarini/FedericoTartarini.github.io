@@ -1,15 +1,15 @@
 ---
-title: "2026 Ralph G. Nevins Physiology and Human Environment Award"
+title: "2025 Ralph G. Nevins Physiology and Human Environment Award"
 authors: fede
 tags: [awards, research]
 keywords: [ASHRAE, Nevins Award, thermal comfort, human environment, physiology, health, comfort, wellbeing]
 image: ./ceo.jpg
-description: I received the 2026 Ralph G. Nevins Physiology and Human Environment Award from ASHRAE at the annual conference.
+description: I received the 2025 Ralph G. Nevins Physiology and Human Environment Award from ASHRAE, presented at their 2026 annual conference.
 ---
 
 ![Receiving the Ralph G. Nevins Award](./ceo.jpg)
 
-I was honoured to receive the [Ralph G. Nevins Physiology and Human Environment Award](https://www.ashrae.org/technical-resources/technical-committees/ralph-g-nevins-physiology-and-human-environment-award) from ASHRAE at their 2026 annual conference.
+I was honoured to receive the 2025 [Ralph G. Nevins Physiology and Human Environment Award](https://www.ashrae.org/technical-resources/technical-committees/ralph-g-nevins-physiology-and-human-environment-award) from ASHRAE, presented in person at their 2026 annual conference.
 
 <!--truncate-->
 

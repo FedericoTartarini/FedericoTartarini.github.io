@@ -75,6 +75,7 @@ _2023 - Present_
 - University of Sydney spin-out commercialising real-time heat-stress monitoring for sport, mass events and high-risk workplaces.
 - Designed and developed the EMU dashboard, translating environmental and physiological data into live and forecasted heat stress risk scores.
 - Devices deployed at major international events, including the Paris 2024 Olympic Games and the Australian Open (2022–2026, and ongoing), supporting the Australian Olympic Committee and Tennis Australia.
+- Main developer of [ORI Heat](../tools/ori-heat.md), a heat-risk planning tool built for NatCORR and Outward Bound Australia.
 
 <div class="img-small" > ![UOW](./img/wollongong.png)</div>
 
