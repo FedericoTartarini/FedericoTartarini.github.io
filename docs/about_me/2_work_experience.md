@@ -15,6 +15,9 @@ keywords:
   - IEA EBC
   - Solar Decathlon Competition
   - thermal comfort
+  - Heat and Health Research Centre
+  - Sydney Environment Institute
+  - EMU Systems
 image: assets/img/website_screenshot.png
 description: This page summarises Federico Tartarini's work experience
 last_update:
@@ -30,19 +33,48 @@ last_update:
 _Sydney, AU_  
 _Jun 2024 - Present_
 
-- Beat the Heath - Advancing Our Understanding of Heat Stress and Developing Effective Sustainable Interventions to Reduce Health Risks in a Warming World.
+- Beat the Heat - Advancing Our Understanding of Heat Stress and Developing Effective Sustainable Interventions to Reduce Health Risks in a Warming World.
 - Teaching - Thermal Comfort, Building Science, and Building Physics.
+
+<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
+
+## Core Researcher and Theme Lead – "Landscape and Built Environment"
+**Heat and Health Research Centre, the University of Sydney**  
+_Sydney, AU_  
+_2022 - Present_
+
+- Collaborate with Prof Ollie Jay and a multidisciplinary team to investigate physiological and environmental determinants of heat stress and heat-related illness.
+- Continued as Theme Lead after moving to a Senior Lecturer role in the School of Architecture, Design and Planning in Jun 2024.
+
+<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
+
+## Theme Lead – "Climate Disaster and Adaptation"
+**Sydney Environment Institute, the University of Sydney**  
+_Sydney, AU_  
+_Feb 2024 - Present_
+
+- Co-lead a transdisciplinary research theme addressing the intersections between climate, health, and the built environment.
+- Contribute to research translation for climate adaptation, urban resilience, and public health policy.
 
 <div class="img-small" > ![ASHRAE](./img/ASHRAE_Logo.svg)</div>
 
 ## ASHRAE 55 Committee Voting Member
 **ASHRAE**  
 _Atlanta, US_  
-_Nov 2020 - Present_
+_2022 - Present (committee member since 2019)_
 
 - Member of the SSPC 55 "Thermal Environmental Conditions for Human Occupancy" committee
 - Contributed to the development of the 2020 edition of the Standard.
 - Wrote 7 addenda, which have all been approved.
+
+## Co-founder and Chief Software Engineer
+**EMU Systems**  
+_Sydney, AU_  
+_2023 - Present_
+
+- University of Sydney spin-out commercialising real-time heat-stress monitoring for sport, mass events and high-risk workplaces.
+- Designed and developed the EMU dashboard, translating environmental and physiological data into live and forecasted heat stress risk scores.
+- Devices deployed at major international events, including the Paris 2024 Olympic Games and the Australian Open (2022–2026, and ongoing), supporting the Australian Olympic Committee and Tennis Australia.
 
 <div class="img-small" > ![UOW](./img/wollongong.png)</div>
 

@@ -4,6 +4,10 @@ A selection of research grants and funding awarded. For brevity, only major or c
 
 ---
 
+- **NHMRC Partnership Grant**
+  - 2026, 3 years, AUD 2,236,842 (Chief Investigator)
+  - Multi-institutional partnership grant to scale and evaluate HeatWatch, led by Prof Ollie Jay (CIA).
+
 - **Horizon Fellowship, The University of Sydney**
   - 2024–2029, AUD 450,000 (Recipient)
   - Prestigious interdisciplinary fellowship to foster research on heat, health, and sustainability.

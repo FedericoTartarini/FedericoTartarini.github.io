@@ -19,7 +19,7 @@ This page is an instruction manual for collaborating with me on GitHub.
 
 :::
 
-## How to collaborate with me on GitHub
+## Why I use GitHub for collaboration
 
 I am a strong advocate for using GitHub as a collaboration platform for research projects.
 GitHub provides a range of tools and features that can help streamline the research process and enhance collaboration among team members.
@@ -33,8 +33,8 @@ I am not a computer scientist so if you have any suggestions on how to improve o
 3. **Install Git**: Git is a version control system that is used to manage code repositories on GitHub. You can download Git from the [official website](https://git-scm.com/).
 4. **Fork and Clone the repository**: Once you have a GitHub account and Git installed, you can clone the repository for our research project to your local machine using the following command:
    ```bash
-   git clone
-    ```
+   git clone https://github.com/<organisation>/<repository>.git
+   ```
 5. **Create a new branch**: Before making any changes to the codebase, create a new branch to work on. This will help keep your changes separate from the main codebase and make it easier to track your progress.
 
 :::note
@@ -44,22 +44,24 @@ For example, if you are working on a new feature, you could name your branch `fe
 
 :::
 
+6. **Switch to your new branch**: Use `git checkout <branch-name>` (or `git switch <branch-name>`) to move onto the branch you just created before making any changes.
+
 7. **Make your changes**: Once you have created a new branch, you can start making changes to the codebase. Be sure to follow the project's coding conventions and guidelines.
 
 :::tip
 
-For example, if you are write Python code use [Black](https://black.readthedocs.io/en/stable/) to format your code.
+For example, if you are writing Python code use [Black](https://black.readthedocs.io/en/stable/) to format your code.
 
 :::
 
 8. **Commit your changes**: After making your changes, commit them to your branch using the following command:
 
-   In Git, a commit is referring to the state of your code at one specific point in time. Commits with the metadata (author, timestamp, commit message etc). Commits are used for saving progression, stating changes and merging developed pieces with others work.
+   In Git, a commit refers to the state of your code at one specific point in time. Commits carry metadata (author, timestamp, commit message, etc.) and are used for saving progress, stating changes, and merging developed pieces with others' work.
    
    * **A Good Commit should**:
       * **A commit should be atomic** - it has to represent one and only one logical change. Do not mix several independent changes in one commit.
       * **Descriptive** - the commit message should be descriptive and concise. It should explain what the commit does and why it is necessary. It should be written in the imperative mood.
-      * **Follow Conventional Commit Guidelines** - the commit message should follow the [Conventional Commit Guidelines](https://www.conventionalcommits.org/en/v1.0.0/). This will help to automate the release process and generate a changelog. Usually these guidelines interpret in the form of type (feat, fix, chore, refactor docs), and short summary plus occasionally a long explanation
+      * **Follow Conventional Commit Guidelines** - the commit message should follow the [Conventional Commit Guidelines](https://www.conventionalcommits.org/en/v1.0.0/). This will help to automate the release process and generate a changelog. These guidelines are usually structured as a type (e.g. feat, fix, chore, refactor, docs), a short summary, and occasionally a longer explanation.
       * **Tested** - the commit should be tested and should not break the existing codebase. It should not introduce new bugs.
       * **Properly scoped** - for example, if you are fixing a bug then the commit message should start with `fix:`, and it should fix the bug in a single commit. If you are adding a new feature, then the commit message should start with `feat:` and it should add the feature in a single commit.
    
@@ -87,6 +89,7 @@ For example, if you are write Python code use [Black](https://black.readthedocs.
 
 The pull request should include the following information:
 
+```markdown
 # Description
 
 Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
@@ -125,6 +128,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
+```
 
 :::
 

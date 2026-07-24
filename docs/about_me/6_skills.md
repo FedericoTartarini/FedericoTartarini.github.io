@@ -21,12 +21,12 @@ last_update:
 
 ## Software
 
-- JetBrain
-- LaTeX
-- GitHub
+- **Primary**: GitHub, JetBrains, LaTeX, Overleaf, PowerPoint, Inkscape
+- **Secondary**: Word, Excel, Google Docs
+- **Less familiar**: R, Tableau, Power BI
 
 ## Languages
 
-- Italian
-- English
+- Italian (native)
+- English (fluent)
 

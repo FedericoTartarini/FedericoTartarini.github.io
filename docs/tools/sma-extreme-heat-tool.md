@@ -46,6 +46,12 @@ It can be used in any country since weather forecast data are pooled as a functi
 
 **Conclusion**: Our application offers simple-to-access, evidence-based advice for avoiding unnecessary interruptions of play while safeguarding the health of people engaging in sports and physical activity from the negative effects of extreme heat.
 
+## Read the full article: 📖
+
+[Tartarini, F., Smallcombe, J.W., Lynch, G.P., Cross, T.J., Broderick, C., & Jay, O. (2025). The Sports Medicine Australia extreme heat risk and response guidelines and web tool. *Journal of Science and Medicine in Sport*, 28(9), 690–699.](https://doi.org/10.1016/j.jsams.2025.03.006)
+
+**Code:** [github.com/FedericoTartarini/tool-sma-extreme-heat-policy](https://github.com/FedericoTartarini/tool-sma-extreme-heat-policy)
+
 ---
 
 ## Recognition & Impact

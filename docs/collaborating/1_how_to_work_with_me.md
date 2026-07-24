@@ -15,7 +15,7 @@ last_update:
 
 [//]: # (source: https://almanac.io/docs/employee-user-guide-readme-template-wOCvnGFTG3sSWHFv4US6Z2tNl9QzWcCd)
 
-# About me - Federico Tartarini (Readme)
+# About me - Federico Tartarini (README)
 
 :::info
 
@@ -89,7 +89,7 @@ Emails remain the best channel for professional matters.
 * Duration: 30 minutes or less, with a clear agenda.
 * Formats: One-on-one, in-person, or online.
 
-### 🍾 Style and 📈 Feedback
+### 🍾 Style and 💬 Feedback
 
 * Open to discussing ideas and brainstorming.
 * Appreciate direct and constructive feedback.
