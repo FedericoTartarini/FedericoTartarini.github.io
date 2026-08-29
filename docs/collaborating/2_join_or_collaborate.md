@@ -85,3 +85,6 @@ update, or just flagging an issue:
 * [Sports Heat Tool](https://github.com/FedericoTartarini/tool-sma-extreme-heat-policy)
 
 Pull requests, issues, and documentation fixes on any of these are genuinely appreciated.
+
+Before you open your first pull request, read [Contributing to my projects](./4_contributing/1_before_you_start.md).
+It sets out how I like people to work on these tools, from your first look at the tool through to a merged change.

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Collaboration on GitHub
 tags:
   - supervision
@@ -15,7 +15,8 @@ last_update:
 
 :::info
 
-This page is an instruction manual for collaborating with me on GitHub.
+This page covers the Git and GitHub mechanics: setting up, forking, branching, committing, and pushing.
+The workflow itself — how to pick an issue, scope it, and get a change reviewed — is in [Contributing to my projects](./4_contributing/1_before_you_start.md).
 
 :::
 
@@ -50,7 +51,9 @@ For example, if you are working on a new feature, you could name your branch `fe
 
 :::tip
 
-For example, if you are writing Python code use [Black](https://black.readthedocs.io/en/stable/) to format your code.
+Every project has its own conventions — read them before you start.
+For Python projects we use [ruff](https://docs.astral.sh/ruff/) for formatting and linting, and run it through pre-commit.
+See [Collaboration on Python Projects](./7_collaboration_python.md) for the details.
 
 :::
 
@@ -83,64 +86,11 @@ For example, if you are writing Python code use [Black](https://black.readthedoc
    ```bash
     git push origin your-branch-name
     ```
-10. **Create a pull request**: After pushing your changes, create a pull request on GitHub to merge your changes into the main codebase. Be sure to provide a detailed description of your changes and any relevant context.
+10. **Open a pull request**: after pushing your changes, open a pull request on GitHub to propose merging them into the main codebase.
 
-:::danger
+    Most repositories ship a `.github/pull_request_template.md`, so the structure will be filled in for you.
+    What belongs in that description, the `AI use` section, the screenshots required for interface changes, and the order in which a pull request gets reviewed are all covered in [Pull requests and review](./4_contributing/4_pull_requests_and_review.md).
 
-The pull request should include the following information:
-
-```markdown
-# Description
-
-Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
-
-Fixes # (issue)
-
-## Type of change
-
-Please delete options that are not relevant.
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
-
-# How Has This Been Tested?
-
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
-
-- [ ] Test A
-- [ ] Test B
-
-**Test Configuration**:
-* Firmware version:
-* Hardware:
-* Toolchain:
-* SDK:
-
-# Checklist:
-
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
-```
-
-:::
-
-**AI Reviewer Reminder:**  
-If Coderabbit or any other AI reviewer is enabled for the repository, please address all comments and suggestions made by the AI after submitting your pull request. This helps maintain code quality and ensures all automated feedback is considered before merging.
-
-11. **Review and merge**: Once you have created a pull request, the code owners will review your changes and provide feedback. If everything looks good, they will merge your changes into the main codebase.
-:::danger
-
-Never merge your own pull request. Always wait for the code owners to review and approve your changes before merging.
-
-:::
-
-12. **Stay up to date**: Be sure to pull the latest changes from the main codebase regularly to stay up to date with the project's progress.
+11. **Review and merge**: your pull request is reviewed first by other contributors, then by the AI reviewer, then by a maintainer. Never merge your own pull request — see [Pull requests and review](./4_contributing/4_pull_requests_and_review.md).
+12. **Stay up to date**: be sure to pull the latest changes from the main codebase regularly to stay up to date with the project's progress.
 13. **Collaborate**: GitHub provides a range of collaboration tools, such as issues, projects, and wikis, that can help streamline the research process and enhance collaboration among team members. Be sure to take advantage of these tools to stay organised and communicate effectively with your team.

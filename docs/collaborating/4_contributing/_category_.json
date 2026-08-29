@@ -1,0 +1,8 @@
+{
+  "label": "Contributing to my projects",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "A step-by-step blueprint for anyone contributing to the open-source tools I maintain, from your first look at the tool to a merged pull request."
+  }
+}

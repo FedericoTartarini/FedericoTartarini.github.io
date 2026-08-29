@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: Collaboration on Python Projects
 tags:
   - supervision
@@ -69,7 +69,7 @@ This page is an instruction manual for collaborating with me on Python-based res
 ## Pull requests and code review
 
 - Address all [Coderabbit](https://coderabbit.ai/) comments after submitting a pull request, if Coderabbit is enabled for the repository.
-- Follow the same pull request and commit guidelines as described in the [GitHub collaboration page](4_collaboration_github.md).
+- Follow the same pull request and commit guidelines as described in the [GitHub collaboration page](5_collaboration_github.md).
 
 ## Dependency and configuration files
 
