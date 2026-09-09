@@ -41,27 +41,38 @@ _Jun 2024 - Present_
 ## Core Researcher and Theme Lead – "Landscape and Built Environment"
 **Heat and Health Research Centre, the University of Sydney**  
 _Sydney, AU_  
-_2022 - Present_
+_2022 - Sep 2026_
 
 - Collaborate with Prof Ollie Jay and a multidisciplinary team to investigate physiological and environmental determinants of heat stress and heat-related illness.
 - Continued as Theme Lead after moving to a Senior Lecturer role in the School of Architecture, Design and Planning in Jun 2024.
+- Role concluded Sep 2026 as the HHRC changed its structure after becoming a centre.
 
 <div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
 
 ## Theme Lead – "Climate Disaster and Adaptation"
 **Sydney Environment Institute, the University of Sydney**  
 _Sydney, AU_  
-_Feb 2024 - Present_
+_Feb 2024 - Sep 2026_
 
 - Co-lead a transdisciplinary research theme addressing the intersections between climate, health, and the built environment.
 - Contribute to research translation for climate adaptation, urban resilience, and public health policy.
+- Role concluded Sep 2026 as the Sydney Environment Institute ceased to exist.
+
+<div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
+
+## Theme Lead
+**IEQ Lab, School of Architecture, Design and Planning, the University of Sydney**  
+_Sydney, AU_  
+_May 2026 - Present_
+
+- Lead the IEQ Lab, focused on indoor environmental quality research.
 
 <div class="img-small" > ![ASHRAE](./img/ASHRAE_Logo.svg)</div>
 
 ## ASHRAE 55 Committee Voting Member
 **ASHRAE**  
 _Atlanta, US_  
-_2022 - Present (committee member since 2019)_
+_Nov 2020 - Present_
 
 - Member of the SSPC 55 "Thermal Environmental Conditions for Human Occupancy" committee
 - Contributed to the development of the 2020 edition of the Standard.
@@ -82,7 +93,7 @@ _2023 - Present_
 ## Honorary Fellow
 **University of Wollongong**  
 _Wollongong, AU_  
-_Jun 2019 - Present_
+_Jun 2019 - Jun 2024_
 
 - Honorary fellow at the Sustainable Buildings Research Centre (SBRC), faculty of Engineering and Information Sciences.
 
@@ -110,7 +121,6 @@ _Jun 2019 - Oct 2022_
 - Conducted a longitudinal thermal comfort study which aimed to developed personalized thermal comfort models using wearable and IoT devices.
 - Collaborated in the construction and commissioning of the "Greenest building" in Singapore. A net a net zero energy building for the Singaporean Building and Construction Authority (BCA).
 - Conducted research relating to SinBerBEST Theme A: Human-Building Nexus - Enhancing Health and Productivity in the Built Environment. Worked on issues related to thermal comfort, indoor air quality, human performance, and HVAC systems.
-- Conducted research relating to SinBerBEST Theme A: Human-Building Nexus - Enhancing Health and Productivity in the Built Environment. Worked on issues related to thermal comfort, indoor air quality, human performance, and HVAC systems.
 
 <div class="img-small" > ![SBRC](./img/sbrc.png)</div>
 
@@ -120,7 +130,6 @@ _Wollongong, AU_
 _Jun 2017 - Jun 2019_
 
 - Industrial research projects: Company: Daikin Australia. Developed smart controllers and IoT sensors for Daikin.
-- Advantages SME grant: Company: Enviro Buildings Services. Developed learning algorithms using Python and Matlab for self-commissioning of HVAC components and models for performance prediction.
 - International Energy Agency Energy in Buildings and Communities (IEA EBC) Annex 69: Represented the SBRC in the IEA EBC Annex 69 "Strategy and practice of adaptive thermal comfort in low energy buildings".
 - Data Scientist: Helping colleagues analysing data in several research project and assisted the SBRC in the development of research facilities in relation to data acquisition, storage and analysis.
 - Developer: Developed two Android applications, one written in Java and one using Xamarin Forms.

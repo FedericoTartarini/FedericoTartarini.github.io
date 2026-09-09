@@ -22,22 +22,31 @@ My goal is to inspire students to become ethical, knowledgeable, and engaged pro
 
 <div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
 
+## Senior Lecturer
+**University of Sydney**  
+_Sydney, AU_  
+_Jun 2024 - Present_
+
+- DESC9200 Introduction to Architectural Science: Lecturer, tutor, and student assessment and consultation.
+- BAEN1012: Lecturer, tutor, and student assessment.
+- MARC5300: Lecturer, tutor, and student assessment.
+
 ## Guest Lecturer
 **University of Sydney**  
 _Sydney, AU_  
-_2023 - Present_
+_Mar 2023_
 
-- DESC9200 Introduction to Architectural Science: Delivered lectures and tutorials on thermal comfort, building science, and building physics.
-- Delivered a guest lecture on the Solar Decathlon Competition for the course BAEN2002 - Design Integration Lab: Energy
+- DESC9200 Introduction to Architectural Science: Guest lecturer on advanced building retrofits.
 
 ## Teaching Assistant
 **National University of Singapore**  
 _Singapore, SG_  
-_Aug 2020 - Dec 2020_
+_Aug 2020 - Oct 2022_
 
 Courses:
-- BPS5229 - Data Science for the Built Environment
-- BPS5223 - Building Energy Performance - Passive Systems
+- BPS5223 - Data Science for the Built Environment
+- BPS5229 - Building Energy Performance - Passive Systems
+- PF1103 - Digital Construction
 
 <div class="img-small" > ![The University of Sydney](./img/usyd.png)</div>
 

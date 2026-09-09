@@ -18,7 +18,7 @@ last_update:
 - 2023: [Excellence in HVAC&R Research](/blog/2023/11/30/airah-awards) – AIRAH (Australian Institute of Refrigeration, Air Conditioning, and Heating)
 - 2023: First price (Outstanding Video) - [2023 Postdoc Video Challenge](https://www.buildingsandcities.org/video-challenge/gallery-2023.html): "Addressing Grand Challenges" from Buildings & Cities
 - 2023: Horizon Fellowship from the University of Sydney
-- 2021: Outstanding Project Achievement Award - BEARS
+- 2021: Outstanding Project Achievement Award - SinBerBEST
 - 2019: Experienced Researcher Award – IAQVEC conference
 - 2018: Best Paper Award – Journal Building and Environment
 - 2017: Student of the Year Award – AIRAH (Australian Institute of Refrigeration, Air Conditioning, and Heating)

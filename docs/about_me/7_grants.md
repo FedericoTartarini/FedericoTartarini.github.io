@@ -21,7 +21,7 @@ A selection of research grants and funding awarded. For brevity, only major or c
   - Seed funding for innovative research concepts.
 
 - **SAMBA Development CAPEX Grant, University of Sydney**
-  - 2024, AUD 75,000
+  - 2023, AUD 75,000
   - Capital investment for development of the SAMBA environmental monitoring platform.
 
 ---
