@@ -1,0 +1,24 @@
+{
+  "firstName": "Federico",
+  "lastName": "Tartarini",
+  "prefix": "Dr",
+  "title": "Senior Lecturer | Horizon Fellow",
+  "organization": "The University of Sydney",
+  "email": "federico.tartarini@sydney.edu.au",
+  "website": "https://federicotartarini.github.io",
+  "cardPath": "/card",
+  "photo": "static/img/federico-card.jpg",
+  "research": "I study how the environment affects people's thermal comfort, health and productivity, and build free, open-source tools to help.",
+  "links": [
+    { "id": "youtube", "label": "YouTube", "href": "https://www.youtube.com/c/FedericoTartarini" },
+    { "id": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/in/federico-tartarini/" },
+    { "id": "scholar", "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=QcamSPwAAAAJ" },
+    { "id": "github", "label": "GitHub", "href": "https://github.com/FedericoTartarini" }
+  ],
+  "tools": [
+    { "label": "pythermalcomfort", "to": "/docs/tools/pythermalcomfort" },
+    { "label": "CBE Thermal Comfort Tool", "to": "/docs/tools/cbe-comfort-tool" },
+    { "label": "CBE Clima Tool", "to": "/docs/tools/cbe-clima-tool" },
+    { "label": "HeatWatch", "to": "/docs/tools/heatwatch" }
+  ]
+}

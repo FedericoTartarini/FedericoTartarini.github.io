@@ -1,0 +1,142 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  background: var(--ifm-background-color);
+  box-shadow: var(--ifm-global-shadow-md);
+  text-align: center;
+}
+
+.photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--ifm-color-primary);
+}
+
+.name {
+  margin: 1rem 0 0.25rem;
+  font-size: 1.6rem;
+}
+
+.role {
+  margin: 0 0 1.5rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.primary,
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.7rem;
+  border-radius: 10px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.primary {
+  grid-column: 1 / -1;
+  border: none;
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.secondary {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: transparent;
+  color: var(--ifm-font-color-base);
+}
+
+.primary:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+  text-decoration: none;
+}
+
+.secondary:hover {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+}
+
+.links {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  text-align: left;
+}
+
+.links li + li {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.25rem;
+  color: var(--ifm-font-color-base);
+  overflow-wrap: anywhere;
+}
+
+.links a svg {
+  color: var(--ifm-color-primary);
+  flex-shrink: 0;
+}
+
+.research {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1rem;
+}
+
+.footer {
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.qrBlock {
+  margin: 0 0 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Keep the QR on a white background so it scans in dark mode too. */
+.qr {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 0.5rem;
+  background: #fff;
+  border-radius: 8px;
+}

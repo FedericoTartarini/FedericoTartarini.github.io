@@ -51,7 +51,8 @@
     "babel-jest": "^30.3.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.3.0",
-    "jest-environment-jsdom": "^30.3.0"
+    "jest-environment-jsdom": "^30.3.0",
+    "qrcode": "^1.5.4"
   },
   "resolutions": {
     "cheerio": "1.0.0-rc.12",
