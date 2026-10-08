@@ -239,6 +239,10 @@ const config = {
                 label: "My Work",
                 to: "docs/about_me/intro",
               },
+              {
+                label: "Contact Card",
+                to: "/card",
+              },
             ],
           },
           {
